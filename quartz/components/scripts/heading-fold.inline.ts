@@ -1,6 +1,7 @@
-// 标题折叠：像 Obsidian 一样，点击 h2 章节标题折叠其下内容（直到下一个 h2）。
-// 用 CSS ::before 显示箭头，不向 h2 插入子元素，避免干扰 SPA 的 DOM diff。
-// 此文件被 inline-script-loader 直接作为代码 bundle（无 export），再注入页面。
+// 多级标题折叠：像 Obsidian 一样，任意层级的标题（h2/h3/h4...）都能折叠其下内容，
+// 直到遇到同级或更高级的标题。折叠状态持久化到 localStorage。
+// 用 CSS ::before 显示箭头，不向标题插入子元素，避免干扰 SPA 的 DOM diff。
+// 嵌套折叠通过「折叠栈」统一计算可见性，避免各层级 class 相互覆盖。
 
 var FOLD = "fold-collapsed"
 
@@ -9,81 +10,97 @@ function ensureStyle() {
   var s = document.createElement("style")
   s.id = "heading-fold-style"
   s.textContent = [
-    "article h2 { cursor: pointer; }",
-    "article h2::before {",
+    "article :is(h2, h3, h4, h5, h6) { cursor: pointer; }",
+    "article :is(h2, h3, h4, h5, h6)::before {",
     '  content: "\\25BE";',
     "  display: inline-block; width: 1em; margin-right: 0.3em;",
     "  color: var(--gray, #999); transition: transform .15s ease, color .15s ease;",
     "}",
-    "article h2:hover::before { color: var(--secondary, #284b63); }",
-    "article h2.fold-collapsed::before { transform: rotate(-90deg); }",
+    "article :is(h2, h3, h4, h5, h6):hover::before { color: var(--secondary, #284b63); }",
+    "article :is(h2, h3, h4, h5, h6).fold-collapsed::before { transform: rotate(-90deg); }",
     ".fold-section-hidden { display: none !important; }",
   ].join("\n")
   document.head.appendChild(s)
 }
 
-function keyFor(h2) {
-  return "fold:" + window.location.pathname + "#" + (h2.id || "")
+function headingLevel(el) {
+  var m = /^H([1-6])$/.exec(el.tagName)
+  return m ? parseInt(m[1], 10) : 0
 }
 
-function isCollapsed(h2) {
+function keyFor(h) {
+  return "fold:" + window.location.pathname + "#" + (h.id || "")
+}
+
+function isCollapsed(h) {
   try {
-    return localStorage.getItem(keyFor(h2)) === "1"
+    return localStorage.getItem(keyFor(h)) === "1"
   } catch (e) {
     return false
   }
 }
 
-function setCollapsed(h2, v) {
+function setCollapsed(h, v) {
   try {
-    if (v) localStorage.setItem(keyFor(h2), "1")
-    else localStorage.removeItem(keyFor(h2))
+    if (v) localStorage.setItem(keyFor(h), "1")
+    else localStorage.removeItem(keyFor(h))
   } catch (e) {}
 }
 
-// 折叠/展开：遍历 h2 后续兄弟，直到下一个 h2
-function apply(h2) {
-  var collapsed = isCollapsed(h2)
-  h2.classList.toggle(FOLD, collapsed)
-  var el = h2.nextElementSibling
-  while (el && el.tagName !== "H2") {
-    el.classList.toggle("fold-section-hidden", collapsed)
-    el = el.nextElementSibling
+// 统一重算整篇文章的可见性：用「折叠层级栈」判断每个元素是否被某个折叠标题覆盖
+function refreshVisibility() {
+  var firstHeading = document.querySelector("article h2, article h3, article h4, article h5, article h6")
+  if (!firstHeading) return
+  var children = firstHeading.parentElement.children
+  var stack = [] // 当前生效的折叠标题层级（递增）
+  for (var i = 0; i < children.length; i++) {
+    var el = children[i]
+    var lv = headingLevel(el)
+    var hidden = stack.length > 0
+    if (lv > 0) {
+      // 标题：结束所有层级 >= lv 的折叠（它们的范围到此为止）
+      while (stack.length && stack[stack.length - 1] >= lv) stack.pop()
+      hidden = stack.length > 0
+      // 若此标题自身折叠，压入栈，覆盖其后内容
+      if (el.classList.contains(FOLD)) stack.push(lv)
+    }
+    el.classList.toggle("fold-section-hidden", hidden)
   }
 }
 
-function toggle(h2) {
-  setCollapsed(h2, !isCollapsed(h2))
-  apply(h2)
+function toggle(h) {
+  setCollapsed(h, !isCollapsed(h))
+  h.classList.toggle(FOLD, isCollapsed(h))
+  refreshVisibility()
 }
 
 function init() {
   ensureStyle()
-  var h2s = document.querySelectorAll("article h2")
-  for (var i = 0; i < h2s.length; i++) {
-    var h2 = h2s[i]
-    if (!h2.__foldBound) {
-      h2.__foldBound = true
-      h2.addEventListener("click", function (e) {
+  var hs = document.querySelectorAll("article h2, article h3, article h4, article h5, article h6")
+  for (var i = 0; i < hs.length; i++) {
+    var h = hs[i]
+    h.classList.toggle(FOLD, isCollapsed(h))
+    if (!h.__foldBound) {
+      h.__foldBound = true
+      h.addEventListener("click", function (e) {
         if (e.target.closest("a")) return
         toggle(this)
       })
     }
-    apply(h2)
   }
+  refreshVisibility()
 }
 
-// 目标元素所属的章节 h2（向前找最近的 h2 兄弟）
-function sectionH2Of(target) {
+// 目标元素前面最近的折叠标题（用于锚点跳转时自动展开）
+function foldedHeadingOf(target) {
   var el = target
   while (el) {
-    if (el.tagName === "H2") return el
+    if (el.classList && el.classList.contains(FOLD)) return el
     el = el.previousElementSibling
   }
   return null
 }
 
-// 跳到锚点（目录链接）时，若目标所在章节被折叠，先展开
 function expandForHash() {
   var hash = window.location.hash
   if (!hash) return
@@ -94,10 +111,11 @@ function expandForHash() {
     return
   }
   if (!target) return
-  var h2 = sectionH2Of(target)
-  if (h2 && isCollapsed(h2)) {
-    setCollapsed(h2, false)
-    apply(h2)
+  var h = foldedHeadingOf(target)
+  if (h) {
+    setCollapsed(h, false)
+    h.classList.remove(FOLD)
+    refreshVisibility()
   }
 }
 
