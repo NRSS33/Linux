@@ -1,17 +1,25 @@
-# Quartz v5
+# 个人知识库
 
-> “[One] who works with the door open gets all kinds of interruptions, but [they] also occasionally gets clues as to what the world is and what might be important.” — Richard Hamming
+用 [Quartz](https://quartz.jzhao.xyz/) 搭建的个人知识库网站。笔记存放在 `content/` 目录，用 Obsidian 打开 `content/` 文件夹即可继续编辑。
 
-Quartz is a set of tools that helps you publish your [digital garden](https://jzhao.xyz/posts/networked-thought) and notes as a website for free.
+- 线上地址：https://nrss33.github.io/linux-notes/
+- 技术栈：Quartz v5 + GitHub Pages
 
-🔗 Read the documentation and get started: https://quartz.jzhao.xyz/
+## 发布更新
 
-[Join the Discord Community](https://discord.gg/cRFFHYye7t)
+1. 用 Obsidian 打开 `content/` 文件夹，编辑笔记。
+2. 双击运行 `publish.bat`（或在终端运行 `npx quartz sync`）。
+3. 等待约 1 分钟，网站自动更新。
 
-## Sponsors
+## 本地预览
 
-<p align="center">
-  <a href="https://github.com/sponsors/jackyzha0">
-    <img src="https://cdn.jsdelivr.net/gh/jackyzha0/jackyzha0/sponsorkit/sponsors.svg" />
-  </a>
-</p>
+```bash
+npm ci
+npx quartz build --serve
+```
+
+打开 http://localhost:8080
+
+## 站点配置
+
+站点标题、语言、颜色等都在 `quartz.config.yaml` 中修改。修改后同样运行 `publish.bat` 生效。
