@@ -6,7 +6,7 @@ tags:
 created: 2026-09-04
 ---
 
-## <center><b><span style="font-size:1.3em">目录</span></b></center>
+## 目录
 
 ### 1. 文件与目录
 - [[#ls]] — 列出目录
@@ -121,7 +121,7 @@ created: 2026-09-04
 
 ---
 
-## <center><b><span style="font-size:1.3em">1. 文件与目录</span></b></center>
+## 1. 文件与目录
 
 ### ls
 
@@ -247,7 +247,7 @@ rmdir empty_dir
 ln -s /usr/local/nginx /opt/nginx
 ```
 
-## <center><b><span style="font-size:1.3em">2. 文本查看与处理</span></b></center>
+## 2. 文本查看与处理
 
 ### cat
 
@@ -393,7 +393,7 @@ echo $PATH
 echo "line" >> file.txt
 ```
 
-## <center><b><span style="font-size:1.3em">3. 权限管理</span></b></center>
+## 3. 权限管理
 
 ### chmod
 
@@ -438,7 +438,7 @@ chown www:www file.txt
 chown -R www:www /var/www
 ```
 
-## <center><b><span style="font-size:1.3em">4. 进程管理</span></b></center>
+## 4. 进程管理
 
 ### ps
 
@@ -552,7 +552,7 @@ systemctl enable nginx     # 设置开机自启
 systemctl disable nginx    # 取消开机自启
 ```
 
-## <center><b><span style="font-size:1.3em">5. 系统信息</span></b></center>
+## 5. 系统信息
 
 ### uname
 
@@ -715,7 +715,7 @@ exit 0
 man ls
 ```
 
-## <center><b><span style="font-size:1.3em">6. 磁盘与存储</span></b></center>
+## 6. 磁盘与存储
 
 ### df
 
@@ -777,7 +777,7 @@ umount /mnt
 lsblk
 ```
 
-## <center><b><span style="font-size:1.3em">7. 网络</span></b></center>
+## 7. 网络
 
 ### ping
 
@@ -916,7 +916,7 @@ ssh -p 2222 -i ~/.ssh/id_rsa user@host
 dig www.baidu.com
 ```
 
-## <center><b><span style="font-size:1.3em">8. 压缩与解压</span></b></center>
+## 8. 压缩与解压
 
 ### tar
 
@@ -980,7 +980,7 @@ zip -r backup.zip dir/
 unzip backup.zip
 ```
 
-## <center><b><span style="font-size:1.3em">9. 用户与用户组</span></b></center>
+## 9. 用户与用户组
 
 ### useradd
 
@@ -1055,7 +1055,7 @@ sudo apt update
 sudo systemctl restart nginx
 ```
 
-## <center><b><span style="font-size:1.3em">10. 搜索与查找</span></b></center>
+## 10. 搜索与查找
 
 ### find
 
@@ -1105,7 +1105,7 @@ which python3
 whereis nginx
 ```
 
-## <center><b><span style="font-size:1.3em">11. 系统管理</span></b></center>
+## 11. 系统管理
 
 ### shutdown
 
@@ -1190,7 +1190,7 @@ alias ll='ls -lah'      # 设置别名
 unalias ll              # 取消别名
 ```
 
-## <center><b><span style="font-size:1.3em">12. 编辑器</span></b></center>
+## 12. 编辑器
 
 ### vim
 
@@ -1241,7 +1241,7 @@ vim file.txt        # 打开 / 新建文件
 vim +100 file.txt   # 打开并定位到第 100 行
 ```
 
-## <center><b><span style="font-size:1.3em">13. 服务管理</span></b></center>
+## 13. 服务管理
 
 > 用 `systemctl` 统一管理服务。查看状态用 `status`,启动/停止/重启/开机自启等动作见 [[#systemctl]]。
 
@@ -1306,7 +1306,7 @@ systemctl is-active sshd                   # 某服务是否正在运行
 systemctl is-enabled sshd                  # 某服务是否开机自启
 ```
 
-## <center><b><span style="font-size:1.3em">14. 软件包管理</span></b></center>
+## 14. 软件包管理
 
 ### apt
 
