@@ -1,45 +1,45 @@
 # yaml-language-server: $schema=./quartz/plugins/quartz-plugins.schema.json
 configuration:
-  pageTitle: 个人知识库
+  pageTitle: Linux
   pageTitleSuffix: ""
   enableSPA: true
   enablePopovers: true
   analytics:
     provider: null
   locale: zh-CN
-  baseUrl: nrss33.github.io/linux-notes
+  baseUrl: nrss33.github.io/Linux
   ignorePatterns:
     - private
     - templates
     - .obsidian
   theme:
-    fontOrigin: googleFonts
+    fontOrigin: local
     cdnCaching: true
     typography:
-      header: Schibsted Grotesk
-      body: Source Sans Pro
-      code: IBM Plex Mono
+      header: "Noto Sans SC"
+      body: "Noto Sans SC"
+      code: "JetBrains Mono"
     colors:
       lightMode:
-        light: "#faf8f8"
-        lightgray: "#e5e5e5"
-        gray: "#b8b8b8"
-        darkgray: "#4e4e4e"
-        dark: "#2b2b2b"
-        secondary: "#284b63"
-        tertiary: "#84a59d"
-        highlight: rgba(143, 159, 169, 0.15)
-        textHighlight: "#fff23688"
+        light: "#fbf6ef"
+        lightgray: "#f2e8db"
+        gray: "#cdbca6"
+        darkgray: "#7d6f5d"
+        dark: "#3d3429"
+        secondary: "#c05b2a"
+        tertiary: "#b9894f"
+        highlight: rgba(192, 91, 42, 0.12)
+        textHighlight: "#f0cf8a88"
       darkMode:
-        light: "#161618"
-        lightgray: "#393639"
-        gray: "#646464"
-        darkgray: "#d4d4d4"
-        dark: "#ebebec"
-        secondary: "#7b97aa"
-        tertiary: "#84a59d"
-        highlight: rgba(143, 159, 169, 0.15)
-        textHighlight: "#b3aa0288"
+        light: "#201a15"
+        lightgray: "#2b241e"
+        gray: "#4d4338"
+        darkgray: "#a69784"
+        dark: "#ece3d5"
+        secondary: "#e0915f"
+        tertiary: "#c9a06b"
+        highlight: rgba(224, 145, 95, 0.16)
+        textHighlight: "#9c8a2f88"
 plugins:
   - source: "@quartz-community/created-modified-date"
     enabled: true
@@ -109,7 +109,7 @@ plugins:
     enabled: false
     order: 92
   - source: "@quartz-community/quartz-fonts"
-    enabled: true
+    enabled: false
   - source: "@quartz-themes/core"
     enabled: false
     options:

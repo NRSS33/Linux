@@ -16,6 +16,7 @@ import { styleText } from "util"
 import { resolveFrame } from "./frames"
 import type { TreeTransform } from "../plugins/types"
 import type { BuildCtx } from "../util/ctx"
+import headingFoldScript from "./scripts/heading-fold.inline"
 
 interface RenderComponents {
   head: QuartzComponent
@@ -104,6 +105,13 @@ export function pageResources(
     loadTime: "afterDOMReady",
     moduleType: "module",
     contentType: "external",
+  })
+
+  resources.js.push({
+    loadTime: "afterDOMReady",
+    contentType: "inline",
+    spaPreserve: true,
+    script: headingFoldScript,
   })
 
   return resources
