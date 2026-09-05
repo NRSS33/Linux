@@ -2,7 +2,7 @@
 
 用 [Quartz](https://quartz.jzhao.xyz/) 搭建的个人知识库网站。笔记存放在 `content/` 目录，用 Obsidian 打开 `content/` 文件夹即可继续编辑。
 
-- 线上地址：https://nrss33.github.io/linux-notes/
+- 线上地址：https://nrss33.github.io/Linux/
 - 技术栈：Quartz v5 + GitHub Pages
 
 ## 发布更新

@@ -230,7 +230,7 @@ plugins:
     enabled: true
     options:
       links:
-        GitHub: https://github.com/NRSS33/linux-notes
+        GitHub: https://github.com/NRSS33/Linux
     layout:
       position: footer
       priority: 50
