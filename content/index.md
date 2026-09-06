@@ -29,3 +29,4 @@ title: Linux
 - [[shell_script#脚本基础|脚本基础]]
 - [[shell_script#运算符|运算符]]
 - [[shell_script#语法|语法]]
+- [[shell_script#流程控制|流程控制]]
