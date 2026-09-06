@@ -43,12 +43,14 @@ echo "hello"
 
 - 语法:`变量名=值`
 - 命名规则:字母或下划线开头，只能含字母、数字、下划线，区分大小写
+- 只读变量:`readonly 变量名=值`，定义后不能再修改
 - 示例:
 
 ```bash
 name="zhangsan"
 age=18
 dir=/home/user
+readonly PI=3.14          # 只读变量，之后不能改
 ```
 
 ### 获取变量值
