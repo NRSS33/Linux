@@ -6,7 +6,7 @@ title: Linux
 
 ## 笔记目录
 
-**[[Linux|Linux 命令]]** —— 常用命令速查，按主题分为 15 类：
+### [[Linux|Linux 命令]]
 
 - [[Linux#1-文件与目录|1. 文件与目录]]
 - [[Linux#2-文本查看与处理|2. 文本查看与处理]]
@@ -24,4 +24,4 @@ title: Linux
 - [[Linux#14-软件包管理|14. 软件包管理]]
 - [[Linux#15-shell-脚本|15. Shell 脚本]]
 
-**[[shell_script|Shell 脚本]]** —— shell 脚本编写规范
+### [[shell_script|Shell 脚本]]
