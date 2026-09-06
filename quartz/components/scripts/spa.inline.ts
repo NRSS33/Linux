@@ -162,7 +162,16 @@ function createRouter() {
 
       if (isSamePage(url) && url.hash) {
         const el = document.getElementById(decodeURIComponent(url.hash.substring(1)))
-        el?.scrollIntoView()
+        if (el) {
+          // 先展开被折叠的标题，否则 scrollIntoView 找不到隐藏元素
+          window.expandFold?.(el)
+          // 锚点跳转用瞬时滚动，避免 smooth 慢滚导致的「没跳过去」观感
+          const html = document.documentElement
+          const prevScroll = html.style.scrollBehavior
+          html.style.scrollBehavior = "auto"
+          el.scrollIntoView()
+          html.style.scrollBehavior = prevScroll
+        }
         history.pushState({}, "", url)
         return
       }

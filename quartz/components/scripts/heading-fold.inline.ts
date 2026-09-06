@@ -101,6 +101,15 @@ function foldedHeadingOf(target) {
   return null
 }
 
+function expandFold(target) {
+  var h = foldedHeadingOf(target)
+  if (h) {
+    setCollapsed(h, false)
+    h.classList.remove(FOLD)
+    refreshVisibility()
+  }
+}
+
 function expandForHash() {
   var hash = window.location.hash
   if (!hash) return
@@ -111,13 +120,11 @@ function expandForHash() {
     return
   }
   if (!target) return
-  var h = foldedHeadingOf(target)
-  if (h) {
-    setCollapsed(h, false)
-    h.classList.remove(FOLD)
-    refreshVisibility()
-  }
+  expandFold(target)
 }
+
+// 暴露给 SPA 路由：同页锚点跳转前先展开被折叠的标题
+window.expandFold = expandFold
 
 document.addEventListener("nav", function () {
   init()
