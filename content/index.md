@@ -22,7 +22,7 @@ title: Linux
 - [[Linux#编辑器|12. 编辑器]]
 - [[Linux#服务管理|13. 服务管理]]
 - [[Linux#软件包管理|14. 软件包管理]]
-- [[Linux#shell-脚本|15. Shell 脚本]]
+- [[Linux#Shell 脚本|15. Shell 脚本]]
 
 ### [[shell_script|Shell 脚本]]
 

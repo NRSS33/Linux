@@ -36,6 +36,6 @@ A personal Linux knowledge base built with [Quartz](https://quartz.jzhao.xyz/) v
   - a `>` blockquote describing the command
   - `- 语法:` / `- 常用选项:` / `- 示例:` bullets
   - fenced `bash` code blocks for examples
-- Cross-links use Obsidian wikilinks: `[[#anchor]]` within the note, `[[Linux#anchor]]` from `index.md`.
-- **Adding a category touches three places:** (1) a new `## N. 分类名` section at the end of `Linux.md`, (2) a `### 分类名` group + command links in the `## 目录` TOC, (3) a `[[Linux#N-分类名|N. 分类名]]` link in `index.md` plus bumping its "N 类" count. Then run `publish.bat` to deploy.
+- Cross-links use Obsidian wikilinks: `[[#anchor]]` within the note, `[[Linux#anchor]]` from `index.md`. **Write the anchor as verbatim heading text** (spaces/parens/case exactly as the heading, e.g. `[[#if 条件判断]]`), never the slugified form (`if-条件判断`) — Quartz slugifies anchors at build time and Obsidian matches headings verbatim, so verbatim anchors resolve in both.
+- **Adding a category touches three places:** (1) a new `## N. 分类名` section at the end of `Linux.md`, (2) a `### 分类名` group + command links in the `## 目录` TOC, (3) a `[[Linux#分类名|N. 分类名]]` link in `index.md` plus bumping its "N 类" count. Then run `publish.bat` to deploy.
 - The build's `ignorePatterns` excludes `private`, `templates`, and `.obsidian`; `.claudian/` and `.playwright-mcp/` are also gitignored.
