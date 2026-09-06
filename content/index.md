@@ -25,3 +25,7 @@ title: Linux
 - [[Linux#15-shell-脚本|15. Shell 脚本]]
 
 ### [[shell_script|Shell 脚本]]
+
+- [[shell_script#脚本首行-shebang|脚本首行 (Shebang)]]
+- [[shell_script#定义变量|定义变量]]
+- [[shell_script#获取变量值|获取变量值]]
