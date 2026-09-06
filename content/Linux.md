@@ -119,6 +119,12 @@ created: 2026-09-04
 ### 软件包管理
 - [[#apt]] — 软件包管理
 
+### Shell 脚本
+- [[#sh]] — 执行脚本
+- [[#bash]] — 执行脚本(bash)
+- [[#source]] — 当前 shell 加载
+- [[#脚本直接执行]] — 直接运行脚本
+
 ---
 
 ## 1. 文件与目录
@@ -1373,3 +1379,57 @@ sudo apt show nginx             # 查看 nginx 详情
 ```
 
 > 注:`apt` 是 `apt-get` / `apt-cache` 的简化封装,日常使用更友好;脚本里仍建议用 `apt-get`。
+
+## 15. Shell 脚本
+
+### sh
+
+> 用 sh 解释器执行 shell 脚本（几乎所有 Linux 都自带）。
+
+- 语法:`sh [选项] 脚本 [参数]`
+- 常用选项:`-n` 只检查语法不执行 · `-x` 逐行显示执行过程 · `-e` 出错即退出
+- 示例:
+
+```bash
+sh script.sh
+sh -n script.sh           # 只检查语法
+sh -x script.sh           # 调试：打印每条命令
+```
+
+### bash
+
+> 用 bash 解释器执行脚本（bash 兼容 sh，功能更丰富，是脚本常用解释器）。
+
+- 语法:`bash [选项] 脚本`
+- 常用选项:`-n` 语法检查 · `-x` 调试 · `-e` 出错退出 · `-c` 直接执行字符串
+- 示例:
+
+```bash
+bash script.sh
+bash -c 'echo hello'
+bash -x script.sh
+```
+
+### source
+
+> 在当前 shell 中执行脚本（不新建子进程，脚本里定义的变量/函数会保留到当前会话）。
+
+- 语法:`source 脚本` 或 `. 脚本`
+- 示例:
+
+```bash
+source ~/.bashrc
+. /etc/profile
+```
+
+### 脚本直接执行
+
+> 让脚本能直接 `./script.sh` 运行：首行加 shebang 指定解释器，再赋予可执行权限。
+
+- 首行 shebang:`#!/bin/bash`（或 `#!/bin/sh`）
+- 示例:
+
+```bash
+chmod +x script.sh        # 赋予可执行权限
+./script.sh               # 直接运行
+```
