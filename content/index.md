@@ -23,3 +23,5 @@ title: Linux
 - [[Linux#13-服务管理|13. 服务管理]]
 - [[Linux#14-软件包管理|14. 软件包管理]]
 - [[Linux#15-shell-脚本|15. Shell 脚本]]
+
+**[[shell_script|Shell 脚本]]** —— shell 脚本编写规范
