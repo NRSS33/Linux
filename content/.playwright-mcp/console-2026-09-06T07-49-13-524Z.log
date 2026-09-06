@@ -1,0 +1,1694 @@
+[      73ms] [LOG] [Explorer] Nav event received, generation: 1 @ http://localhost:8080/postscript.js:0
+[      74ms] [LOG] [Explorer] Found 1 explorers @ http://localhost:8080/postscript.js:0
+[      74ms] [LOG] [Explorer] Starting tree build... @ http://localhost:8080/postscript.js:0
+[      74ms] [LOG] [Explorer] Fetching content index... @ http://localhost:8080/postscript.js:0
+[      74ms] [LOG] [Explorer] Fetched data keys: [linux, index, tags/linux, tags/命令, tags/index] @ http://localhost:8080/postscript.js:0
+[      75ms] [LOG] [Explorer] Entry count: 5 @ http://localhost:8080/postscript.js:0
+[      75ms] [LOG] [Explorer] Trie root children: 2 @ http://localhost:8080/postscript.js:0
+[      80ms] [LOG] [Explorer] Render generation is current, rendering tree @ http://localhost:8080/postscript.js:0
+[      80ms] [LOG] [Explorer] Trie result: success @ http://localhost:8080/postscript.js:0
+[      80ms] [LOG] [Explorer] Rendering 1 children @ http://localhost:8080/postscript.js:0
+[      81ms] [LOG] [Explorer] Render complete, final list length: 2 @ http://localhost:8080/postscript.js:0
+[     608ms] [LOG] [Explorer] Nav event received, generation: 1 @ http://localhost:8080/postscript.js:0
+[     608ms] [LOG] [Explorer] Found 1 explorers @ http://localhost:8080/postscript.js:0
+[     608ms] [LOG] [Explorer] Starting tree build... @ http://localhost:8080/postscript.js:0
+[     609ms] [LOG] [Explorer] Fetching content index... @ http://localhost:8080/postscript.js:0
+[     610ms] [LOG] [Explorer] Fetched data keys: [index, linux, tags/linux, tags/命令, tags/index] @ http://localhost:8080/postscript.js:0
+[     610ms] [LOG] [Explorer] Entry count: 5 @ http://localhost:8080/postscript.js:0
+[     610ms] [LOG] [Explorer] Trie root children: 2 @ http://localhost:8080/postscript.js:0
+[     614ms] [LOG] [Explorer] Render generation is current, rendering tree @ http://localhost:8080/postscript.js:0
+[     614ms] [LOG] [Explorer] Trie result: success @ http://localhost:8080/postscript.js:0
+[     614ms] [LOG] [Explorer] Rendering 1 children @ http://localhost:8080/postscript.js:0
+[     614ms] [LOG] [Explorer] Render complete, final list length: 2 @ http://localhost:8080/postscript.js:0
+[     688ms] [LOG] [Explorer] Nav event received, generation: 1 @ http://localhost:8080/postscript.js:0
+[     688ms] [LOG] [Explorer] Found 1 explorers @ http://localhost:8080/postscript.js:0
+[     689ms] [LOG] [Explorer] Starting tree build... @ http://localhost:8080/postscript.js:0
+[     689ms] [LOG] [Explorer] Fetching content index... @ http://localhost:8080/postscript.js:0
+[     709ms] [LOG] [Explorer] Fetched data keys: [index, linux, tags/linux, tags/命令, tags/index] @ http://localhost:8080/postscript.js:0
+[     709ms] [LOG] [Explorer] Entry count: 5 @ http://localhost:8080/postscript.js:0
+[     709ms] [LOG] [Explorer] Trie root children: 2 @ http://localhost:8080/postscript.js:0
+[     717ms] [LOG] [Explorer] Render generation is current, rendering tree @ http://localhost:8080/postscript.js:0
+[     717ms] [LOG] [Explorer] Trie result: success @ http://localhost:8080/postscript.js:0
+[     717ms] [LOG] [Explorer] Rendering 1 children @ http://localhost:8080/postscript.js:0
+[     718ms] [LOG] [Explorer] Render complete, final list length: 2 @ http://localhost:8080/postscript.js:0
+[    1300ms] [LOG] [Explorer] Nav event received, generation: 1 @ http://localhost:8080/postscript.js:0
+[    1300ms] [LOG] [Explorer] Found 1 explorers @ http://localhost:8080/postscript.js:0
+[    1300ms] [LOG] [Explorer] Starting tree build... @ http://localhost:8080/postscript.js:0
+[    1300ms] [LOG] [Explorer] Fetching content index... @ http://localhost:8080/postscript.js:0
+[    1319ms] [LOG] [Explorer] Fetched data keys: [index, linux, tags/linux, tags/命令, tags/index] @ http://localhost:8080/postscript.js:0
+[    1319ms] [LOG] [Explorer] Entry count: 5 @ http://localhost:8080/postscript.js:0
+[    1319ms] [LOG] [Explorer] Trie root children: 2 @ http://localhost:8080/postscript.js:0
+[    1327ms] [LOG] [Explorer] Render generation is current, rendering tree @ http://localhost:8080/postscript.js:0
+[    1327ms] [LOG] [Explorer] Trie result: success @ http://localhost:8080/postscript.js:0
+[    1327ms] [LOG] [Explorer] Rendering 1 children @ http://localhost:8080/postscript.js:0
+[    1327ms] [LOG] [Explorer] Render complete, final list length: 2 @ http://localhost:8080/postscript.js:0
+[    1827ms] [LOG] [Explorer] Nav event received, generation: 1 @ http://localhost:8080/postscript.js:0
+[    1827ms] [LOG] [Explorer] Found 1 explorers @ http://localhost:8080/postscript.js:0
+[    1827ms] [LOG] [Explorer] Starting tree build... @ http://localhost:8080/postscript.js:0
+[    1827ms] [LOG] [Explorer] Fetching content index... @ http://localhost:8080/postscript.js:0
+[    1828ms] [LOG] [Explorer] Fetched data keys: [index, linux, tags/linux, tags/命令, tags/index] @ http://localhost:8080/postscript.js:0
+[    1829ms] [LOG] [Explorer] Entry count: 5 @ http://localhost:8080/postscript.js:0
+[    1829ms] [LOG] [Explorer] Trie root children: 2 @ http://localhost:8080/postscript.js:0
+[    1831ms] [LOG] [Explorer] Render generation is current, rendering tree @ http://localhost:8080/postscript.js:0
+[    1831ms] [LOG] [Explorer] Trie result: success @ http://localhost:8080/postscript.js:0
+[    1831ms] [LOG] [Explorer] Rendering 1 children @ http://localhost:8080/postscript.js:0
+[    1831ms] [LOG] [Explorer] Render complete, final list length: 2 @ http://localhost:8080/postscript.js:0
+[    2311ms] [LOG] [Explorer] Nav event received, generation: 1 @ http://localhost:8080/postscript.js:0
+[    2311ms] [LOG] [Explorer] Found 1 explorers @ http://localhost:8080/postscript.js:0
+[    2311ms] [LOG] [Explorer] Starting tree build... @ http://localhost:8080/postscript.js:0
+[    2311ms] [LOG] [Explorer] Fetching content index... @ http://localhost:8080/postscript.js:0
+[    2330ms] [LOG] [Explorer] Fetched data keys: [index, linux, tags/linux, tags/命令, tags/index] @ http://localhost:8080/postscript.js:0
+[    2330ms] [LOG] [Explorer] Entry count: 5 @ http://localhost:8080/postscript.js:0
+[    2330ms] [LOG] [Explorer] Trie root children: 2 @ http://localhost:8080/postscript.js:0
+[    2338ms] [LOG] [Explorer] Render generation is current, rendering tree @ http://localhost:8080/postscript.js:0
+[    2339ms] [LOG] [Explorer] Trie result: success @ http://localhost:8080/postscript.js:0
+[    2339ms] [LOG] [Explorer] Rendering 1 children @ http://localhost:8080/postscript.js:0
+[    2339ms] [LOG] [Explorer] Render complete, final list length: 2 @ http://localhost:8080/postscript.js:0
+[    2844ms] [LOG] [Explorer] Nav event received, generation: 1 @ http://localhost:8080/postscript.js:0
+[    2844ms] [LOG] [Explorer] Found 1 explorers @ http://localhost:8080/postscript.js:0
+[    2845ms] [LOG] [Explorer] Starting tree build... @ http://localhost:8080/postscript.js:0
+[    2845ms] [LOG] [Explorer] Fetching content index... @ http://localhost:8080/postscript.js:0
+[    2846ms] [LOG] [Explorer] Fetched data keys: [index, linux, tags/linux, tags/命令, tags/index] @ http://localhost:8080/postscript.js:0
+[    2846ms] [LOG] [Explorer] Entry count: 5 @ http://localhost:8080/postscript.js:0
+[    2846ms] [LOG] [Explorer] Trie root children: 2 @ http://localhost:8080/postscript.js:0
+[    2849ms] [LOG] [Explorer] Render generation is current, rendering tree @ http://localhost:8080/postscript.js:0
+[    2849ms] [LOG] [Explorer] Trie result: success @ http://localhost:8080/postscript.js:0
+[    2849ms] [LOG] [Explorer] Rendering 1 children @ http://localhost:8080/postscript.js:0
+[    2849ms] [LOG] [Explorer] Render complete, final list length: 2 @ http://localhost:8080/postscript.js:0
+[    3324ms] [LOG] [Explorer] Nav event received, generation: 1 @ http://localhost:8080/postscript.js:0
+[    3324ms] [LOG] [Explorer] Found 1 explorers @ http://localhost:8080/postscript.js:0
+[    3324ms] [LOG] [Explorer] Starting tree build... @ http://localhost:8080/postscript.js:0
+[    3324ms] [LOG] [Explorer] Fetching content index... @ http://localhost:8080/postscript.js:0
+[    3344ms] [LOG] [Explorer] Fetched data keys: [index, linux, tags/linux, tags/命令, tags/index] @ http://localhost:8080/postscript.js:0
+[    3344ms] [LOG] [Explorer] Entry count: 5 @ http://localhost:8080/postscript.js:0
+[    3344ms] [LOG] [Explorer] Trie root children: 2 @ http://localhost:8080/postscript.js:0
+[    3351ms] [LOG] [Explorer] Render generation is current, rendering tree @ http://localhost:8080/postscript.js:0
+[    3351ms] [LOG] [Explorer] Trie result: success @ http://localhost:8080/postscript.js:0
+[    3351ms] [LOG] [Explorer] Rendering 1 children @ http://localhost:8080/postscript.js:0
+[    3351ms] [LOG] [Explorer] Render complete, final list length: 2 @ http://localhost:8080/postscript.js:0
+[    3857ms] [LOG] [Explorer] Nav event received, generation: 1 @ http://localhost:8080/postscript.js:0
+[    3857ms] [LOG] [Explorer] Found 1 explorers @ http://localhost:8080/postscript.js:0
+[    3857ms] [LOG] [Explorer] Starting tree build... @ http://localhost:8080/postscript.js:0
+[    3857ms] [LOG] [Explorer] Fetching content index... @ http://localhost:8080/postscript.js:0
+[    3858ms] [LOG] [Explorer] Fetched data keys: [index, linux, tags/linux, tags/命令, tags/index] @ http://localhost:8080/postscript.js:0
+[    3858ms] [LOG] [Explorer] Entry count: 5 @ http://localhost:8080/postscript.js:0
+[    3858ms] [LOG] [Explorer] Trie root children: 2 @ http://localhost:8080/postscript.js:0
+[    3861ms] [LOG] [Explorer] Render generation is current, rendering tree @ http://localhost:8080/postscript.js:0
+[    3861ms] [LOG] [Explorer] Trie result: success @ http://localhost:8080/postscript.js:0
+[    3861ms] [LOG] [Explorer] Rendering 1 children @ http://localhost:8080/postscript.js:0
+[    3861ms] [LOG] [Explorer] Render complete, final list length: 2 @ http://localhost:8080/postscript.js:0
+[    4336ms] [LOG] [Explorer] Nav event received, generation: 1 @ http://localhost:8080/postscript.js:0
+[    4336ms] [LOG] [Explorer] Found 1 explorers @ http://localhost:8080/postscript.js:0
+[    4336ms] [LOG] [Explorer] Starting tree build... @ http://localhost:8080/postscript.js:0
+[    4336ms] [LOG] [Explorer] Fetching content index... @ http://localhost:8080/postscript.js:0
+[    4357ms] [LOG] [Explorer] Fetched data keys: [index, linux, tags/linux, tags/命令, tags/index] @ http://localhost:8080/postscript.js:0
+[    4358ms] [LOG] [Explorer] Entry count: 5 @ http://localhost:8080/postscript.js:0
+[    4358ms] [LOG] [Explorer] Trie root children: 2 @ http://localhost:8080/postscript.js:0
+[    4365ms] [LOG] [Explorer] Render generation is current, rendering tree @ http://localhost:8080/postscript.js:0
+[    4365ms] [LOG] [Explorer] Trie result: success @ http://localhost:8080/postscript.js:0
+[    4365ms] [LOG] [Explorer] Rendering 1 children @ http://localhost:8080/postscript.js:0
+[    4365ms] [LOG] [Explorer] Render complete, final list length: 2 @ http://localhost:8080/postscript.js:0
+[    4856ms] [LOG] [Explorer] Nav event received, generation: 1 @ http://localhost:8080/postscript.js:0
+[    4856ms] [LOG] [Explorer] Found 1 explorers @ http://localhost:8080/postscript.js:0
+[    4856ms] [LOG] [Explorer] Starting tree build... @ http://localhost:8080/postscript.js:0
+[    4856ms] [LOG] [Explorer] Fetching content index... @ http://localhost:8080/postscript.js:0
+[    4857ms] [LOG] [Explorer] Fetched data keys: [index, linux, tags/linux, tags/命令, tags/index] @ http://localhost:8080/postscript.js:0
+[    4857ms] [LOG] [Explorer] Entry count: 5 @ http://localhost:8080/postscript.js:0
+[    4857ms] [LOG] [Explorer] Trie root children: 2 @ http://localhost:8080/postscript.js:0
+[    4859ms] [LOG] [Explorer] Render generation is current, rendering tree @ http://localhost:8080/postscript.js:0
+[    4859ms] [LOG] [Explorer] Trie result: success @ http://localhost:8080/postscript.js:0
+[    4859ms] [LOG] [Explorer] Rendering 1 children @ http://localhost:8080/postscript.js:0
+[    4859ms] [LOG] [Explorer] Render complete, final list length: 2 @ http://localhost:8080/postscript.js:0
+[    5333ms] [LOG] [Explorer] Nav event received, generation: 1 @ http://localhost:8080/postscript.js:0
+[    5333ms] [LOG] [Explorer] Found 1 explorers @ http://localhost:8080/postscript.js:0
+[    5333ms] [LOG] [Explorer] Starting tree build... @ http://localhost:8080/postscript.js:0
+[    5333ms] [LOG] [Explorer] Fetching content index... @ http://localhost:8080/postscript.js:0
+[    5353ms] [LOG] [Explorer] Fetched data keys: [index, linux, tags/linux, tags/命令, tags/index] @ http://localhost:8080/postscript.js:0
+[    5353ms] [LOG] [Explorer] Entry count: 5 @ http://localhost:8080/postscript.js:0
+[    5353ms] [LOG] [Explorer] Trie root children: 2 @ http://localhost:8080/postscript.js:0
+[    5360ms] [LOG] [Explorer] Render generation is current, rendering tree @ http://localhost:8080/postscript.js:0
+[    5361ms] [LOG] [Explorer] Trie result: success @ http://localhost:8080/postscript.js:0
+[    5361ms] [LOG] [Explorer] Rendering 1 children @ http://localhost:8080/postscript.js:0
+[    5361ms] [LOG] [Explorer] Render complete, final list length: 2 @ http://localhost:8080/postscript.js:0
+[    5816ms] [LOG] [Explorer] Nav event received, generation: 1 @ http://localhost:8080/postscript.js:0
+[    5816ms] [LOG] [Explorer] Found 1 explorers @ http://localhost:8080/postscript.js:0
+[    5816ms] [LOG] [Explorer] Starting tree build... @ http://localhost:8080/postscript.js:0
+[    5816ms] [LOG] [Explorer] Fetching content index... @ http://localhost:8080/postscript.js:0
+[    5835ms] [LOG] [Explorer] Fetched data keys: [index, linux, tags/linux, tags/命令, tags/index] @ http://localhost:8080/postscript.js:0
+[    5835ms] [LOG] [Explorer] Entry count: 5 @ http://localhost:8080/postscript.js:0
+[    5835ms] [LOG] [Explorer] Trie root children: 2 @ http://localhost:8080/postscript.js:0
+[    5842ms] [LOG] [Explorer] Render generation is current, rendering tree @ http://localhost:8080/postscript.js:0
+[    5842ms] [LOG] [Explorer] Trie result: success @ http://localhost:8080/postscript.js:0
+[    5842ms] [LOG] [Explorer] Rendering 1 children @ http://localhost:8080/postscript.js:0
+[    5843ms] [LOG] [Explorer] Render complete, final list length: 2 @ http://localhost:8080/postscript.js:0
+[    6328ms] [LOG] [Explorer] Nav event received, generation: 1 @ http://localhost:8080/postscript.js:0
+[    6328ms] [LOG] [Explorer] Found 1 explorers @ http://localhost:8080/postscript.js:0
+[    6328ms] [LOG] [Explorer] Starting tree build... @ http://localhost:8080/postscript.js:0
+[    6328ms] [LOG] [Explorer] Fetching content index... @ http://localhost:8080/postscript.js:0
+[    6343ms] [LOG] [Explorer] Fetched data keys: [index, linux, tags/linux, tags/命令, tags/index] @ http://localhost:8080/postscript.js:0
+[    6343ms] [LOG] [Explorer] Entry count: 5 @ http://localhost:8080/postscript.js:0
+[    6343ms] [LOG] [Explorer] Trie root children: 2 @ http://localhost:8080/postscript.js:0
+[    6351ms] [LOG] [Explorer] Render generation is current, rendering tree @ http://localhost:8080/postscript.js:0
+[    6351ms] [LOG] [Explorer] Trie result: success @ http://localhost:8080/postscript.js:0
+[    6351ms] [LOG] [Explorer] Rendering 1 children @ http://localhost:8080/postscript.js:0
+[    6351ms] [LOG] [Explorer] Render complete, final list length: 2 @ http://localhost:8080/postscript.js:0
+[    6817ms] [LOG] [Explorer] Nav event received, generation: 1 @ http://localhost:8080/postscript.js:0
+[    6817ms] [LOG] [Explorer] Found 1 explorers @ http://localhost:8080/postscript.js:0
+[    6817ms] [LOG] [Explorer] Starting tree build... @ http://localhost:8080/postscript.js:0
+[    6817ms] [LOG] [Explorer] Fetching content index... @ http://localhost:8080/postscript.js:0
+[    6836ms] [LOG] [Explorer] Fetched data keys: [index, linux, tags/linux, tags/命令, tags/index] @ http://localhost:8080/postscript.js:0
+[    6837ms] [LOG] [Explorer] Entry count: 5 @ http://localhost:8080/postscript.js:0
+[    6837ms] [LOG] [Explorer] Trie root children: 2 @ http://localhost:8080/postscript.js:0
+[    6847ms] [LOG] [Explorer] Render generation is current, rendering tree @ http://localhost:8080/postscript.js:0
+[    6847ms] [LOG] [Explorer] Trie result: success @ http://localhost:8080/postscript.js:0
+[    6847ms] [LOG] [Explorer] Rendering 1 children @ http://localhost:8080/postscript.js:0
+[    6847ms] [LOG] [Explorer] Render complete, final list length: 2 @ http://localhost:8080/postscript.js:0
+[    7352ms] [LOG] [Explorer] Nav event received, generation: 1 @ http://localhost:8080/postscript.js:0
+[    7352ms] [LOG] [Explorer] Found 1 explorers @ http://localhost:8080/postscript.js:0
+[    7352ms] [LOG] [Explorer] Starting tree build... @ http://localhost:8080/postscript.js:0
+[    7353ms] [LOG] [Explorer] Fetching content index... @ http://localhost:8080/postscript.js:0
+[    7369ms] [LOG] [Explorer] Fetched data keys: [index, linux, tags/linux, tags/命令, tags/index] @ http://localhost:8080/postscript.js:0
+[    7369ms] [LOG] [Explorer] Entry count: 5 @ http://localhost:8080/postscript.js:0
+[    7369ms] [LOG] [Explorer] Trie root children: 2 @ http://localhost:8080/postscript.js:0
+[    7377ms] [LOG] [Explorer] Render generation is current, rendering tree @ http://localhost:8080/postscript.js:0
+[    7377ms] [LOG] [Explorer] Trie result: success @ http://localhost:8080/postscript.js:0
+[    7377ms] [LOG] [Explorer] Rendering 1 children @ http://localhost:8080/postscript.js:0
+[    7378ms] [LOG] [Explorer] Render complete, final list length: 2 @ http://localhost:8080/postscript.js:0
+[    7838ms] [LOG] [Explorer] Nav event received, generation: 1 @ http://localhost:8080/postscript.js:0
+[    7838ms] [LOG] [Explorer] Found 1 explorers @ http://localhost:8080/postscript.js:0
+[    7838ms] [LOG] [Explorer] Starting tree build... @ http://localhost:8080/postscript.js:0
+[    7838ms] [LOG] [Explorer] Fetching content index... @ http://localhost:8080/postscript.js:0
+[    7859ms] [LOG] [Explorer] Fetched data keys: [index, linux, tags/linux, tags/命令, tags/index] @ http://localhost:8080/postscript.js:0
+[    7860ms] [LOG] [Explorer] Entry count: 5 @ http://localhost:8080/postscript.js:0
+[    7860ms] [LOG] [Explorer] Trie root children: 2 @ http://localhost:8080/postscript.js:0
+[    7868ms] [LOG] [Explorer] Render generation is current, rendering tree @ http://localhost:8080/postscript.js:0
+[    7868ms] [LOG] [Explorer] Trie result: success @ http://localhost:8080/postscript.js:0
+[    7868ms] [LOG] [Explorer] Rendering 1 children @ http://localhost:8080/postscript.js:0
+[    7869ms] [LOG] [Explorer] Render complete, final list length: 2 @ http://localhost:8080/postscript.js:0
+[    8365ms] [LOG] [Explorer] Nav event received, generation: 1 @ http://localhost:8080/postscript.js:0
+[    8365ms] [LOG] [Explorer] Found 1 explorers @ http://localhost:8080/postscript.js:0
+[    8365ms] [LOG] [Explorer] Starting tree build... @ http://localhost:8080/postscript.js:0
+[    8365ms] [LOG] [Explorer] Fetching content index... @ http://localhost:8080/postscript.js:0
+[    8366ms] [LOG] [Explorer] Fetched data keys: [index, linux, tags/linux, tags/命令, tags/index] @ http://localhost:8080/postscript.js:0
+[    8367ms] [LOG] [Explorer] Entry count: 5 @ http://localhost:8080/postscript.js:0
+[    8367ms] [LOG] [Explorer] Trie root children: 2 @ http://localhost:8080/postscript.js:0
+[    8370ms] [LOG] [Explorer] Render generation is current, rendering tree @ http://localhost:8080/postscript.js:0
+[    8370ms] [LOG] [Explorer] Trie result: success @ http://localhost:8080/postscript.js:0
+[    8370ms] [LOG] [Explorer] Rendering 1 children @ http://localhost:8080/postscript.js:0
+[    8370ms] [LOG] [Explorer] Render complete, final list length: 2 @ http://localhost:8080/postscript.js:0
+[    8851ms] [LOG] [Explorer] Nav event received, generation: 1 @ http://localhost:8080/postscript.js:0
+[    8851ms] [LOG] [Explorer] Found 1 explorers @ http://localhost:8080/postscript.js:0
+[    8851ms] [LOG] [Explorer] Starting tree build... @ http://localhost:8080/postscript.js:0
+[    8851ms] [LOG] [Explorer] Fetching content index... @ http://localhost:8080/postscript.js:0
+[    8871ms] [LOG] [Explorer] Fetched data keys: [index, linux, tags/linux, tags/命令, tags/index] @ http://localhost:8080/postscript.js:0
+[    8871ms] [LOG] [Explorer] Entry count: 5 @ http://localhost:8080/postscript.js:0
+[    8871ms] [LOG] [Explorer] Trie root children: 2 @ http://localhost:8080/postscript.js:0
+[    8879ms] [LOG] [Explorer] Render generation is current, rendering tree @ http://localhost:8080/postscript.js:0
+[    8879ms] [LOG] [Explorer] Trie result: success @ http://localhost:8080/postscript.js:0
+[    8879ms] [LOG] [Explorer] Rendering 1 children @ http://localhost:8080/postscript.js:0
+[    8879ms] [LOG] [Explorer] Render complete, final list length: 2 @ http://localhost:8080/postscript.js:0
+[    9366ms] [LOG] [Explorer] Nav event received, generation: 1 @ http://localhost:8080/postscript.js:0
+[    9367ms] [LOG] [Explorer] Found 1 explorers @ http://localhost:8080/postscript.js:0
+[    9367ms] [LOG] [Explorer] Starting tree build... @ http://localhost:8080/postscript.js:0
+[    9367ms] [LOG] [Explorer] Fetching content index... @ http://localhost:8080/postscript.js:0
+[    9383ms] [LOG] [Explorer] Fetched data keys: [index, linux, tags/linux, tags/命令, tags/index] @ http://localhost:8080/postscript.js:0
+[    9383ms] [LOG] [Explorer] Entry count: 5 @ http://localhost:8080/postscript.js:0
+[    9383ms] [LOG] [Explorer] Trie root children: 2 @ http://localhost:8080/postscript.js:0
+[    9391ms] [LOG] [Explorer] Render generation is current, rendering tree @ http://localhost:8080/postscript.js:0
+[    9392ms] [LOG] [Explorer] Trie result: success @ http://localhost:8080/postscript.js:0
+[    9392ms] [LOG] [Explorer] Rendering 1 children @ http://localhost:8080/postscript.js:0
+[    9392ms] [LOG] [Explorer] Render complete, final list length: 2 @ http://localhost:8080/postscript.js:0
+[    9851ms] [LOG] [Explorer] Nav event received, generation: 1 @ http://localhost:8080/postscript.js:0
+[    9851ms] [LOG] [Explorer] Found 1 explorers @ http://localhost:8080/postscript.js:0
+[    9851ms] [LOG] [Explorer] Starting tree build... @ http://localhost:8080/postscript.js:0
+[    9851ms] [LOG] [Explorer] Fetching content index... @ http://localhost:8080/postscript.js:0
+[    9872ms] [LOG] [Explorer] Fetched data keys: [index, linux, tags/linux, tags/命令, tags/index] @ http://localhost:8080/postscript.js:0
+[    9872ms] [LOG] [Explorer] Entry count: 5 @ http://localhost:8080/postscript.js:0
+[    9872ms] [LOG] [Explorer] Trie root children: 2 @ http://localhost:8080/postscript.js:0
+[    9879ms] [LOG] [Explorer] Render generation is current, rendering tree @ http://localhost:8080/postscript.js:0
+[    9879ms] [LOG] [Explorer] Trie result: success @ http://localhost:8080/postscript.js:0
+[    9879ms] [LOG] [Explorer] Rendering 1 children @ http://localhost:8080/postscript.js:0
+[    9880ms] [LOG] [Explorer] Render complete, final list length: 2 @ http://localhost:8080/postscript.js:0
+[   10358ms] [LOG] [Explorer] Nav event received, generation: 1 @ http://localhost:8080/postscript.js:0
+[   10358ms] [LOG] [Explorer] Found 1 explorers @ http://localhost:8080/postscript.js:0
+[   10358ms] [LOG] [Explorer] Starting tree build... @ http://localhost:8080/postscript.js:0
+[   10358ms] [LOG] [Explorer] Fetching content index... @ http://localhost:8080/postscript.js:0
+[   10373ms] [LOG] [Explorer] Fetched data keys: [index, linux, tags/linux, tags/命令, tags/index] @ http://localhost:8080/postscript.js:0
+[   10373ms] [LOG] [Explorer] Entry count: 5 @ http://localhost:8080/postscript.js:0
+[   10373ms] [LOG] [Explorer] Trie root children: 2 @ http://localhost:8080/postscript.js:0
+[   10380ms] [LOG] [Explorer] Render generation is current, rendering tree @ http://localhost:8080/postscript.js:0
+[   10380ms] [LOG] [Explorer] Trie result: success @ http://localhost:8080/postscript.js:0
+[   10380ms] [LOG] [Explorer] Rendering 1 children @ http://localhost:8080/postscript.js:0
+[   10380ms] [LOG] [Explorer] Render complete, final list length: 2 @ http://localhost:8080/postscript.js:0
+[   10844ms] [LOG] [Explorer] Nav event received, generation: 1 @ http://localhost:8080/postscript.js:0
+[   10844ms] [LOG] [Explorer] Found 1 explorers @ http://localhost:8080/postscript.js:0
+[   10845ms] [LOG] [Explorer] Starting tree build... @ http://localhost:8080/postscript.js:0
+[   10845ms] [LOG] [Explorer] Fetching content index... @ http://localhost:8080/postscript.js:0
+[   10865ms] [LOG] [Explorer] Fetched data keys: [index, linux, tags/linux, tags/命令, tags/index] @ http://localhost:8080/postscript.js:0
+[   10865ms] [LOG] [Explorer] Entry count: 5 @ http://localhost:8080/postscript.js:0
+[   10865ms] [LOG] [Explorer] Trie root children: 2 @ http://localhost:8080/postscript.js:0
+[   10874ms] [LOG] [Explorer] Render generation is current, rendering tree @ http://localhost:8080/postscript.js:0
+[   10874ms] [LOG] [Explorer] Trie result: success @ http://localhost:8080/postscript.js:0
+[   10874ms] [LOG] [Explorer] Rendering 1 children @ http://localhost:8080/postscript.js:0
+[   10874ms] [LOG] [Explorer] Render complete, final list length: 2 @ http://localhost:8080/postscript.js:0
+[   11333ms] [LOG] [Explorer] Nav event received, generation: 1 @ http://localhost:8080/postscript.js:0
+[   11333ms] [LOG] [Explorer] Found 1 explorers @ http://localhost:8080/postscript.js:0
+[   11333ms] [LOG] [Explorer] Starting tree build... @ http://localhost:8080/postscript.js:0
+[   11333ms] [LOG] [Explorer] Fetching content index... @ http://localhost:8080/postscript.js:0
+[   11353ms] [LOG] [Explorer] Fetched data keys: [index, linux, tags/linux, tags/命令, tags/index] @ http://localhost:8080/postscript.js:0
+[   11353ms] [LOG] [Explorer] Entry count: 5 @ http://localhost:8080/postscript.js:0
+[   11353ms] [LOG] [Explorer] Trie root children: 2 @ http://localhost:8080/postscript.js:0
+[   11360ms] [LOG] [Explorer] Render generation is current, rendering tree @ http://localhost:8080/postscript.js:0
+[   11360ms] [LOG] [Explorer] Trie result: success @ http://localhost:8080/postscript.js:0
+[   11360ms] [LOG] [Explorer] Rendering 1 children @ http://localhost:8080/postscript.js:0
+[   11360ms] [LOG] [Explorer] Render complete, final list length: 2 @ http://localhost:8080/postscript.js:0
+[   11844ms] [LOG] [Explorer] Nav event received, generation: 1 @ http://localhost:8080/postscript.js:0
+[   11844ms] [LOG] [Explorer] Found 1 explorers @ http://localhost:8080/postscript.js:0
+[   11844ms] [LOG] [Explorer] Starting tree build... @ http://localhost:8080/postscript.js:0
+[   11844ms] [LOG] [Explorer] Fetching content index... @ http://localhost:8080/postscript.js:0
+[   11859ms] [LOG] [Explorer] Fetched data keys: [index, linux, tags/linux, tags/命令, tags/index] @ http://localhost:8080/postscript.js:0
+[   11859ms] [LOG] [Explorer] Entry count: 5 @ http://localhost:8080/postscript.js:0
+[   11860ms] [LOG] [Explorer] Trie root children: 2 @ http://localhost:8080/postscript.js:0
+[   11867ms] [LOG] [Explorer] Render generation is current, rendering tree @ http://localhost:8080/postscript.js:0
+[   11867ms] [LOG] [Explorer] Trie result: success @ http://localhost:8080/postscript.js:0
+[   11867ms] [LOG] [Explorer] Rendering 1 children @ http://localhost:8080/postscript.js:0
+[   11867ms] [LOG] [Explorer] Render complete, final list length: 2 @ http://localhost:8080/postscript.js:0
+[   12331ms] [LOG] [Explorer] Nav event received, generation: 1 @ http://localhost:8080/postscript.js:0
+[   12331ms] [LOG] [Explorer] Found 1 explorers @ http://localhost:8080/postscript.js:0
+[   12331ms] [LOG] [Explorer] Starting tree build... @ http://localhost:8080/postscript.js:0
+[   12331ms] [LOG] [Explorer] Fetching content index... @ http://localhost:8080/postscript.js:0
+[   12355ms] [LOG] [Explorer] Fetched data keys: [index, linux, tags/linux, tags/命令, tags/index] @ http://localhost:8080/postscript.js:0
+[   12355ms] [LOG] [Explorer] Entry count: 5 @ http://localhost:8080/postscript.js:0
+[   12355ms] [LOG] [Explorer] Trie root children: 2 @ http://localhost:8080/postscript.js:0
+[   12363ms] [LOG] [Explorer] Render generation is current, rendering tree @ http://localhost:8080/postscript.js:0
+[   12363ms] [LOG] [Explorer] Trie result: success @ http://localhost:8080/postscript.js:0
+[   12363ms] [LOG] [Explorer] Rendering 1 children @ http://localhost:8080/postscript.js:0
+[   12364ms] [LOG] [Explorer] Render complete, final list length: 2 @ http://localhost:8080/postscript.js:0
+[   12818ms] [LOG] [Explorer] Nav event received, generation: 1 @ http://localhost:8080/postscript.js:0
+[   12818ms] [LOG] [Explorer] Found 1 explorers @ http://localhost:8080/postscript.js:0
+[   12818ms] [LOG] [Explorer] Starting tree build... @ http://localhost:8080/postscript.js:0
+[   12818ms] [LOG] [Explorer] Fetching content index... @ http://localhost:8080/postscript.js:0
+[   12837ms] [LOG] [Explorer] Fetched data keys: [index, linux, tags/linux, tags/命令, tags/index] @ http://localhost:8080/postscript.js:0
+[   12837ms] [LOG] [Explorer] Entry count: 5 @ http://localhost:8080/postscript.js:0
+[   12837ms] [LOG] [Explorer] Trie root children: 2 @ http://localhost:8080/postscript.js:0
+[   12844ms] [LOG] [Explorer] Render generation is current, rendering tree @ http://localhost:8080/postscript.js:0
+[   12844ms] [LOG] [Explorer] Trie result: success @ http://localhost:8080/postscript.js:0
+[   12844ms] [LOG] [Explorer] Rendering 1 children @ http://localhost:8080/postscript.js:0
+[   12844ms] [LOG] [Explorer] Render complete, final list length: 2 @ http://localhost:8080/postscript.js:0
+[   13302ms] [LOG] [Explorer] Nav event received, generation: 1 @ http://localhost:8080/postscript.js:0
+[   13302ms] [LOG] [Explorer] Found 1 explorers @ http://localhost:8080/postscript.js:0
+[   13302ms] [LOG] [Explorer] Starting tree build... @ http://localhost:8080/postscript.js:0
+[   13302ms] [LOG] [Explorer] Fetching content index... @ http://localhost:8080/postscript.js:0
+[   13324ms] [LOG] [Explorer] Fetched data keys: [index, linux, tags/linux, tags/命令, tags/index] @ http://localhost:8080/postscript.js:0
+[   13324ms] [LOG] [Explorer] Entry count: 5 @ http://localhost:8080/postscript.js:0
+[   13324ms] [LOG] [Explorer] Trie root children: 2 @ http://localhost:8080/postscript.js:0
+[   13331ms] [LOG] [Explorer] Render generation is current, rendering tree @ http://localhost:8080/postscript.js:0
+[   13332ms] [LOG] [Explorer] Trie result: success @ http://localhost:8080/postscript.js:0
+[   13332ms] [LOG] [Explorer] Rendering 1 children @ http://localhost:8080/postscript.js:0
+[   13332ms] [LOG] [Explorer] Render complete, final list length: 2 @ http://localhost:8080/postscript.js:0
+[   13808ms] [LOG] [Explorer] Nav event received, generation: 1 @ http://localhost:8080/postscript.js:0
+[   13808ms] [LOG] [Explorer] Found 1 explorers @ http://localhost:8080/postscript.js:0
+[   13808ms] [LOG] [Explorer] Starting tree build... @ http://localhost:8080/postscript.js:0
+[   13808ms] [LOG] [Explorer] Fetching content index... @ http://localhost:8080/postscript.js:0
+[   13825ms] [LOG] [Explorer] Fetched data keys: [index, linux, tags/linux, tags/命令, tags/index] @ http://localhost:8080/postscript.js:0
+[   13826ms] [LOG] [Explorer] Entry count: 5 @ http://localhost:8080/postscript.js:0
+[   13826ms] [LOG] [Explorer] Trie root children: 2 @ http://localhost:8080/postscript.js:0
+[   13834ms] [LOG] [Explorer] Render generation is current, rendering tree @ http://localhost:8080/postscript.js:0
+[   13834ms] [LOG] [Explorer] Trie result: success @ http://localhost:8080/postscript.js:0
+[   13834ms] [LOG] [Explorer] Rendering 1 children @ http://localhost:8080/postscript.js:0
+[   13834ms] [LOG] [Explorer] Render complete, final list length: 2 @ http://localhost:8080/postscript.js:0
+[   14286ms] [LOG] [Explorer] Nav event received, generation: 1 @ http://localhost:8080/postscript.js:0
+[   14286ms] [LOG] [Explorer] Found 1 explorers @ http://localhost:8080/postscript.js:0
+[   14286ms] [LOG] [Explorer] Starting tree build... @ http://localhost:8080/postscript.js:0
+[   14286ms] [LOG] [Explorer] Fetching content index... @ http://localhost:8080/postscript.js:0
+[   14307ms] [LOG] [Explorer] Fetched data keys: [index, linux, tags/linux, tags/命令, tags/index] @ http://localhost:8080/postscript.js:0
+[   14307ms] [LOG] [Explorer] Entry count: 5 @ http://localhost:8080/postscript.js:0
+[   14307ms] [LOG] [Explorer] Trie root children: 2 @ http://localhost:8080/postscript.js:0
+[   14313ms] [LOG] [Explorer] Render generation is current, rendering tree @ http://localhost:8080/postscript.js:0
+[   14313ms] [LOG] [Explorer] Trie result: success @ http://localhost:8080/postscript.js:0
+[   14314ms] [LOG] [Explorer] Rendering 1 children @ http://localhost:8080/postscript.js:0
+[   14314ms] [LOG] [Explorer] Render complete, final list length: 2 @ http://localhost:8080/postscript.js:0
+[   14766ms] [LOG] [Explorer] Nav event received, generation: 1 @ http://localhost:8080/postscript.js:0
+[   14766ms] [LOG] [Explorer] Found 1 explorers @ http://localhost:8080/postscript.js:0
+[   14766ms] [LOG] [Explorer] Starting tree build... @ http://localhost:8080/postscript.js:0
+[   14766ms] [LOG] [Explorer] Fetching content index... @ http://localhost:8080/postscript.js:0
+[   14787ms] [LOG] [Explorer] Fetched data keys: [index, linux, tags/linux, tags/命令, tags/index] @ http://localhost:8080/postscript.js:0
+[   14787ms] [LOG] [Explorer] Entry count: 5 @ http://localhost:8080/postscript.js:0
+[   14787ms] [LOG] [Explorer] Trie root children: 2 @ http://localhost:8080/postscript.js:0
+[   14795ms] [LOG] [Explorer] Render generation is current, rendering tree @ http://localhost:8080/postscript.js:0
+[   14795ms] [LOG] [Explorer] Trie result: success @ http://localhost:8080/postscript.js:0
+[   14795ms] [LOG] [Explorer] Rendering 1 children @ http://localhost:8080/postscript.js:0
+[   14795ms] [LOG] [Explorer] Render complete, final list length: 2 @ http://localhost:8080/postscript.js:0
+[   15250ms] [LOG] [Explorer] Nav event received, generation: 1 @ http://localhost:8080/postscript.js:0
+[   15251ms] [LOG] [Explorer] Found 1 explorers @ http://localhost:8080/postscript.js:0
+[   15251ms] [LOG] [Explorer] Starting tree build... @ http://localhost:8080/postscript.js:0
+[   15251ms] [LOG] [Explorer] Fetching content index... @ http://localhost:8080/postscript.js:0
+[   15269ms] [LOG] [Explorer] Fetched data keys: [index, linux, tags/linux, tags/命令, tags/index] @ http://localhost:8080/postscript.js:0
+[   15269ms] [LOG] [Explorer] Entry count: 5 @ http://localhost:8080/postscript.js:0
+[   15269ms] [LOG] [Explorer] Trie root children: 2 @ http://localhost:8080/postscript.js:0
+[   15277ms] [LOG] [Explorer] Render generation is current, rendering tree @ http://localhost:8080/postscript.js:0
+[   15278ms] [LOG] [Explorer] Trie result: success @ http://localhost:8080/postscript.js:0
+[   15278ms] [LOG] [Explorer] Rendering 1 children @ http://localhost:8080/postscript.js:0
+[   15278ms] [LOG] [Explorer] Render complete, final list length: 2 @ http://localhost:8080/postscript.js:0
+[   15735ms] [LOG] [Explorer] Nav event received, generation: 1 @ http://localhost:8080/postscript.js:0
+[   15735ms] [LOG] [Explorer] Found 1 explorers @ http://localhost:8080/postscript.js:0
+[   15735ms] [LOG] [Explorer] Starting tree build... @ http://localhost:8080/postscript.js:0
+[   15735ms] [LOG] [Explorer] Fetching content index... @ http://localhost:8080/postscript.js:0
+[   15755ms] [LOG] [Explorer] Fetched data keys: [index, linux, tags/linux, tags/命令, tags/index] @ http://localhost:8080/postscript.js:0
+[   15755ms] [LOG] [Explorer] Entry count: 5 @ http://localhost:8080/postscript.js:0
+[   15755ms] [LOG] [Explorer] Trie root children: 2 @ http://localhost:8080/postscript.js:0
+[   15762ms] [LOG] [Explorer] Render generation is current, rendering tree @ http://localhost:8080/postscript.js:0
+[   15762ms] [LOG] [Explorer] Trie result: success @ http://localhost:8080/postscript.js:0
+[   15762ms] [LOG] [Explorer] Rendering 1 children @ http://localhost:8080/postscript.js:0
+[   15762ms] [LOG] [Explorer] Render complete, final list length: 2 @ http://localhost:8080/postscript.js:0
+[   16238ms] [LOG] [Explorer] Nav event received, generation: 1 @ http://localhost:8080/postscript.js:0
+[   16238ms] [LOG] [Explorer] Found 1 explorers @ http://localhost:8080/postscript.js:0
+[   16238ms] [LOG] [Explorer] Starting tree build... @ http://localhost:8080/postscript.js:0
+[   16238ms] [LOG] [Explorer] Fetching content index... @ http://localhost:8080/postscript.js:0
+[   16241ms] [LOG] [Explorer] Fetched data keys: [index, linux, tags/linux, tags/命令, tags/index] @ http://localhost:8080/postscript.js:0
+[   16241ms] [LOG] [Explorer] Entry count: 5 @ http://localhost:8080/postscript.js:0
+[   16241ms] [LOG] [Explorer] Trie root children: 2 @ http://localhost:8080/postscript.js:0
+[   16243ms] [LOG] [Explorer] Render generation is current, rendering tree @ http://localhost:8080/postscript.js:0
+[   16243ms] [LOG] [Explorer] Trie result: success @ http://localhost:8080/postscript.js:0
+[   16243ms] [LOG] [Explorer] Rendering 1 children @ http://localhost:8080/postscript.js:0
+[   16244ms] [LOG] [Explorer] Render complete, final list length: 2 @ http://localhost:8080/postscript.js:0
+[   16722ms] [LOG] [Explorer] Nav event received, generation: 1 @ http://localhost:8080/postscript.js:0
+[   16722ms] [LOG] [Explorer] Found 1 explorers @ http://localhost:8080/postscript.js:0
+[   16722ms] [LOG] [Explorer] Starting tree build... @ http://localhost:8080/postscript.js:0
+[   16722ms] [LOG] [Explorer] Fetching content index... @ http://localhost:8080/postscript.js:0
+[   16742ms] [LOG] [Explorer] Fetched data keys: [index, linux, tags/linux, tags/命令, tags/index] @ http://localhost:8080/postscript.js:0
+[   16742ms] [LOG] [Explorer] Entry count: 5 @ http://localhost:8080/postscript.js:0
+[   16742ms] [LOG] [Explorer] Trie root children: 2 @ http://localhost:8080/postscript.js:0
+[   16749ms] [LOG] [Explorer] Render generation is current, rendering tree @ http://localhost:8080/postscript.js:0
+[   16749ms] [LOG] [Explorer] Trie result: success @ http://localhost:8080/postscript.js:0
+[   16749ms] [LOG] [Explorer] Rendering 1 children @ http://localhost:8080/postscript.js:0
+[   16749ms] [LOG] [Explorer] Render complete, final list length: 2 @ http://localhost:8080/postscript.js:0
+[   17208ms] [LOG] [Explorer] Nav event received, generation: 1 @ http://localhost:8080/postscript.js:0
+[   17208ms] [LOG] [Explorer] Found 1 explorers @ http://localhost:8080/postscript.js:0
+[   17208ms] [LOG] [Explorer] Starting tree build... @ http://localhost:8080/postscript.js:0
+[   17208ms] [LOG] [Explorer] Fetching content index... @ http://localhost:8080/postscript.js:0
+[   17226ms] [LOG] [Explorer] Fetched data keys: [index, linux, tags/linux, tags/命令, tags/index] @ http://localhost:8080/postscript.js:0
+[   17226ms] [LOG] [Explorer] Entry count: 5 @ http://localhost:8080/postscript.js:0
+[   17226ms] [LOG] [Explorer] Trie root children: 2 @ http://localhost:8080/postscript.js:0
+[   17232ms] [LOG] [Explorer] Render generation is current, rendering tree @ http://localhost:8080/postscript.js:0
+[   17232ms] [LOG] [Explorer] Trie result: success @ http://localhost:8080/postscript.js:0
+[   17233ms] [LOG] [Explorer] Rendering 1 children @ http://localhost:8080/postscript.js:0
+[   17233ms] [LOG] [Explorer] Render complete, final list length: 2 @ http://localhost:8080/postscript.js:0
+[   17689ms] [LOG] [Explorer] Nav event received, generation: 1 @ http://localhost:8080/postscript.js:0
+[   17689ms] [LOG] [Explorer] Found 1 explorers @ http://localhost:8080/postscript.js:0
+[   17689ms] [LOG] [Explorer] Starting tree build... @ http://localhost:8080/postscript.js:0
+[   17690ms] [LOG] [Explorer] Fetching content index... @ http://localhost:8080/postscript.js:0
+[   17710ms] [LOG] [Explorer] Fetched data keys: [index, linux, tags/linux, tags/命令, tags/index] @ http://localhost:8080/postscript.js:0
+[   17710ms] [LOG] [Explorer] Entry count: 5 @ http://localhost:8080/postscript.js:0
+[   17710ms] [LOG] [Explorer] Trie root children: 2 @ http://localhost:8080/postscript.js:0
+[   17718ms] [LOG] [Explorer] Render generation is current, rendering tree @ http://localhost:8080/postscript.js:0
+[   17718ms] [LOG] [Explorer] Trie result: success @ http://localhost:8080/postscript.js:0
+[   17718ms] [LOG] [Explorer] Rendering 1 children @ http://localhost:8080/postscript.js:0
+[   17718ms] [LOG] [Explorer] Render complete, final list length: 2 @ http://localhost:8080/postscript.js:0
+[   18188ms] [LOG] [Explorer] Nav event received, generation: 1 @ http://localhost:8080/postscript.js:0
+[   18188ms] [LOG] [Explorer] Found 1 explorers @ http://localhost:8080/postscript.js:0
+[   18188ms] [LOG] [Explorer] Starting tree build... @ http://localhost:8080/postscript.js:0
+[   18188ms] [LOG] [Explorer] Fetching content index... @ http://localhost:8080/postscript.js:0
+[   18190ms] [LOG] [Explorer] Fetched data keys: [index, linux, tags/linux, tags/命令, tags/index] @ http://localhost:8080/postscript.js:0
+[   18190ms] [LOG] [Explorer] Entry count: 5 @ http://localhost:8080/postscript.js:0
+[   18190ms] [LOG] [Explorer] Trie root children: 2 @ http://localhost:8080/postscript.js:0
+[   18192ms] [LOG] [Explorer] Render generation is current, rendering tree @ http://localhost:8080/postscript.js:0
+[   18192ms] [LOG] [Explorer] Trie result: success @ http://localhost:8080/postscript.js:0
+[   18192ms] [LOG] [Explorer] Rendering 1 children @ http://localhost:8080/postscript.js:0
+[   18192ms] [LOG] [Explorer] Render complete, final list length: 2 @ http://localhost:8080/postscript.js:0
+[   18670ms] [LOG] [Explorer] Nav event received, generation: 1 @ http://localhost:8080/postscript.js:0
+[   18670ms] [LOG] [Explorer] Found 1 explorers @ http://localhost:8080/postscript.js:0
+[   18670ms] [LOG] [Explorer] Starting tree build... @ http://localhost:8080/postscript.js:0
+[   18670ms] [LOG] [Explorer] Fetching content index... @ http://localhost:8080/postscript.js:0
+[   18692ms] [LOG] [Explorer] Fetched data keys: [index, linux, tags/linux, tags/命令, tags/index] @ http://localhost:8080/postscript.js:0
+[   18692ms] [LOG] [Explorer] Entry count: 5 @ http://localhost:8080/postscript.js:0
+[   18692ms] [LOG] [Explorer] Trie root children: 2 @ http://localhost:8080/postscript.js:0
+[   18700ms] [LOG] [Explorer] Render generation is current, rendering tree @ http://localhost:8080/postscript.js:0
+[   18700ms] [LOG] [Explorer] Trie result: success @ http://localhost:8080/postscript.js:0
+[   18700ms] [LOG] [Explorer] Rendering 1 children @ http://localhost:8080/postscript.js:0
+[   18700ms] [LOG] [Explorer] Render complete, final list length: 2 @ http://localhost:8080/postscript.js:0
+[   19152ms] [LOG] [Explorer] Nav event received, generation: 1 @ http://localhost:8080/postscript.js:0
+[   19152ms] [LOG] [Explorer] Found 1 explorers @ http://localhost:8080/postscript.js:0
+[   19152ms] [LOG] [Explorer] Starting tree build... @ http://localhost:8080/postscript.js:0
+[   19152ms] [LOG] [Explorer] Fetching content index... @ http://localhost:8080/postscript.js:0
+[   19171ms] [LOG] [Explorer] Fetched data keys: [index, linux, tags/linux, tags/命令, tags/index] @ http://localhost:8080/postscript.js:0
+[   19171ms] [LOG] [Explorer] Entry count: 5 @ http://localhost:8080/postscript.js:0
+[   19171ms] [LOG] [Explorer] Trie root children: 2 @ http://localhost:8080/postscript.js:0
+[   19178ms] [LOG] [Explorer] Render generation is current, rendering tree @ http://localhost:8080/postscript.js:0
+[   19178ms] [LOG] [Explorer] Trie result: success @ http://localhost:8080/postscript.js:0
+[   19178ms] [LOG] [Explorer] Rendering 1 children @ http://localhost:8080/postscript.js:0
+[   19178ms] [LOG] [Explorer] Render complete, final list length: 2 @ http://localhost:8080/postscript.js:0
+[   19635ms] [LOG] [Explorer] Nav event received, generation: 1 @ http://localhost:8080/postscript.js:0
+[   19635ms] [LOG] [Explorer] Found 1 explorers @ http://localhost:8080/postscript.js:0
+[   19635ms] [LOG] [Explorer] Starting tree build... @ http://localhost:8080/postscript.js:0
+[   19635ms] [LOG] [Explorer] Fetching content index... @ http://localhost:8080/postscript.js:0
+[   19655ms] [LOG] [Explorer] Fetched data keys: [index, linux, tags/linux, tags/命令, tags/index] @ http://localhost:8080/postscript.js:0
+[   19656ms] [LOG] [Explorer] Entry count: 5 @ http://localhost:8080/postscript.js:0
+[   19656ms] [LOG] [Explorer] Trie root children: 2 @ http://localhost:8080/postscript.js:0
+[   19663ms] [LOG] [Explorer] Render generation is current, rendering tree @ http://localhost:8080/postscript.js:0
+[   19663ms] [LOG] [Explorer] Trie result: success @ http://localhost:8080/postscript.js:0
+[   19663ms] [LOG] [Explorer] Rendering 1 children @ http://localhost:8080/postscript.js:0
+[   19663ms] [LOG] [Explorer] Render complete, final list length: 2 @ http://localhost:8080/postscript.js:0
+[   20118ms] [LOG] [Explorer] Nav event received, generation: 1 @ http://localhost:8080/postscript.js:0
+[   20118ms] [LOG] [Explorer] Found 1 explorers @ http://localhost:8080/postscript.js:0
+[   20118ms] [LOG] [Explorer] Starting tree build... @ http://localhost:8080/postscript.js:0
+[   20118ms] [LOG] [Explorer] Fetching content index... @ http://localhost:8080/postscript.js:0
+[   20136ms] [LOG] [Explorer] Fetched data keys: [index, linux, tags/linux, tags/命令, tags/index] @ http://localhost:8080/postscript.js:0
+[   20136ms] [LOG] [Explorer] Entry count: 5 @ http://localhost:8080/postscript.js:0
+[   20136ms] [LOG] [Explorer] Trie root children: 2 @ http://localhost:8080/postscript.js:0
+[   20143ms] [LOG] [Explorer] Render generation is current, rendering tree @ http://localhost:8080/postscript.js:0
+[   20143ms] [LOG] [Explorer] Trie result: success @ http://localhost:8080/postscript.js:0
+[   20143ms] [LOG] [Explorer] Rendering 1 children @ http://localhost:8080/postscript.js:0
+[   20143ms] [LOG] [Explorer] Render complete, final list length: 2 @ http://localhost:8080/postscript.js:0
+[   20623ms] [LOG] [Explorer] Nav event received, generation: 1 @ http://localhost:8080/postscript.js:0
+[   20623ms] [LOG] [Explorer] Found 1 explorers @ http://localhost:8080/postscript.js:0
+[   20623ms] [LOG] [Explorer] Starting tree build... @ http://localhost:8080/postscript.js:0
+[   20623ms] [LOG] [Explorer] Fetching content index... @ http://localhost:8080/postscript.js:0
+[   20640ms] [LOG] [Explorer] Fetched data keys: [index, linux, tags/linux, tags/命令, tags/index] @ http://localhost:8080/postscript.js:0
+[   20640ms] [LOG] [Explorer] Entry count: 5 @ http://localhost:8080/postscript.js:0
+[   20640ms] [LOG] [Explorer] Trie root children: 2 @ http://localhost:8080/postscript.js:0
+[   20648ms] [LOG] [Explorer] Render generation is current, rendering tree @ http://localhost:8080/postscript.js:0
+[   20648ms] [LOG] [Explorer] Trie result: success @ http://localhost:8080/postscript.js:0
+[   20648ms] [LOG] [Explorer] Rendering 1 children @ http://localhost:8080/postscript.js:0
+[   20648ms] [LOG] [Explorer] Render complete, final list length: 2 @ http://localhost:8080/postscript.js:0
+[   21119ms] [LOG] [Explorer] Nav event received, generation: 1 @ http://localhost:8080/postscript.js:0
+[   21119ms] [LOG] [Explorer] Found 1 explorers @ http://localhost:8080/postscript.js:0
+[   21119ms] [LOG] [Explorer] Starting tree build... @ http://localhost:8080/postscript.js:0
+[   21119ms] [LOG] [Explorer] Fetching content index... @ http://localhost:8080/postscript.js:0
+[   21139ms] [LOG] [Explorer] Fetched data keys: [index, linux, tags/linux, tags/命令, tags/index] @ http://localhost:8080/postscript.js:0
+[   21139ms] [LOG] [Explorer] Entry count: 5 @ http://localhost:8080/postscript.js:0
+[   21139ms] [LOG] [Explorer] Trie root children: 2 @ http://localhost:8080/postscript.js:0
+[   21148ms] [LOG] [Explorer] Render generation is current, rendering tree @ http://localhost:8080/postscript.js:0
+[   21148ms] [LOG] [Explorer] Trie result: success @ http://localhost:8080/postscript.js:0
+[   21148ms] [LOG] [Explorer] Rendering 1 children @ http://localhost:8080/postscript.js:0
+[   21148ms] [LOG] [Explorer] Render complete, final list length: 2 @ http://localhost:8080/postscript.js:0
+[   21602ms] [LOG] [Explorer] Nav event received, generation: 1 @ http://localhost:8080/postscript.js:0
+[   21602ms] [LOG] [Explorer] Found 1 explorers @ http://localhost:8080/postscript.js:0
+[   21602ms] [LOG] [Explorer] Starting tree build... @ http://localhost:8080/postscript.js:0
+[   21603ms] [LOG] [Explorer] Fetching content index... @ http://localhost:8080/postscript.js:0
+[   21620ms] [LOG] [Explorer] Fetched data keys: [index, linux, tags/linux, tags/命令, tags/index] @ http://localhost:8080/postscript.js:0
+[   21620ms] [LOG] [Explorer] Entry count: 5 @ http://localhost:8080/postscript.js:0
+[   21620ms] [LOG] [Explorer] Trie root children: 2 @ http://localhost:8080/postscript.js:0
+[   21627ms] [LOG] [Explorer] Render generation is current, rendering tree @ http://localhost:8080/postscript.js:0
+[   21627ms] [LOG] [Explorer] Trie result: success @ http://localhost:8080/postscript.js:0
+[   21627ms] [LOG] [Explorer] Rendering 1 children @ http://localhost:8080/postscript.js:0
+[   21627ms] [LOG] [Explorer] Render complete, final list length: 2 @ http://localhost:8080/postscript.js:0
+[   22079ms] [LOG] [Explorer] Nav event received, generation: 1 @ http://localhost:8080/postscript.js:0
+[   22079ms] [LOG] [Explorer] Found 1 explorers @ http://localhost:8080/postscript.js:0
+[   22080ms] [LOG] [Explorer] Starting tree build... @ http://localhost:8080/postscript.js:0
+[   22080ms] [LOG] [Explorer] Fetching content index... @ http://localhost:8080/postscript.js:0
+[   22098ms] [LOG] [Explorer] Fetched data keys: [index, linux, tags/linux, tags/命令, tags/index] @ http://localhost:8080/postscript.js:0
+[   22099ms] [LOG] [Explorer] Entry count: 5 @ http://localhost:8080/postscript.js:0
+[   22099ms] [LOG] [Explorer] Trie root children: 2 @ http://localhost:8080/postscript.js:0
+[   22105ms] [LOG] [Explorer] Render generation is current, rendering tree @ http://localhost:8080/postscript.js:0
+[   22106ms] [LOG] [Explorer] Trie result: success @ http://localhost:8080/postscript.js:0
+[   22106ms] [LOG] [Explorer] Rendering 1 children @ http://localhost:8080/postscript.js:0
+[   22106ms] [LOG] [Explorer] Render complete, final list length: 2 @ http://localhost:8080/postscript.js:0
+[   22582ms] [LOG] [Explorer] Nav event received, generation: 1 @ http://localhost:8080/postscript.js:0
+[   22582ms] [LOG] [Explorer] Found 1 explorers @ http://localhost:8080/postscript.js:0
+[   22582ms] [LOG] [Explorer] Starting tree build... @ http://localhost:8080/postscript.js:0
+[   22582ms] [LOG] [Explorer] Fetching content index... @ http://localhost:8080/postscript.js:0
+[   22602ms] [LOG] [Explorer] Fetched data keys: [index, linux, tags/linux, tags/命令, tags/index] @ http://localhost:8080/postscript.js:0
+[   22603ms] [LOG] [Explorer] Entry count: 5 @ http://localhost:8080/postscript.js:0
+[   22603ms] [LOG] [Explorer] Trie root children: 2 @ http://localhost:8080/postscript.js:0
+[   22610ms] [LOG] [Explorer] Render generation is current, rendering tree @ http://localhost:8080/postscript.js:0
+[   22610ms] [LOG] [Explorer] Trie result: success @ http://localhost:8080/postscript.js:0
+[   22610ms] [LOG] [Explorer] Rendering 1 children @ http://localhost:8080/postscript.js:0
+[   22610ms] [LOG] [Explorer] Render complete, final list length: 2 @ http://localhost:8080/postscript.js:0
+[   23064ms] [LOG] [Explorer] Nav event received, generation: 1 @ http://localhost:8080/postscript.js:0
+[   23064ms] [LOG] [Explorer] Found 1 explorers @ http://localhost:8080/postscript.js:0
+[   23064ms] [LOG] [Explorer] Starting tree build... @ http://localhost:8080/postscript.js:0
+[   23064ms] [LOG] [Explorer] Fetching content index... @ http://localhost:8080/postscript.js:0
+[   23083ms] [LOG] [Explorer] Fetched data keys: [index, linux, tags/linux, tags/命令, tags/index] @ http://localhost:8080/postscript.js:0
+[   23083ms] [LOG] [Explorer] Entry count: 5 @ http://localhost:8080/postscript.js:0
+[   23083ms] [LOG] [Explorer] Trie root children: 2 @ http://localhost:8080/postscript.js:0
+[   23091ms] [LOG] [Explorer] Render generation is current, rendering tree @ http://localhost:8080/postscript.js:0
+[   23092ms] [LOG] [Explorer] Trie result: success @ http://localhost:8080/postscript.js:0
+[   23092ms] [LOG] [Explorer] Rendering 1 children @ http://localhost:8080/postscript.js:0
+[   23092ms] [LOG] [Explorer] Render complete, final list length: 2 @ http://localhost:8080/postscript.js:0
+[   23581ms] [LOG] [Explorer] Nav event received, generation: 1 @ http://localhost:8080/postscript.js:0
+[   23581ms] [LOG] [Explorer] Found 1 explorers @ http://localhost:8080/postscript.js:0
+[   23581ms] [LOG] [Explorer] Starting tree build... @ http://localhost:8080/postscript.js:0
+[   23581ms] [LOG] [Explorer] Fetching content index... @ http://localhost:8080/postscript.js:0
+[   23595ms] [LOG] [Explorer] Fetched data keys: [index, linux, tags/linux, tags/命令, tags/index] @ http://localhost:8080/postscript.js:0
+[   23595ms] [LOG] [Explorer] Entry count: 5 @ http://localhost:8080/postscript.js:0
+[   23595ms] [LOG] [Explorer] Trie root children: 2 @ http://localhost:8080/postscript.js:0
+[   23602ms] [LOG] [Explorer] Render generation is current, rendering tree @ http://localhost:8080/postscript.js:0
+[   23602ms] [LOG] [Explorer] Trie result: success @ http://localhost:8080/postscript.js:0
+[   23603ms] [LOG] [Explorer] Rendering 1 children @ http://localhost:8080/postscript.js:0
+[   23603ms] [LOG] [Explorer] Render complete, final list length: 2 @ http://localhost:8080/postscript.js:0
+[   24071ms] [LOG] [Explorer] Nav event received, generation: 1 @ http://localhost:8080/postscript.js:0
+[   24071ms] [LOG] [Explorer] Found 1 explorers @ http://localhost:8080/postscript.js:0
+[   24071ms] [LOG] [Explorer] Starting tree build... @ http://localhost:8080/postscript.js:0
+[   24071ms] [LOG] [Explorer] Fetching content index... @ http://localhost:8080/postscript.js:0
+[   24092ms] [LOG] [Explorer] Fetched data keys: [index, linux, tags/linux, tags/命令, tags/index] @ http://localhost:8080/postscript.js:0
+[   24092ms] [LOG] [Explorer] Entry count: 5 @ http://localhost:8080/postscript.js:0
+[   24092ms] [LOG] [Explorer] Trie root children: 2 @ http://localhost:8080/postscript.js:0
+[   24099ms] [LOG] [Explorer] Render generation is current, rendering tree @ http://localhost:8080/postscript.js:0
+[   24099ms] [LOG] [Explorer] Trie result: success @ http://localhost:8080/postscript.js:0
+[   24099ms] [LOG] [Explorer] Rendering 1 children @ http://localhost:8080/postscript.js:0
+[   24099ms] [LOG] [Explorer] Render complete, final list length: 2 @ http://localhost:8080/postscript.js:0
+[   24556ms] [LOG] [Explorer] Nav event received, generation: 1 @ http://localhost:8080/postscript.js:0
+[   24556ms] [LOG] [Explorer] Found 1 explorers @ http://localhost:8080/postscript.js:0
+[   24556ms] [LOG] [Explorer] Starting tree build... @ http://localhost:8080/postscript.js:0
+[   24557ms] [LOG] [Explorer] Fetching content index... @ http://localhost:8080/postscript.js:0
+[   24574ms] [LOG] [Explorer] Fetched data keys: [index, linux, tags/linux, tags/命令, tags/index] @ http://localhost:8080/postscript.js:0
+[   24574ms] [LOG] [Explorer] Entry count: 5 @ http://localhost:8080/postscript.js:0
+[   24574ms] [LOG] [Explorer] Trie root children: 2 @ http://localhost:8080/postscript.js:0
+[   24581ms] [LOG] [Explorer] Render generation is current, rendering tree @ http://localhost:8080/postscript.js:0
+[   24582ms] [LOG] [Explorer] Trie result: success @ http://localhost:8080/postscript.js:0
+[   24582ms] [LOG] [Explorer] Rendering 1 children @ http://localhost:8080/postscript.js:0
+[   24582ms] [LOG] [Explorer] Render complete, final list length: 2 @ http://localhost:8080/postscript.js:0
+[   25041ms] [LOG] [Explorer] Nav event received, generation: 1 @ http://localhost:8080/postscript.js:0
+[   25041ms] [LOG] [Explorer] Found 1 explorers @ http://localhost:8080/postscript.js:0
+[   25041ms] [LOG] [Explorer] Starting tree build... @ http://localhost:8080/postscript.js:0
+[   25041ms] [LOG] [Explorer] Fetching content index... @ http://localhost:8080/postscript.js:0
+[   25060ms] [LOG] [Explorer] Fetched data keys: [index, linux, tags/linux, tags/命令, tags/index] @ http://localhost:8080/postscript.js:0
+[   25061ms] [LOG] [Explorer] Entry count: 5 @ http://localhost:8080/postscript.js:0
+[   25061ms] [LOG] [Explorer] Trie root children: 2 @ http://localhost:8080/postscript.js:0
+[   25067ms] [LOG] [Explorer] Render generation is current, rendering tree @ http://localhost:8080/postscript.js:0
+[   25067ms] [LOG] [Explorer] Trie result: success @ http://localhost:8080/postscript.js:0
+[   25067ms] [LOG] [Explorer] Rendering 1 children @ http://localhost:8080/postscript.js:0
+[   25067ms] [LOG] [Explorer] Render complete, final list length: 2 @ http://localhost:8080/postscript.js:0
+[   25538ms] [LOG] [Explorer] Nav event received, generation: 1 @ http://localhost:8080/postscript.js:0
+[   25538ms] [LOG] [Explorer] Found 1 explorers @ http://localhost:8080/postscript.js:0
+[   25539ms] [LOG] [Explorer] Starting tree build... @ http://localhost:8080/postscript.js:0
+[   25539ms] [LOG] [Explorer] Fetching content index... @ http://localhost:8080/postscript.js:0
+[   25557ms] [LOG] [Explorer] Fetched data keys: [index, linux, tags/linux, tags/命令, tags/index] @ http://localhost:8080/postscript.js:0
+[   25558ms] [LOG] [Explorer] Entry count: 5 @ http://localhost:8080/postscript.js:0
+[   25558ms] [LOG] [Explorer] Trie root children: 2 @ http://localhost:8080/postscript.js:0
+[   25565ms] [LOG] [Explorer] Render generation is current, rendering tree @ http://localhost:8080/postscript.js:0
+[   25565ms] [LOG] [Explorer] Trie result: success @ http://localhost:8080/postscript.js:0
+[   25565ms] [LOG] [Explorer] Rendering 1 children @ http://localhost:8080/postscript.js:0
+[   25565ms] [LOG] [Explorer] Render complete, final list length: 2 @ http://localhost:8080/postscript.js:0
+[   26017ms] [LOG] [Explorer] Nav event received, generation: 1 @ http://localhost:8080/postscript.js:0
+[   26017ms] [LOG] [Explorer] Found 1 explorers @ http://localhost:8080/postscript.js:0
+[   26017ms] [LOG] [Explorer] Starting tree build... @ http://localhost:8080/postscript.js:0
+[   26017ms] [LOG] [Explorer] Fetching content index... @ http://localhost:8080/postscript.js:0
+[   26042ms] [LOG] [Explorer] Fetched data keys: [index, linux, tags/linux, tags/命令, tags/index] @ http://localhost:8080/postscript.js:0
+[   26042ms] [LOG] [Explorer] Entry count: 5 @ http://localhost:8080/postscript.js:0
+[   26042ms] [LOG] [Explorer] Trie root children: 2 @ http://localhost:8080/postscript.js:0
+[   26050ms] [LOG] [Explorer] Render generation is current, rendering tree @ http://localhost:8080/postscript.js:0
+[   26050ms] [LOG] [Explorer] Trie result: success @ http://localhost:8080/postscript.js:0
+[   26050ms] [LOG] [Explorer] Rendering 1 children @ http://localhost:8080/postscript.js:0
+[   26050ms] [LOG] [Explorer] Render complete, final list length: 2 @ http://localhost:8080/postscript.js:0
+[   26504ms] [LOG] [Explorer] Nav event received, generation: 1 @ http://localhost:8080/postscript.js:0
+[   26504ms] [LOG] [Explorer] Found 1 explorers @ http://localhost:8080/postscript.js:0
+[   26504ms] [LOG] [Explorer] Starting tree build... @ http://localhost:8080/postscript.js:0
+[   26504ms] [LOG] [Explorer] Fetching content index... @ http://localhost:8080/postscript.js:0
+[   26525ms] [LOG] [Explorer] Fetched data keys: [index, linux, tags/linux, tags/命令, tags/index] @ http://localhost:8080/postscript.js:0
+[   26526ms] [LOG] [Explorer] Entry count: 5 @ http://localhost:8080/postscript.js:0
+[   26526ms] [LOG] [Explorer] Trie root children: 2 @ http://localhost:8080/postscript.js:0
+[   26533ms] [LOG] [Explorer] Render generation is current, rendering tree @ http://localhost:8080/postscript.js:0
+[   26533ms] [LOG] [Explorer] Trie result: success @ http://localhost:8080/postscript.js:0
+[   26533ms] [LOG] [Explorer] Rendering 1 children @ http://localhost:8080/postscript.js:0
+[   26533ms] [LOG] [Explorer] Render complete, final list length: 2 @ http://localhost:8080/postscript.js:0
+[   26801ms] [LOG] [Explorer] Nav event received, generation: 2 @ http://localhost:8080/postscript.js:0
+[   26801ms] [LOG] [Explorer] Found 1 explorers @ http://localhost:8080/postscript.js:0
+[   26801ms] [LOG] [Explorer] Starting tree build... @ http://localhost:8080/postscript.js:0
+[   26801ms] [LOG] [Explorer] Fetching content index... @ http://localhost:8080/postscript.js:0
+[   26803ms] [LOG] [Explorer] Fetched data keys: [index, linux, tags/linux, tags/命令, tags/index] @ http://localhost:8080/postscript.js:0
+[   26803ms] [LOG] [Explorer] Entry count: 5 @ http://localhost:8080/postscript.js:0
+[   26803ms] [LOG] [Explorer] Trie root children: 2 @ http://localhost:8080/postscript.js:0
+[   26808ms] [LOG] [Explorer] Render generation is current, rendering tree @ http://localhost:8080/postscript.js:0
+[   26808ms] [LOG] [Explorer] Trie result: success @ http://localhost:8080/postscript.js:0
+[   26808ms] [LOG] [Explorer] Rendering 1 children @ http://localhost:8080/postscript.js:0
+[   26808ms] [LOG] [Explorer] Render complete, final list length: 2 @ http://localhost:8080/postscript.js:0
+[   27409ms] [LOG] [Explorer] Nav event received, generation: 1 @ http://localhost:8080/postscript.js:0
+[   27409ms] [LOG] [Explorer] Found 1 explorers @ http://localhost:8080/postscript.js:0
+[   27409ms] [LOG] [Explorer] Starting tree build... @ http://localhost:8080/postscript.js:0
+[   27409ms] [LOG] [Explorer] Fetching content index... @ http://localhost:8080/postscript.js:0
+[   27412ms] [LOG] [Explorer] Fetched data keys: [index, linux, tags/linux, tags/命令, tags/index] @ http://localhost:8080/postscript.js:0
+[   27412ms] [LOG] [Explorer] Entry count: 5 @ http://localhost:8080/postscript.js:0
+[   27412ms] [LOG] [Explorer] Trie root children: 2 @ http://localhost:8080/postscript.js:0
+[   27414ms] [LOG] [Explorer] Render generation is current, rendering tree @ http://localhost:8080/postscript.js:0
+[   27414ms] [LOG] [Explorer] Trie result: success @ http://localhost:8080/postscript.js:0
+[   27414ms] [LOG] [Explorer] Rendering 1 children @ http://localhost:8080/postscript.js:0
+[   27414ms] [LOG] [Explorer] Render complete, final list length: 2 @ http://localhost:8080/postscript.js:0
+[   27961ms] [LOG] [Explorer] Nav event received, generation: 1 @ http://localhost:8080/postscript.js:0
+[   27961ms] [LOG] [Explorer] Found 1 explorers @ http://localhost:8080/postscript.js:0
+[   27961ms] [LOG] [Explorer] Starting tree build... @ http://localhost:8080/postscript.js:0
+[   27961ms] [LOG] [Explorer] Fetching content index... @ http://localhost:8080/postscript.js:0
+[   27991ms] [LOG] [Explorer] Fetched data keys: [index, linux, tags/linux, tags/命令, tags/index] @ http://localhost:8080/postscript.js:0
+[   27991ms] [LOG] [Explorer] Entry count: 5 @ http://localhost:8080/postscript.js:0
+[   27992ms] [LOG] [Explorer] Trie root children: 2 @ http://localhost:8080/postscript.js:0
+[   27999ms] [LOG] [Explorer] Render generation is current, rendering tree @ http://localhost:8080/postscript.js:0
+[   27999ms] [LOG] [Explorer] Trie result: success @ http://localhost:8080/postscript.js:0
+[   27999ms] [LOG] [Explorer] Rendering 1 children @ http://localhost:8080/postscript.js:0
+[   27999ms] [LOG] [Explorer] Render complete, final list length: 2 @ http://localhost:8080/postscript.js:0
+[   28500ms] [LOG] [Explorer] Nav event received, generation: 1 @ http://localhost:8080/postscript.js:0
+[   28500ms] [LOG] [Explorer] Found 1 explorers @ http://localhost:8080/postscript.js:0
+[   28500ms] [LOG] [Explorer] Starting tree build... @ http://localhost:8080/postscript.js:0
+[   28500ms] [LOG] [Explorer] Fetching content index... @ http://localhost:8080/postscript.js:0
+[   28527ms] [LOG] [Explorer] Fetched data keys: [index, linux, tags/linux, tags/命令, tags/index] @ http://localhost:8080/postscript.js:0
+[   28528ms] [LOG] [Explorer] Entry count: 5 @ http://localhost:8080/postscript.js:0
+[   28528ms] [LOG] [Explorer] Trie root children: 2 @ http://localhost:8080/postscript.js:0
+[   28535ms] [LOG] [Explorer] Render generation is current, rendering tree @ http://localhost:8080/postscript.js:0
+[   28535ms] [LOG] [Explorer] Trie result: success @ http://localhost:8080/postscript.js:0
+[   28535ms] [LOG] [Explorer] Rendering 1 children @ http://localhost:8080/postscript.js:0
+[   28535ms] [LOG] [Explorer] Render complete, final list length: 2 @ http://localhost:8080/postscript.js:0
+[   29053ms] [LOG] [Explorer] Nav event received, generation: 1 @ http://localhost:8080/postscript.js:0
+[   29053ms] [LOG] [Explorer] Found 1 explorers @ http://localhost:8080/postscript.js:0
+[   29053ms] [LOG] [Explorer] Starting tree build... @ http://localhost:8080/postscript.js:0
+[   29053ms] [LOG] [Explorer] Fetching content index... @ http://localhost:8080/postscript.js:0
+[   29080ms] [LOG] [Explorer] Fetched data keys: [index, linux, tags/linux, tags/命令, tags/index] @ http://localhost:8080/postscript.js:0
+[   29080ms] [LOG] [Explorer] Entry count: 5 @ http://localhost:8080/postscript.js:0
+[   29080ms] [LOG] [Explorer] Trie root children: 2 @ http://localhost:8080/postscript.js:0
+[   29088ms] [LOG] [Explorer] Render generation is current, rendering tree @ http://localhost:8080/postscript.js:0
+[   29088ms] [LOG] [Explorer] Trie result: success @ http://localhost:8080/postscript.js:0
+[   29088ms] [LOG] [Explorer] Rendering 1 children @ http://localhost:8080/postscript.js:0
+[   29088ms] [LOG] [Explorer] Render complete, final list length: 2 @ http://localhost:8080/postscript.js:0
+[   29605ms] [LOG] [Explorer] Nav event received, generation: 1 @ http://localhost:8080/postscript.js:0
+[   29605ms] [LOG] [Explorer] Found 1 explorers @ http://localhost:8080/postscript.js:0
+[   29605ms] [LOG] [Explorer] Starting tree build... @ http://localhost:8080/postscript.js:0
+[   29605ms] [LOG] [Explorer] Fetching content index... @ http://localhost:8080/postscript.js:0
+[   29622ms] [LOG] [Explorer] Fetched data keys: [index, linux, tags/linux, tags/命令, tags/index] @ http://localhost:8080/postscript.js:0
+[   29622ms] [LOG] [Explorer] Entry count: 5 @ http://localhost:8080/postscript.js:0
+[   29622ms] [LOG] [Explorer] Trie root children: 2 @ http://localhost:8080/postscript.js:0
+[   29629ms] [LOG] [Explorer] Render generation is current, rendering tree @ http://localhost:8080/postscript.js:0
+[   29629ms] [LOG] [Explorer] Trie result: success @ http://localhost:8080/postscript.js:0
+[   29629ms] [LOG] [Explorer] Rendering 1 children @ http://localhost:8080/postscript.js:0
+[   29630ms] [LOG] [Explorer] Render complete, final list length: 2 @ http://localhost:8080/postscript.js:0
+[   30182ms] [LOG] [Explorer] Nav event received, generation: 1 @ http://localhost:8080/postscript.js:0
+[   30182ms] [LOG] [Explorer] Found 1 explorers @ http://localhost:8080/postscript.js:0
+[   30182ms] [LOG] [Explorer] Starting tree build... @ http://localhost:8080/postscript.js:0
+[   30182ms] [LOG] [Explorer] Fetching content index... @ http://localhost:8080/postscript.js:0
+[   30212ms] [LOG] [Explorer] Fetched data keys: [index, linux, tags/linux, tags/命令, tags/index] @ http://localhost:8080/postscript.js:0
+[   30212ms] [LOG] [Explorer] Entry count: 5 @ http://localhost:8080/postscript.js:0
+[   30212ms] [LOG] [Explorer] Trie root children: 2 @ http://localhost:8080/postscript.js:0
+[   30220ms] [LOG] [Explorer] Render generation is current, rendering tree @ http://localhost:8080/postscript.js:0
+[   30220ms] [LOG] [Explorer] Trie result: success @ http://localhost:8080/postscript.js:0
+[   30220ms] [LOG] [Explorer] Rendering 1 children @ http://localhost:8080/postscript.js:0
+[   30220ms] [LOG] [Explorer] Render complete, final list length: 2 @ http://localhost:8080/postscript.js:0
+[   30721ms] [LOG] [Explorer] Nav event received, generation: 1 @ http://localhost:8080/postscript.js:0
+[   30721ms] [LOG] [Explorer] Found 1 explorers @ http://localhost:8080/postscript.js:0
+[   30721ms] [LOG] [Explorer] Starting tree build... @ http://localhost:8080/postscript.js:0
+[   30721ms] [LOG] [Explorer] Fetching content index... @ http://localhost:8080/postscript.js:0
+[   30755ms] [LOG] [Explorer] Fetched data keys: [index, linux, tags/linux, tags/命令, tags/index] @ http://localhost:8080/postscript.js:0
+[   30755ms] [LOG] [Explorer] Entry count: 5 @ http://localhost:8080/postscript.js:0
+[   30755ms] [LOG] [Explorer] Trie root children: 2 @ http://localhost:8080/postscript.js:0
+[   30763ms] [LOG] [Explorer] Render generation is current, rendering tree @ http://localhost:8080/postscript.js:0
+[   30763ms] [LOG] [Explorer] Trie result: success @ http://localhost:8080/postscript.js:0
+[   30763ms] [LOG] [Explorer] Rendering 1 children @ http://localhost:8080/postscript.js:0
+[   30764ms] [LOG] [Explorer] Render complete, final list length: 2 @ http://localhost:8080/postscript.js:0
+[   31282ms] [LOG] [Explorer] Nav event received, generation: 1 @ http://localhost:8080/postscript.js:0
+[   31282ms] [LOG] [Explorer] Found 1 explorers @ http://localhost:8080/postscript.js:0
+[   31282ms] [LOG] [Explorer] Starting tree build... @ http://localhost:8080/postscript.js:0
+[   31282ms] [LOG] [Explorer] Fetching content index... @ http://localhost:8080/postscript.js:0
+[   31311ms] [LOG] [Explorer] Fetched data keys: [index, linux, tags/linux, tags/命令, tags/index] @ http://localhost:8080/postscript.js:0
+[   31311ms] [LOG] [Explorer] Entry count: 5 @ http://localhost:8080/postscript.js:0
+[   31312ms] [LOG] [Explorer] Trie root children: 2 @ http://localhost:8080/postscript.js:0
+[   31319ms] [LOG] [Explorer] Render generation is current, rendering tree @ http://localhost:8080/postscript.js:0
+[   31319ms] [LOG] [Explorer] Trie result: success @ http://localhost:8080/postscript.js:0
+[   31319ms] [LOG] [Explorer] Rendering 1 children @ http://localhost:8080/postscript.js:0
+[   31319ms] [LOG] [Explorer] Render complete, final list length: 2 @ http://localhost:8080/postscript.js:0
+[   31845ms] [LOG] [Explorer] Nav event received, generation: 1 @ http://localhost:8080/postscript.js:0
+[   31845ms] [LOG] [Explorer] Found 1 explorers @ http://localhost:8080/postscript.js:0
+[   31845ms] [LOG] [Explorer] Starting tree build... @ http://localhost:8080/postscript.js:0
+[   31846ms] [LOG] [Explorer] Fetching content index... @ http://localhost:8080/postscript.js:0
+[   31873ms] [LOG] [Explorer] Fetched data keys: [index, linux, tags/linux, tags/命令, tags/index] @ http://localhost:8080/postscript.js:0
+[   31873ms] [LOG] [Explorer] Entry count: 5 @ http://localhost:8080/postscript.js:0
+[   31873ms] [LOG] [Explorer] Trie root children: 2 @ http://localhost:8080/postscript.js:0
+[   31881ms] [LOG] [Explorer] Render generation is current, rendering tree @ http://localhost:8080/postscript.js:0
+[   31881ms] [LOG] [Explorer] Trie result: success @ http://localhost:8080/postscript.js:0
+[   31881ms] [LOG] [Explorer] Rendering 1 children @ http://localhost:8080/postscript.js:0
+[   31881ms] [LOG] [Explorer] Render complete, final list length: 2 @ http://localhost:8080/postscript.js:0
+[   32393ms] [LOG] [Explorer] Nav event received, generation: 1 @ http://localhost:8080/postscript.js:0
+[   32394ms] [LOG] [Explorer] Found 1 explorers @ http://localhost:8080/postscript.js:0
+[   32394ms] [LOG] [Explorer] Starting tree build... @ http://localhost:8080/postscript.js:0
+[   32394ms] [LOG] [Explorer] Fetching content index... @ http://localhost:8080/postscript.js:0
+[   32417ms] [LOG] [Explorer] Fetched data keys: [index, linux, tags/linux, tags/命令, tags/index] @ http://localhost:8080/postscript.js:0
+[   32417ms] [LOG] [Explorer] Entry count: 5 @ http://localhost:8080/postscript.js:0
+[   32418ms] [LOG] [Explorer] Trie root children: 2 @ http://localhost:8080/postscript.js:0
+[   32425ms] [LOG] [Explorer] Render generation is current, rendering tree @ http://localhost:8080/postscript.js:0
+[   32425ms] [LOG] [Explorer] Trie result: success @ http://localhost:8080/postscript.js:0
+[   32425ms] [LOG] [Explorer] Rendering 1 children @ http://localhost:8080/postscript.js:0
+[   32426ms] [LOG] [Explorer] Render complete, final list length: 2 @ http://localhost:8080/postscript.js:0
+[   32970ms] [LOG] [Explorer] Nav event received, generation: 1 @ http://localhost:8080/postscript.js:0
+[   32970ms] [LOG] [Explorer] Found 1 explorers @ http://localhost:8080/postscript.js:0
+[   32970ms] [LOG] [Explorer] Starting tree build... @ http://localhost:8080/postscript.js:0
+[   32970ms] [LOG] [Explorer] Fetching content index... @ http://localhost:8080/postscript.js:0
+[   33004ms] [LOG] [Explorer] Fetched data keys: [index, linux, tags/linux, tags/命令, tags/index] @ http://localhost:8080/postscript.js:0
+[   33004ms] [LOG] [Explorer] Entry count: 5 @ http://localhost:8080/postscript.js:0
+[   33004ms] [LOG] [Explorer] Trie root children: 2 @ http://localhost:8080/postscript.js:0
+[   33012ms] [LOG] [Explorer] Render generation is current, rendering tree @ http://localhost:8080/postscript.js:0
+[   33012ms] [LOG] [Explorer] Trie result: success @ http://localhost:8080/postscript.js:0
+[   33012ms] [LOG] [Explorer] Rendering 1 children @ http://localhost:8080/postscript.js:0
+[   33012ms] [LOG] [Explorer] Render complete, final list length: 2 @ http://localhost:8080/postscript.js:0
+[   33537ms] [LOG] [Explorer] Nav event received, generation: 1 @ http://localhost:8080/postscript.js:0
+[   33537ms] [LOG] [Explorer] Found 1 explorers @ http://localhost:8080/postscript.js:0
+[   33537ms] [LOG] [Explorer] Starting tree build... @ http://localhost:8080/postscript.js:0
+[   33537ms] [LOG] [Explorer] Fetching content index... @ http://localhost:8080/postscript.js:0
+[   33561ms] [LOG] [Explorer] Fetched data keys: [index, linux, tags/linux, tags/命令, tags/index] @ http://localhost:8080/postscript.js:0
+[   33561ms] [LOG] [Explorer] Entry count: 5 @ http://localhost:8080/postscript.js:0
+[   33561ms] [LOG] [Explorer] Trie root children: 2 @ http://localhost:8080/postscript.js:0
+[   33569ms] [LOG] [Explorer] Render generation is current, rendering tree @ http://localhost:8080/postscript.js:0
+[   33569ms] [LOG] [Explorer] Trie result: success @ http://localhost:8080/postscript.js:0
+[   33569ms] [LOG] [Explorer] Rendering 1 children @ http://localhost:8080/postscript.js:0
+[   33569ms] [LOG] [Explorer] Render complete, final list length: 2 @ http://localhost:8080/postscript.js:0
+[   34076ms] [LOG] [Explorer] Nav event received, generation: 1 @ http://localhost:8080/postscript.js:0
+[   34076ms] [LOG] [Explorer] Found 1 explorers @ http://localhost:8080/postscript.js:0
+[   34076ms] [LOG] [Explorer] Starting tree build... @ http://localhost:8080/postscript.js:0
+[   34076ms] [LOG] [Explorer] Fetching content index... @ http://localhost:8080/postscript.js:0
+[   34117ms] [LOG] [Explorer] Fetched data keys: [index, linux, tags/linux, tags/命令, tags/index] @ http://localhost:8080/postscript.js:0
+[   34117ms] [LOG] [Explorer] Entry count: 5 @ http://localhost:8080/postscript.js:0
+[   34117ms] [LOG] [Explorer] Trie root children: 2 @ http://localhost:8080/postscript.js:0
+[   34125ms] [LOG] [Explorer] Render generation is current, rendering tree @ http://localhost:8080/postscript.js:0
+[   34125ms] [LOG] [Explorer] Trie result: success @ http://localhost:8080/postscript.js:0
+[   34125ms] [LOG] [Explorer] Rendering 1 children @ http://localhost:8080/postscript.js:0
+[   34125ms] [LOG] [Explorer] Render complete, final list length: 2 @ http://localhost:8080/postscript.js:0
+[   34618ms] [LOG] [Explorer] Nav event received, generation: 1 @ http://localhost:8080/postscript.js:0
+[   34618ms] [LOG] [Explorer] Found 1 explorers @ http://localhost:8080/postscript.js:0
+[   34619ms] [LOG] [Explorer] Starting tree build... @ http://localhost:8080/postscript.js:0
+[   34619ms] [LOG] [Explorer] Fetching content index... @ http://localhost:8080/postscript.js:0
+[   34662ms] [LOG] [Explorer] Fetched data keys: [index, linux, tags/linux, tags/命令, tags/index] @ http://localhost:8080/postscript.js:0
+[   34662ms] [LOG] [Explorer] Entry count: 5 @ http://localhost:8080/postscript.js:0
+[   34662ms] [LOG] [Explorer] Trie root children: 2 @ http://localhost:8080/postscript.js:0
+[   34670ms] [LOG] [Explorer] Render generation is current, rendering tree @ http://localhost:8080/postscript.js:0
+[   34670ms] [LOG] [Explorer] Trie result: success @ http://localhost:8080/postscript.js:0
+[   34670ms] [LOG] [Explorer] Rendering 1 children @ http://localhost:8080/postscript.js:0
+[   34670ms] [LOG] [Explorer] Render complete, final list length: 2 @ http://localhost:8080/postscript.js:0
+[   35167ms] [LOG] [Explorer] Nav event received, generation: 1 @ http://localhost:8080/postscript.js:0
+[   35167ms] [LOG] [Explorer] Found 1 explorers @ http://localhost:8080/postscript.js:0
+[   35167ms] [LOG] [Explorer] Starting tree build... @ http://localhost:8080/postscript.js:0
+[   35167ms] [LOG] [Explorer] Fetching content index... @ http://localhost:8080/postscript.js:0
+[   35199ms] [LOG] [Explorer] Fetched data keys: [index, linux, tags/linux, tags/命令, tags/index] @ http://localhost:8080/postscript.js:0
+[   35199ms] [LOG] [Explorer] Entry count: 5 @ http://localhost:8080/postscript.js:0
+[   35200ms] [LOG] [Explorer] Trie root children: 2 @ http://localhost:8080/postscript.js:0
+[   35206ms] [LOG] [Explorer] Render generation is current, rendering tree @ http://localhost:8080/postscript.js:0
+[   35207ms] [LOG] [Explorer] Trie result: success @ http://localhost:8080/postscript.js:0
+[   35207ms] [LOG] [Explorer] Rendering 1 children @ http://localhost:8080/postscript.js:0
+[   35207ms] [LOG] [Explorer] Render complete, final list length: 2 @ http://localhost:8080/postscript.js:0
+[   35708ms] [LOG] [Explorer] Nav event received, generation: 1 @ http://localhost:8080/postscript.js:0
+[   35708ms] [LOG] [Explorer] Found 1 explorers @ http://localhost:8080/postscript.js:0
+[   35708ms] [LOG] [Explorer] Starting tree build... @ http://localhost:8080/postscript.js:0
+[   35708ms] [LOG] [Explorer] Fetching content index... @ http://localhost:8080/postscript.js:0
+[   35744ms] [LOG] [Explorer] Fetched data keys: [index, linux, tags/linux, tags/命令, tags/index] @ http://localhost:8080/postscript.js:0
+[   35744ms] [LOG] [Explorer] Entry count: 5 @ http://localhost:8080/postscript.js:0
+[   35744ms] [LOG] [Explorer] Trie root children: 2 @ http://localhost:8080/postscript.js:0
+[   35751ms] [LOG] [Explorer] Render generation is current, rendering tree @ http://localhost:8080/postscript.js:0
+[   35751ms] [LOG] [Explorer] Trie result: success @ http://localhost:8080/postscript.js:0
+[   35751ms] [LOG] [Explorer] Rendering 1 children @ http://localhost:8080/postscript.js:0
+[   35751ms] [LOG] [Explorer] Render complete, final list length: 2 @ http://localhost:8080/postscript.js:0
+[   36258ms] [LOG] [Explorer] Nav event received, generation: 1 @ http://localhost:8080/postscript.js:0
+[   36258ms] [LOG] [Explorer] Found 1 explorers @ http://localhost:8080/postscript.js:0
+[   36259ms] [LOG] [Explorer] Starting tree build... @ http://localhost:8080/postscript.js:0
+[   36259ms] [LOG] [Explorer] Fetching content index... @ http://localhost:8080/postscript.js:0
+[   36294ms] [LOG] [Explorer] Fetched data keys: [index, linux, tags/linux, tags/命令, tags/index] @ http://localhost:8080/postscript.js:0
+[   36294ms] [LOG] [Explorer] Entry count: 5 @ http://localhost:8080/postscript.js:0
+[   36294ms] [LOG] [Explorer] Trie root children: 2 @ http://localhost:8080/postscript.js:0
+[   36301ms] [LOG] [Explorer] Render generation is current, rendering tree @ http://localhost:8080/postscript.js:0
+[   36301ms] [LOG] [Explorer] Trie result: success @ http://localhost:8080/postscript.js:0
+[   36301ms] [LOG] [Explorer] Rendering 1 children @ http://localhost:8080/postscript.js:0
+[   36301ms] [LOG] [Explorer] Render complete, final list length: 2 @ http://localhost:8080/postscript.js:0
+[   36813ms] [LOG] [Explorer] Nav event received, generation: 1 @ http://localhost:8080/postscript.js:0
+[   36814ms] [LOG] [Explorer] Found 1 explorers @ http://localhost:8080/postscript.js:0
+[   36814ms] [LOG] [Explorer] Starting tree build... @ http://localhost:8080/postscript.js:0
+[   36814ms] [LOG] [Explorer] Fetching content index... @ http://localhost:8080/postscript.js:0
+[   36835ms] [LOG] [Explorer] Fetched data keys: [index, linux, tags/linux, tags/命令, tags/index] @ http://localhost:8080/postscript.js:0
+[   36835ms] [LOG] [Explorer] Entry count: 5 @ http://localhost:8080/postscript.js:0
+[   36835ms] [LOG] [Explorer] Trie root children: 2 @ http://localhost:8080/postscript.js:0
+[   36842ms] [LOG] [Explorer] Render generation is current, rendering tree @ http://localhost:8080/postscript.js:0
+[   36843ms] [LOG] [Explorer] Trie result: success @ http://localhost:8080/postscript.js:0
+[   36843ms] [LOG] [Explorer] Rendering 1 children @ http://localhost:8080/postscript.js:0
+[   36843ms] [LOG] [Explorer] Render complete, final list length: 2 @ http://localhost:8080/postscript.js:0
+[   37403ms] [LOG] [Explorer] Nav event received, generation: 1 @ http://localhost:8080/postscript.js:0
+[   37404ms] [LOG] [Explorer] Found 1 explorers @ http://localhost:8080/postscript.js:0
+[   37404ms] [LOG] [Explorer] Starting tree build... @ http://localhost:8080/postscript.js:0
+[   37404ms] [LOG] [Explorer] Fetching content index... @ http://localhost:8080/postscript.js:0
+[   37441ms] [LOG] [Explorer] Fetched data keys: [index, linux, tags/linux, tags/命令, tags/index] @ http://localhost:8080/postscript.js:0
+[   37442ms] [LOG] [Explorer] Entry count: 5 @ http://localhost:8080/postscript.js:0
+[   37442ms] [LOG] [Explorer] Trie root children: 2 @ http://localhost:8080/postscript.js:0
+[   37449ms] [LOG] [Explorer] Render generation is current, rendering tree @ http://localhost:8080/postscript.js:0
+[   37449ms] [LOG] [Explorer] Trie result: success @ http://localhost:8080/postscript.js:0
+[   37449ms] [LOG] [Explorer] Rendering 1 children @ http://localhost:8080/postscript.js:0
+[   37449ms] [LOG] [Explorer] Render complete, final list length: 2 @ http://localhost:8080/postscript.js:0
+[   37969ms] [LOG] [Explorer] Nav event received, generation: 1 @ http://localhost:8080/postscript.js:0
+[   37969ms] [LOG] [Explorer] Found 1 explorers @ http://localhost:8080/postscript.js:0
+[   37969ms] [LOG] [Explorer] Starting tree build... @ http://localhost:8080/postscript.js:0
+[   37969ms] [LOG] [Explorer] Fetching content index... @ http://localhost:8080/postscript.js:0
+[   37993ms] [LOG] [Explorer] Fetched data keys: [index, linux, tags/linux, tags/命令, tags/index] @ http://localhost:8080/postscript.js:0
+[   37993ms] [LOG] [Explorer] Entry count: 5 @ http://localhost:8080/postscript.js:0
+[   37993ms] [LOG] [Explorer] Trie root children: 2 @ http://localhost:8080/postscript.js:0
+[   38000ms] [LOG] [Explorer] Render generation is current, rendering tree @ http://localhost:8080/postscript.js:0
+[   38000ms] [LOG] [Explorer] Trie result: success @ http://localhost:8080/postscript.js:0
+[   38000ms] [LOG] [Explorer] Rendering 1 children @ http://localhost:8080/postscript.js:0
+[   38000ms] [LOG] [Explorer] Render complete, final list length: 2 @ http://localhost:8080/postscript.js:0
+[   38523ms] [LOG] [Explorer] Nav event received, generation: 1 @ http://localhost:8080/postscript.js:0
+[   38523ms] [LOG] [Explorer] Found 1 explorers @ http://localhost:8080/postscript.js:0
+[   38523ms] [LOG] [Explorer] Starting tree build... @ http://localhost:8080/postscript.js:0
+[   38523ms] [LOG] [Explorer] Fetching content index... @ http://localhost:8080/postscript.js:0
+[   38557ms] [LOG] [Explorer] Fetched data keys: [index, linux, tags/linux, tags/命令, tags/index] @ http://localhost:8080/postscript.js:0
+[   38557ms] [LOG] [Explorer] Entry count: 5 @ http://localhost:8080/postscript.js:0
+[   38557ms] [LOG] [Explorer] Trie root children: 2 @ http://localhost:8080/postscript.js:0
+[   38565ms] [LOG] [Explorer] Render generation is current, rendering tree @ http://localhost:8080/postscript.js:0
+[   38565ms] [LOG] [Explorer] Trie result: success @ http://localhost:8080/postscript.js:0
+[   38565ms] [LOG] [Explorer] Rendering 1 children @ http://localhost:8080/postscript.js:0
+[   38566ms] [LOG] [Explorer] Render complete, final list length: 2 @ http://localhost:8080/postscript.js:0
+[   39063ms] [LOG] [Explorer] Nav event received, generation: 1 @ http://localhost:8080/postscript.js:0
+[   39063ms] [LOG] [Explorer] Found 1 explorers @ http://localhost:8080/postscript.js:0
+[   39063ms] [LOG] [Explorer] Starting tree build... @ http://localhost:8080/postscript.js:0
+[   39063ms] [LOG] [Explorer] Fetching content index... @ http://localhost:8080/postscript.js:0
+[   39091ms] [LOG] [Explorer] Fetched data keys: [index, linux, tags/linux, tags/命令, tags/index] @ http://localhost:8080/postscript.js:0
+[   39092ms] [LOG] [Explorer] Entry count: 5 @ http://localhost:8080/postscript.js:0
+[   39092ms] [LOG] [Explorer] Trie root children: 2 @ http://localhost:8080/postscript.js:0
+[   39099ms] [LOG] [Explorer] Render generation is current, rendering tree @ http://localhost:8080/postscript.js:0
+[   39099ms] [LOG] [Explorer] Trie result: success @ http://localhost:8080/postscript.js:0
+[   39099ms] [LOG] [Explorer] Rendering 1 children @ http://localhost:8080/postscript.js:0
+[   39100ms] [LOG] [Explorer] Render complete, final list length: 2 @ http://localhost:8080/postscript.js:0
+[   39611ms] [LOG] [Explorer] Nav event received, generation: 1 @ http://localhost:8080/postscript.js:0
+[   39611ms] [LOG] [Explorer] Found 1 explorers @ http://localhost:8080/postscript.js:0
+[   39611ms] [LOG] [Explorer] Starting tree build... @ http://localhost:8080/postscript.js:0
+[   39611ms] [LOG] [Explorer] Fetching content index... @ http://localhost:8080/postscript.js:0
+[   39640ms] [LOG] [Explorer] Fetched data keys: [index, linux, tags/linux, tags/命令, tags/index] @ http://localhost:8080/postscript.js:0
+[   39640ms] [LOG] [Explorer] Entry count: 5 @ http://localhost:8080/postscript.js:0
+[   39640ms] [LOG] [Explorer] Trie root children: 2 @ http://localhost:8080/postscript.js:0
+[   39647ms] [LOG] [Explorer] Render generation is current, rendering tree @ http://localhost:8080/postscript.js:0
+[   39647ms] [LOG] [Explorer] Trie result: success @ http://localhost:8080/postscript.js:0
+[   39647ms] [LOG] [Explorer] Rendering 1 children @ http://localhost:8080/postscript.js:0
+[   39647ms] [LOG] [Explorer] Render complete, final list length: 2 @ http://localhost:8080/postscript.js:0
+[   40151ms] [LOG] [Explorer] Nav event received, generation: 1 @ http://localhost:8080/postscript.js:0
+[   40152ms] [LOG] [Explorer] Found 1 explorers @ http://localhost:8080/postscript.js:0
+[   40152ms] [LOG] [Explorer] Starting tree build... @ http://localhost:8080/postscript.js:0
+[   40152ms] [LOG] [Explorer] Fetching content index... @ http://localhost:8080/postscript.js:0
+[   40177ms] [LOG] [Explorer] Fetched data keys: [index, linux, tags/linux, tags/命令, tags/index] @ http://localhost:8080/postscript.js:0
+[   40178ms] [LOG] [Explorer] Entry count: 5 @ http://localhost:8080/postscript.js:0
+[   40178ms] [LOG] [Explorer] Trie root children: 2 @ http://localhost:8080/postscript.js:0
+[   40185ms] [LOG] [Explorer] Render generation is current, rendering tree @ http://localhost:8080/postscript.js:0
+[   40185ms] [LOG] [Explorer] Trie result: success @ http://localhost:8080/postscript.js:0
+[   40185ms] [LOG] [Explorer] Rendering 1 children @ http://localhost:8080/postscript.js:0
+[   40185ms] [LOG] [Explorer] Render complete, final list length: 2 @ http://localhost:8080/postscript.js:0
+[   40695ms] [LOG] [Explorer] Nav event received, generation: 1 @ http://localhost:8080/postscript.js:0
+[   40695ms] [LOG] [Explorer] Found 1 explorers @ http://localhost:8080/postscript.js:0
+[   40695ms] [LOG] [Explorer] Starting tree build... @ http://localhost:8080/postscript.js:0
+[   40695ms] [LOG] [Explorer] Fetching content index... @ http://localhost:8080/postscript.js:0
+[   40731ms] [LOG] [Explorer] Fetched data keys: [index, linux, tags/linux, tags/命令, tags/index] @ http://localhost:8080/postscript.js:0
+[   40731ms] [LOG] [Explorer] Entry count: 5 @ http://localhost:8080/postscript.js:0
+[   40731ms] [LOG] [Explorer] Trie root children: 2 @ http://localhost:8080/postscript.js:0
+[   40738ms] [LOG] [Explorer] Render generation is current, rendering tree @ http://localhost:8080/postscript.js:0
+[   40738ms] [LOG] [Explorer] Trie result: success @ http://localhost:8080/postscript.js:0
+[   40738ms] [LOG] [Explorer] Rendering 1 children @ http://localhost:8080/postscript.js:0
+[   40739ms] [LOG] [Explorer] Render complete, final list length: 2 @ http://localhost:8080/postscript.js:0
+[   41261ms] [LOG] [Explorer] Nav event received, generation: 1 @ http://localhost:8080/postscript.js:0
+[   41261ms] [LOG] [Explorer] Found 1 explorers @ http://localhost:8080/postscript.js:0
+[   41261ms] [LOG] [Explorer] Starting tree build... @ http://localhost:8080/postscript.js:0
+[   41261ms] [LOG] [Explorer] Fetching content index... @ http://localhost:8080/postscript.js:0
+[   41283ms] [LOG] [Explorer] Fetched data keys: [index, linux, tags/linux, tags/命令, tags/index] @ http://localhost:8080/postscript.js:0
+[   41283ms] [LOG] [Explorer] Entry count: 5 @ http://localhost:8080/postscript.js:0
+[   41283ms] [LOG] [Explorer] Trie root children: 2 @ http://localhost:8080/postscript.js:0
+[   41290ms] [LOG] [Explorer] Render generation is current, rendering tree @ http://localhost:8080/postscript.js:0
+[   41290ms] [LOG] [Explorer] Trie result: success @ http://localhost:8080/postscript.js:0
+[   41290ms] [LOG] [Explorer] Rendering 1 children @ http://localhost:8080/postscript.js:0
+[   41291ms] [LOG] [Explorer] Render complete, final list length: 2 @ http://localhost:8080/postscript.js:0
+[   41817ms] [LOG] [Explorer] Nav event received, generation: 1 @ http://localhost:8080/postscript.js:0
+[   41817ms] [LOG] [Explorer] Found 1 explorers @ http://localhost:8080/postscript.js:0
+[   41817ms] [LOG] [Explorer] Starting tree build... @ http://localhost:8080/postscript.js:0
+[   41817ms] [LOG] [Explorer] Fetching content index... @ http://localhost:8080/postscript.js:0
+[   41849ms] [LOG] [Explorer] Fetched data keys: [index, linux, tags/linux, tags/命令, tags/index] @ http://localhost:8080/postscript.js:0
+[   41849ms] [LOG] [Explorer] Entry count: 5 @ http://localhost:8080/postscript.js:0
+[   41849ms] [LOG] [Explorer] Trie root children: 2 @ http://localhost:8080/postscript.js:0
+[   41857ms] [LOG] [Explorer] Render generation is current, rendering tree @ http://localhost:8080/postscript.js:0
+[   41857ms] [LOG] [Explorer] Trie result: success @ http://localhost:8080/postscript.js:0
+[   41857ms] [LOG] [Explorer] Rendering 1 children @ http://localhost:8080/postscript.js:0
+[   41857ms] [LOG] [Explorer] Render complete, final list length: 2 @ http://localhost:8080/postscript.js:0
+[   42378ms] [LOG] [Explorer] Nav event received, generation: 1 @ http://localhost:8080/postscript.js:0
+[   42378ms] [LOG] [Explorer] Found 1 explorers @ http://localhost:8080/postscript.js:0
+[   42378ms] [LOG] [Explorer] Starting tree build... @ http://localhost:8080/postscript.js:0
+[   42379ms] [LOG] [Explorer] Fetching content index... @ http://localhost:8080/postscript.js:0
+[   42399ms] [LOG] [Explorer] Fetched data keys: [index, linux, tags/linux, tags/命令, tags/index] @ http://localhost:8080/postscript.js:0
+[   42399ms] [LOG] [Explorer] Entry count: 5 @ http://localhost:8080/postscript.js:0
+[   42399ms] [LOG] [Explorer] Trie root children: 2 @ http://localhost:8080/postscript.js:0
+[   42406ms] [LOG] [Explorer] Render generation is current, rendering tree @ http://localhost:8080/postscript.js:0
+[   42406ms] [LOG] [Explorer] Trie result: success @ http://localhost:8080/postscript.js:0
+[   42406ms] [LOG] [Explorer] Rendering 1 children @ http://localhost:8080/postscript.js:0
+[   42407ms] [LOG] [Explorer] Render complete, final list length: 2 @ http://localhost:8080/postscript.js:0
+[   42933ms] [LOG] [Explorer] Nav event received, generation: 1 @ http://localhost:8080/postscript.js:0
+[   42933ms] [LOG] [Explorer] Found 1 explorers @ http://localhost:8080/postscript.js:0
+[   42934ms] [LOG] [Explorer] Starting tree build... @ http://localhost:8080/postscript.js:0
+[   42934ms] [LOG] [Explorer] Fetching content index... @ http://localhost:8080/postscript.js:0
+[   42967ms] [LOG] [Explorer] Fetched data keys: [index, linux, tags/linux, tags/命令, tags/index] @ http://localhost:8080/postscript.js:0
+[   42967ms] [LOG] [Explorer] Entry count: 5 @ http://localhost:8080/postscript.js:0
+[   42967ms] [LOG] [Explorer] Trie root children: 2 @ http://localhost:8080/postscript.js:0
+[   42975ms] [LOG] [Explorer] Render generation is current, rendering tree @ http://localhost:8080/postscript.js:0
+[   42975ms] [LOG] [Explorer] Trie result: success @ http://localhost:8080/postscript.js:0
+[   42975ms] [LOG] [Explorer] Rendering 1 children @ http://localhost:8080/postscript.js:0
+[   42975ms] [LOG] [Explorer] Render complete, final list length: 2 @ http://localhost:8080/postscript.js:0
+[   43491ms] [LOG] [Explorer] Nav event received, generation: 1 @ http://localhost:8080/postscript.js:0
+[   43491ms] [LOG] [Explorer] Found 1 explorers @ http://localhost:8080/postscript.js:0
+[   43491ms] [LOG] [Explorer] Starting tree build... @ http://localhost:8080/postscript.js:0
+[   43491ms] [LOG] [Explorer] Fetching content index... @ http://localhost:8080/postscript.js:0
+[   43517ms] [LOG] [Explorer] Fetched data keys: [index, linux, tags/linux, tags/命令, tags/index] @ http://localhost:8080/postscript.js:0
+[   43517ms] [LOG] [Explorer] Entry count: 5 @ http://localhost:8080/postscript.js:0
+[   43517ms] [LOG] [Explorer] Trie root children: 2 @ http://localhost:8080/postscript.js:0
+[   43524ms] [LOG] [Explorer] Render generation is current, rendering tree @ http://localhost:8080/postscript.js:0
+[   43524ms] [LOG] [Explorer] Trie result: success @ http://localhost:8080/postscript.js:0
+[   43524ms] [LOG] [Explorer] Rendering 1 children @ http://localhost:8080/postscript.js:0
+[   43525ms] [LOG] [Explorer] Render complete, final list length: 2 @ http://localhost:8080/postscript.js:0
+[   44087ms] [LOG] [Explorer] Nav event received, generation: 1 @ http://localhost:8080/postscript.js:0
+[   44087ms] [LOG] [Explorer] Found 1 explorers @ http://localhost:8080/postscript.js:0
+[   44087ms] [LOG] [Explorer] Starting tree build... @ http://localhost:8080/postscript.js:0
+[   44087ms] [LOG] [Explorer] Fetching content index... @ http://localhost:8080/postscript.js:0
+[   44126ms] [LOG] [Explorer] Fetched data keys: [index, linux, tags/linux, tags/命令, tags/index] @ http://localhost:8080/postscript.js:0
+[   44126ms] [LOG] [Explorer] Entry count: 5 @ http://localhost:8080/postscript.js:0
+[   44126ms] [LOG] [Explorer] Trie root children: 2 @ http://localhost:8080/postscript.js:0
+[   44135ms] [LOG] [Explorer] Render generation is current, rendering tree @ http://localhost:8080/postscript.js:0
+[   44135ms] [LOG] [Explorer] Trie result: success @ http://localhost:8080/postscript.js:0
+[   44135ms] [LOG] [Explorer] Rendering 1 children @ http://localhost:8080/postscript.js:0
+[   44135ms] [LOG] [Explorer] Render complete, final list length: 2 @ http://localhost:8080/postscript.js:0
+[   44655ms] [LOG] [Explorer] Nav event received, generation: 1 @ http://localhost:8080/postscript.js:0
+[   44656ms] [LOG] [Explorer] Found 1 explorers @ http://localhost:8080/postscript.js:0
+[   44656ms] [LOG] [Explorer] Starting tree build... @ http://localhost:8080/postscript.js:0
+[   44656ms] [LOG] [Explorer] Fetching content index... @ http://localhost:8080/postscript.js:0
+[   44696ms] [LOG] [Explorer] Fetched data keys: [index, linux, tags/linux, tags/命令, tags/index] @ http://localhost:8080/postscript.js:0
+[   44697ms] [LOG] [Explorer] Entry count: 5 @ http://localhost:8080/postscript.js:0
+[   44697ms] [LOG] [Explorer] Trie root children: 2 @ http://localhost:8080/postscript.js:0
+[   44705ms] [LOG] [Explorer] Render generation is current, rendering tree @ http://localhost:8080/postscript.js:0
+[   44705ms] [LOG] [Explorer] Trie result: success @ http://localhost:8080/postscript.js:0
+[   44705ms] [LOG] [Explorer] Rendering 1 children @ http://localhost:8080/postscript.js:0
+[   44705ms] [LOG] [Explorer] Render complete, final list length: 2 @ http://localhost:8080/postscript.js:0
+[   45201ms] [LOG] [Explorer] Nav event received, generation: 1 @ http://localhost:8080/postscript.js:0
+[   45201ms] [LOG] [Explorer] Found 1 explorers @ http://localhost:8080/postscript.js:0
+[   45201ms] [LOG] [Explorer] Starting tree build... @ http://localhost:8080/postscript.js:0
+[   45201ms] [LOG] [Explorer] Fetching content index... @ http://localhost:8080/postscript.js:0
+[   45240ms] [LOG] [Explorer] Fetched data keys: [index, linux, tags/linux, tags/命令, tags/index] @ http://localhost:8080/postscript.js:0
+[   45240ms] [LOG] [Explorer] Entry count: 5 @ http://localhost:8080/postscript.js:0
+[   45240ms] [LOG] [Explorer] Trie root children: 2 @ http://localhost:8080/postscript.js:0
+[   45247ms] [LOG] [Explorer] Render generation is current, rendering tree @ http://localhost:8080/postscript.js:0
+[   45247ms] [LOG] [Explorer] Trie result: success @ http://localhost:8080/postscript.js:0
+[   45247ms] [LOG] [Explorer] Rendering 1 children @ http://localhost:8080/postscript.js:0
+[   45247ms] [LOG] [Explorer] Render complete, final list length: 2 @ http://localhost:8080/postscript.js:0
+[   45763ms] [LOG] [Explorer] Nav event received, generation: 1 @ http://localhost:8080/postscript.js:0
+[   45764ms] [LOG] [Explorer] Found 1 explorers @ http://localhost:8080/postscript.js:0
+[   45764ms] [LOG] [Explorer] Starting tree build... @ http://localhost:8080/postscript.js:0
+[   45764ms] [LOG] [Explorer] Fetching content index... @ http://localhost:8080/postscript.js:0
+[   45789ms] [LOG] [Explorer] Fetched data keys: [index, linux, tags/linux, tags/命令, tags/index] @ http://localhost:8080/postscript.js:0
+[   45789ms] [LOG] [Explorer] Entry count: 5 @ http://localhost:8080/postscript.js:0
+[   45789ms] [LOG] [Explorer] Trie root children: 2 @ http://localhost:8080/postscript.js:0
+[   45797ms] [LOG] [Explorer] Render generation is current, rendering tree @ http://localhost:8080/postscript.js:0
+[   45797ms] [LOG] [Explorer] Trie result: success @ http://localhost:8080/postscript.js:0
+[   45797ms] [LOG] [Explorer] Rendering 1 children @ http://localhost:8080/postscript.js:0
+[   45797ms] [LOG] [Explorer] Render complete, final list length: 2 @ http://localhost:8080/postscript.js:0
+[   46312ms] [LOG] [Explorer] Nav event received, generation: 1 @ http://localhost:8080/postscript.js:0
+[   46312ms] [LOG] [Explorer] Found 1 explorers @ http://localhost:8080/postscript.js:0
+[   46312ms] [LOG] [Explorer] Starting tree build... @ http://localhost:8080/postscript.js:0
+[   46312ms] [LOG] [Explorer] Fetching content index... @ http://localhost:8080/postscript.js:0
+[   46341ms] [LOG] [Explorer] Fetched data keys: [index, linux, tags/linux, tags/命令, tags/index] @ http://localhost:8080/postscript.js:0
+[   46341ms] [LOG] [Explorer] Entry count: 5 @ http://localhost:8080/postscript.js:0
+[   46341ms] [LOG] [Explorer] Trie root children: 2 @ http://localhost:8080/postscript.js:0
+[   46348ms] [LOG] [Explorer] Render generation is current, rendering tree @ http://localhost:8080/postscript.js:0
+[   46349ms] [LOG] [Explorer] Trie result: success @ http://localhost:8080/postscript.js:0
+[   46349ms] [LOG] [Explorer] Rendering 1 children @ http://localhost:8080/postscript.js:0
+[   46349ms] [LOG] [Explorer] Render complete, final list length: 2 @ http://localhost:8080/postscript.js:0
+[   46885ms] [LOG] [Explorer] Nav event received, generation: 1 @ http://localhost:8080/postscript.js:0
+[   46886ms] [LOG] [Explorer] Found 1 explorers @ http://localhost:8080/postscript.js:0
+[   46886ms] [LOG] [Explorer] Starting tree build... @ http://localhost:8080/postscript.js:0
+[   46886ms] [LOG] [Explorer] Fetching content index... @ http://localhost:8080/postscript.js:0
+[   46908ms] [LOG] [Explorer] Fetched data keys: [index, linux, tags/linux, tags/命令, tags/index] @ http://localhost:8080/postscript.js:0
+[   46908ms] [LOG] [Explorer] Entry count: 5 @ http://localhost:8080/postscript.js:0
+[   46909ms] [LOG] [Explorer] Trie root children: 2 @ http://localhost:8080/postscript.js:0
+[   46916ms] [LOG] [Explorer] Render generation is current, rendering tree @ http://localhost:8080/postscript.js:0
+[   46916ms] [LOG] [Explorer] Trie result: success @ http://localhost:8080/postscript.js:0
+[   46916ms] [LOG] [Explorer] Rendering 1 children @ http://localhost:8080/postscript.js:0
+[   46916ms] [LOG] [Explorer] Render complete, final list length: 2 @ http://localhost:8080/postscript.js:0
+[   47438ms] [LOG] [Explorer] Nav event received, generation: 1 @ http://localhost:8080/postscript.js:0
+[   47439ms] [LOG] [Explorer] Found 1 explorers @ http://localhost:8080/postscript.js:0
+[   47439ms] [LOG] [Explorer] Starting tree build... @ http://localhost:8080/postscript.js:0
+[   47439ms] [LOG] [Explorer] Fetching content index... @ http://localhost:8080/postscript.js:0
+[   47469ms] [LOG] [Explorer] Fetched data keys: [index, linux, tags/linux, tags/命令, tags/index] @ http://localhost:8080/postscript.js:0
+[   47469ms] [LOG] [Explorer] Entry count: 5 @ http://localhost:8080/postscript.js:0
+[   47469ms] [LOG] [Explorer] Trie root children: 2 @ http://localhost:8080/postscript.js:0
+[   47476ms] [LOG] [Explorer] Render generation is current, rendering tree @ http://localhost:8080/postscript.js:0
+[   47476ms] [LOG] [Explorer] Trie result: success @ http://localhost:8080/postscript.js:0
+[   47476ms] [LOG] [Explorer] Rendering 1 children @ http://localhost:8080/postscript.js:0
+[   47476ms] [LOG] [Explorer] Render complete, final list length: 2 @ http://localhost:8080/postscript.js:0
+[   47986ms] [LOG] [Explorer] Nav event received, generation: 1 @ http://localhost:8080/postscript.js:0
+[   47986ms] [LOG] [Explorer] Found 1 explorers @ http://localhost:8080/postscript.js:0
+[   47986ms] [LOG] [Explorer] Starting tree build... @ http://localhost:8080/postscript.js:0
+[   47986ms] [LOG] [Explorer] Fetching content index... @ http://localhost:8080/postscript.js:0
+[   48000ms] [LOG] [Explorer] Fetched data keys: [index, linux, tags/linux, tags/命令, tags/index] @ http://localhost:8080/postscript.js:0
+[   48000ms] [LOG] [Explorer] Entry count: 5 @ http://localhost:8080/postscript.js:0
+[   48000ms] [LOG] [Explorer] Trie root children: 2 @ http://localhost:8080/postscript.js:0
+[   48007ms] [LOG] [Explorer] Render generation is current, rendering tree @ http://localhost:8080/postscript.js:0
+[   48007ms] [LOG] [Explorer] Trie result: success @ http://localhost:8080/postscript.js:0
+[   48007ms] [LOG] [Explorer] Rendering 1 children @ http://localhost:8080/postscript.js:0
+[   48007ms] [LOG] [Explorer] Render complete, final list length: 2 @ http://localhost:8080/postscript.js:0
+[   48534ms] [LOG] [Explorer] Nav event received, generation: 1 @ http://localhost:8080/postscript.js:0
+[   48534ms] [LOG] [Explorer] Found 1 explorers @ http://localhost:8080/postscript.js:0
+[   48534ms] [LOG] [Explorer] Starting tree build... @ http://localhost:8080/postscript.js:0
+[   48534ms] [LOG] [Explorer] Fetching content index... @ http://localhost:8080/postscript.js:0
+[   48549ms] [LOG] [Explorer] Fetched data keys: [index, linux, tags/linux, tags/命令, tags/index] @ http://localhost:8080/postscript.js:0
+[   48549ms] [LOG] [Explorer] Entry count: 5 @ http://localhost:8080/postscript.js:0
+[   48549ms] [LOG] [Explorer] Trie root children: 2 @ http://localhost:8080/postscript.js:0
+[   48555ms] [LOG] [Explorer] Render generation is current, rendering tree @ http://localhost:8080/postscript.js:0
+[   48555ms] [LOG] [Explorer] Trie result: success @ http://localhost:8080/postscript.js:0
+[   48555ms] [LOG] [Explorer] Rendering 1 children @ http://localhost:8080/postscript.js:0
+[   48556ms] [LOG] [Explorer] Render complete, final list length: 2 @ http://localhost:8080/postscript.js:0
+[   49067ms] [LOG] [Explorer] Nav event received, generation: 1 @ http://localhost:8080/postscript.js:0
+[   49068ms] [LOG] [Explorer] Found 1 explorers @ http://localhost:8080/postscript.js:0
+[   49068ms] [LOG] [Explorer] Starting tree build... @ http://localhost:8080/postscript.js:0
+[   49068ms] [LOG] [Explorer] Fetching content index... @ http://localhost:8080/postscript.js:0
+[   49090ms] [LOG] [Explorer] Fetched data keys: [index, linux, tags/linux, tags/命令, tags/index] @ http://localhost:8080/postscript.js:0
+[   49091ms] [LOG] [Explorer] Entry count: 5 @ http://localhost:8080/postscript.js:0
+[   49091ms] [LOG] [Explorer] Trie root children: 2 @ http://localhost:8080/postscript.js:0
+[   49098ms] [LOG] [Explorer] Render generation is current, rendering tree @ http://localhost:8080/postscript.js:0
+[   49098ms] [LOG] [Explorer] Trie result: success @ http://localhost:8080/postscript.js:0
+[   49098ms] [LOG] [Explorer] Rendering 1 children @ http://localhost:8080/postscript.js:0
+[   49098ms] [LOG] [Explorer] Render complete, final list length: 2 @ http://localhost:8080/postscript.js:0
+[   49618ms] [LOG] [Explorer] Nav event received, generation: 1 @ http://localhost:8080/postscript.js:0
+[   49618ms] [LOG] [Explorer] Found 1 explorers @ http://localhost:8080/postscript.js:0
+[   49618ms] [LOG] [Explorer] Starting tree build... @ http://localhost:8080/postscript.js:0
+[   49618ms] [LOG] [Explorer] Fetching content index... @ http://localhost:8080/postscript.js:0
+[   49649ms] [LOG] [Explorer] Fetched data keys: [index, linux, tags/linux, tags/命令, tags/index] @ http://localhost:8080/postscript.js:0
+[   49649ms] [LOG] [Explorer] Entry count: 5 @ http://localhost:8080/postscript.js:0
+[   49649ms] [LOG] [Explorer] Trie root children: 2 @ http://localhost:8080/postscript.js:0
+[   49657ms] [LOG] [Explorer] Render generation is current, rendering tree @ http://localhost:8080/postscript.js:0
+[   49657ms] [LOG] [Explorer] Trie result: success @ http://localhost:8080/postscript.js:0
+[   49657ms] [LOG] [Explorer] Rendering 1 children @ http://localhost:8080/postscript.js:0
+[   49657ms] [LOG] [Explorer] Render complete, final list length: 2 @ http://localhost:8080/postscript.js:0
+[   50184ms] [LOG] [Explorer] Nav event received, generation: 1 @ http://localhost:8080/postscript.js:0
+[   50184ms] [LOG] [Explorer] Found 1 explorers @ http://localhost:8080/postscript.js:0
+[   50184ms] [LOG] [Explorer] Starting tree build... @ http://localhost:8080/postscript.js:0
+[   50184ms] [LOG] [Explorer] Fetching content index... @ http://localhost:8080/postscript.js:0
+[   50186ms] [LOG] [Explorer] Fetched data keys: [index, linux, tags/linux, tags/命令, tags/index] @ http://localhost:8080/postscript.js:0
+[   50186ms] [LOG] [Explorer] Entry count: 5 @ http://localhost:8080/postscript.js:0
+[   50186ms] [LOG] [Explorer] Trie root children: 2 @ http://localhost:8080/postscript.js:0
+[   50190ms] [LOG] [Explorer] Render generation is current, rendering tree @ http://localhost:8080/postscript.js:0
+[   50190ms] [LOG] [Explorer] Trie result: success @ http://localhost:8080/postscript.js:0
+[   50190ms] [LOG] [Explorer] Rendering 1 children @ http://localhost:8080/postscript.js:0
+[   50190ms] [LOG] [Explorer] Render complete, final list length: 2 @ http://localhost:8080/postscript.js:0
+[   50729ms] [LOG] [Explorer] Nav event received, generation: 1 @ http://localhost:8080/postscript.js:0
+[   50729ms] [LOG] [Explorer] Found 1 explorers @ http://localhost:8080/postscript.js:0
+[   50729ms] [LOG] [Explorer] Starting tree build... @ http://localhost:8080/postscript.js:0
+[   50729ms] [LOG] [Explorer] Fetching content index... @ http://localhost:8080/postscript.js:0
+[   50766ms] [LOG] [Explorer] Fetched data keys: [index, linux, tags/linux, tags/命令, tags/index] @ http://localhost:8080/postscript.js:0
+[   50766ms] [LOG] [Explorer] Entry count: 5 @ http://localhost:8080/postscript.js:0
+[   50766ms] [LOG] [Explorer] Trie root children: 2 @ http://localhost:8080/postscript.js:0
+[   50773ms] [LOG] [Explorer] Render generation is current, rendering tree @ http://localhost:8080/postscript.js:0
+[   50773ms] [LOG] [Explorer] Trie result: success @ http://localhost:8080/postscript.js:0
+[   50773ms] [LOG] [Explorer] Rendering 1 children @ http://localhost:8080/postscript.js:0
+[   50774ms] [LOG] [Explorer] Render complete, final list length: 2 @ http://localhost:8080/postscript.js:0
+[   51290ms] [LOG] [Explorer] Nav event received, generation: 1 @ http://localhost:8080/postscript.js:0
+[   51290ms] [LOG] [Explorer] Found 1 explorers @ http://localhost:8080/postscript.js:0
+[   51290ms] [LOG] [Explorer] Starting tree build... @ http://localhost:8080/postscript.js:0
+[   51290ms] [LOG] [Explorer] Fetching content index... @ http://localhost:8080/postscript.js:0
+[   51321ms] [LOG] [Explorer] Fetched data keys: [index, linux, tags/linux, tags/命令, tags/index] @ http://localhost:8080/postscript.js:0
+[   51321ms] [LOG] [Explorer] Entry count: 5 @ http://localhost:8080/postscript.js:0
+[   51321ms] [LOG] [Explorer] Trie root children: 2 @ http://localhost:8080/postscript.js:0
+[   51328ms] [LOG] [Explorer] Render generation is current, rendering tree @ http://localhost:8080/postscript.js:0
+[   51328ms] [LOG] [Explorer] Trie result: success @ http://localhost:8080/postscript.js:0
+[   51328ms] [LOG] [Explorer] Rendering 1 children @ http://localhost:8080/postscript.js:0
+[   51329ms] [LOG] [Explorer] Render complete, final list length: 2 @ http://localhost:8080/postscript.js:0
+[   51843ms] [LOG] [Explorer] Nav event received, generation: 1 @ http://localhost:8080/postscript.js:0
+[   51843ms] [LOG] [Explorer] Found 1 explorers @ http://localhost:8080/postscript.js:0
+[   51843ms] [LOG] [Explorer] Starting tree build... @ http://localhost:8080/postscript.js:0
+[   51843ms] [LOG] [Explorer] Fetching content index... @ http://localhost:8080/postscript.js:0
+[   51872ms] [LOG] [Explorer] Fetched data keys: [index, linux, tags/linux, tags/命令, tags/index] @ http://localhost:8080/postscript.js:0
+[   51872ms] [LOG] [Explorer] Entry count: 5 @ http://localhost:8080/postscript.js:0
+[   51872ms] [LOG] [Explorer] Trie root children: 2 @ http://localhost:8080/postscript.js:0
+[   51879ms] [LOG] [Explorer] Render generation is current, rendering tree @ http://localhost:8080/postscript.js:0
+[   51879ms] [LOG] [Explorer] Trie result: success @ http://localhost:8080/postscript.js:0
+[   51880ms] [LOG] [Explorer] Rendering 1 children @ http://localhost:8080/postscript.js:0
+[   51880ms] [LOG] [Explorer] Render complete, final list length: 2 @ http://localhost:8080/postscript.js:0
+[   52402ms] [LOG] [Explorer] Nav event received, generation: 1 @ http://localhost:8080/postscript.js:0
+[   52402ms] [LOG] [Explorer] Found 1 explorers @ http://localhost:8080/postscript.js:0
+[   52402ms] [LOG] [Explorer] Starting tree build... @ http://localhost:8080/postscript.js:0
+[   52402ms] [LOG] [Explorer] Fetching content index... @ http://localhost:8080/postscript.js:0
+[   52405ms] [LOG] [Explorer] Fetched data keys: [index, linux, tags/linux, tags/命令, tags/index] @ http://localhost:8080/postscript.js:0
+[   52405ms] [LOG] [Explorer] Entry count: 5 @ http://localhost:8080/postscript.js:0
+[   52405ms] [LOG] [Explorer] Trie root children: 2 @ http://localhost:8080/postscript.js:0
+[   52407ms] [LOG] [Explorer] Render generation is current, rendering tree @ http://localhost:8080/postscript.js:0
+[   52407ms] [LOG] [Explorer] Trie result: success @ http://localhost:8080/postscript.js:0
+[   52407ms] [LOG] [Explorer] Rendering 1 children @ http://localhost:8080/postscript.js:0
+[   52407ms] [LOG] [Explorer] Render complete, final list length: 2 @ http://localhost:8080/postscript.js:0
+[   52951ms] [LOG] [Explorer] Nav event received, generation: 1 @ http://localhost:8080/postscript.js:0
+[   52951ms] [LOG] [Explorer] Found 1 explorers @ http://localhost:8080/postscript.js:0
+[   52951ms] [LOG] [Explorer] Starting tree build... @ http://localhost:8080/postscript.js:0
+[   52951ms] [LOG] [Explorer] Fetching content index... @ http://localhost:8080/postscript.js:0
+[   52979ms] [LOG] [Explorer] Fetched data keys: [index, linux, tags/linux, tags/命令, tags/index] @ http://localhost:8080/postscript.js:0
+[   52979ms] [LOG] [Explorer] Entry count: 5 @ http://localhost:8080/postscript.js:0
+[   52979ms] [LOG] [Explorer] Trie root children: 2 @ http://localhost:8080/postscript.js:0
+[   52986ms] [LOG] [Explorer] Render generation is current, rendering tree @ http://localhost:8080/postscript.js:0
+[   52986ms] [LOG] [Explorer] Trie result: success @ http://localhost:8080/postscript.js:0
+[   52986ms] [LOG] [Explorer] Rendering 1 children @ http://localhost:8080/postscript.js:0
+[   52986ms] [LOG] [Explorer] Render complete, final list length: 2 @ http://localhost:8080/postscript.js:0
+[   53524ms] [LOG] [Explorer] Nav event received, generation: 1 @ http://localhost:8080/postscript.js:0
+[   53524ms] [LOG] [Explorer] Found 1 explorers @ http://localhost:8080/postscript.js:0
+[   53524ms] [LOG] [Explorer] Starting tree build... @ http://localhost:8080/postscript.js:0
+[   53524ms] [LOG] [Explorer] Fetching content index... @ http://localhost:8080/postscript.js:0
+[   53554ms] [LOG] [Explorer] Fetched data keys: [index, linux, tags/linux, tags/命令, tags/index] @ http://localhost:8080/postscript.js:0
+[   53555ms] [LOG] [Explorer] Entry count: 5 @ http://localhost:8080/postscript.js:0
+[   53555ms] [LOG] [Explorer] Trie root children: 2 @ http://localhost:8080/postscript.js:0
+[   53562ms] [LOG] [Explorer] Render generation is current, rendering tree @ http://localhost:8080/postscript.js:0
+[   53562ms] [LOG] [Explorer] Trie result: success @ http://localhost:8080/postscript.js:0
+[   53562ms] [LOG] [Explorer] Rendering 1 children @ http://localhost:8080/postscript.js:0
+[   53563ms] [LOG] [Explorer] Render complete, final list length: 2 @ http://localhost:8080/postscript.js:0
+[   54067ms] [LOG] [Explorer] Nav event received, generation: 1 @ http://localhost:8080/postscript.js:0
+[   54067ms] [LOG] [Explorer] Found 1 explorers @ http://localhost:8080/postscript.js:0
+[   54067ms] [LOG] [Explorer] Starting tree build... @ http://localhost:8080/postscript.js:0
+[   54067ms] [LOG] [Explorer] Fetching content index... @ http://localhost:8080/postscript.js:0
+[   54099ms] [LOG] [Explorer] Fetched data keys: [index, linux, tags/linux, tags/命令, tags/index] @ http://localhost:8080/postscript.js:0
+[   54099ms] [LOG] [Explorer] Entry count: 5 @ http://localhost:8080/postscript.js:0
+[   54099ms] [LOG] [Explorer] Trie root children: 2 @ http://localhost:8080/postscript.js:0
+[   54106ms] [LOG] [Explorer] Render generation is current, rendering tree @ http://localhost:8080/postscript.js:0
+[   54107ms] [LOG] [Explorer] Trie result: success @ http://localhost:8080/postscript.js:0
+[   54107ms] [LOG] [Explorer] Rendering 1 children @ http://localhost:8080/postscript.js:0
+[   54107ms] [LOG] [Explorer] Render complete, final list length: 2 @ http://localhost:8080/postscript.js:0
+[   54624ms] [LOG] [Explorer] Nav event received, generation: 1 @ http://localhost:8080/postscript.js:0
+[   54624ms] [LOG] [Explorer] Found 1 explorers @ http://localhost:8080/postscript.js:0
+[   54624ms] [LOG] [Explorer] Starting tree build... @ http://localhost:8080/postscript.js:0
+[   54624ms] [LOG] [Explorer] Fetching content index... @ http://localhost:8080/postscript.js:0
+[   54650ms] [LOG] [Explorer] Fetched data keys: [index, linux, tags/linux, tags/命令, tags/index] @ http://localhost:8080/postscript.js:0
+[   54650ms] [LOG] [Explorer] Entry count: 5 @ http://localhost:8080/postscript.js:0
+[   54650ms] [LOG] [Explorer] Trie root children: 2 @ http://localhost:8080/postscript.js:0
+[   54658ms] [LOG] [Explorer] Render generation is current, rendering tree @ http://localhost:8080/postscript.js:0
+[   54658ms] [LOG] [Explorer] Trie result: success @ http://localhost:8080/postscript.js:0
+[   54658ms] [LOG] [Explorer] Rendering 1 children @ http://localhost:8080/postscript.js:0
+[   54658ms] [LOG] [Explorer] Render complete, final list length: 2 @ http://localhost:8080/postscript.js:0
+[   55163ms] [LOG] [Explorer] Nav event received, generation: 1 @ http://localhost:8080/postscript.js:0
+[   55163ms] [LOG] [Explorer] Found 1 explorers @ http://localhost:8080/postscript.js:0
+[   55164ms] [LOG] [Explorer] Starting tree build... @ http://localhost:8080/postscript.js:0
+[   55164ms] [LOG] [Explorer] Fetching content index... @ http://localhost:8080/postscript.js:0
+[   55190ms] [LOG] [Explorer] Fetched data keys: [index, linux, tags/linux, tags/命令, tags/index] @ http://localhost:8080/postscript.js:0
+[   55190ms] [LOG] [Explorer] Entry count: 5 @ http://localhost:8080/postscript.js:0
+[   55190ms] [LOG] [Explorer] Trie root children: 2 @ http://localhost:8080/postscript.js:0
+[   55197ms] [LOG] [Explorer] Render generation is current, rendering tree @ http://localhost:8080/postscript.js:0
+[   55197ms] [LOG] [Explorer] Trie result: success @ http://localhost:8080/postscript.js:0
+[   55197ms] [LOG] [Explorer] Rendering 1 children @ http://localhost:8080/postscript.js:0
+[   55197ms] [LOG] [Explorer] Render complete, final list length: 2 @ http://localhost:8080/postscript.js:0
+[   55713ms] [LOG] [Explorer] Nav event received, generation: 1 @ http://localhost:8080/postscript.js:0
+[   55713ms] [LOG] [Explorer] Found 1 explorers @ http://localhost:8080/postscript.js:0
+[   55714ms] [LOG] [Explorer] Starting tree build... @ http://localhost:8080/postscript.js:0
+[   55714ms] [LOG] [Explorer] Fetching content index... @ http://localhost:8080/postscript.js:0
+[   55737ms] [LOG] [Explorer] Fetched data keys: [index, linux, tags/linux, tags/命令, tags/index] @ http://localhost:8080/postscript.js:0
+[   55737ms] [LOG] [Explorer] Entry count: 5 @ http://localhost:8080/postscript.js:0
+[   55737ms] [LOG] [Explorer] Trie root children: 2 @ http://localhost:8080/postscript.js:0
+[   55744ms] [LOG] [Explorer] Render generation is current, rendering tree @ http://localhost:8080/postscript.js:0
+[   55744ms] [LOG] [Explorer] Trie result: success @ http://localhost:8080/postscript.js:0
+[   55744ms] [LOG] [Explorer] Rendering 1 children @ http://localhost:8080/postscript.js:0
+[   55744ms] [LOG] [Explorer] Render complete, final list length: 2 @ http://localhost:8080/postscript.js:0
+[   56267ms] [LOG] [Explorer] Nav event received, generation: 1 @ http://localhost:8080/postscript.js:0
+[   56268ms] [LOG] [Explorer] Found 1 explorers @ http://localhost:8080/postscript.js:0
+[   56268ms] [LOG] [Explorer] Starting tree build... @ http://localhost:8080/postscript.js:0
+[   56268ms] [LOG] [Explorer] Fetching content index... @ http://localhost:8080/postscript.js:0
+[   56295ms] [LOG] [Explorer] Fetched data keys: [index, linux, tags/linux, tags/命令, tags/index] @ http://localhost:8080/postscript.js:0
+[   56295ms] [LOG] [Explorer] Entry count: 5 @ http://localhost:8080/postscript.js:0
+[   56295ms] [LOG] [Explorer] Trie root children: 2 @ http://localhost:8080/postscript.js:0
+[   56302ms] [LOG] [Explorer] Render generation is current, rendering tree @ http://localhost:8080/postscript.js:0
+[   56302ms] [LOG] [Explorer] Trie result: success @ http://localhost:8080/postscript.js:0
+[   56303ms] [LOG] [Explorer] Rendering 1 children @ http://localhost:8080/postscript.js:0
+[   56303ms] [LOG] [Explorer] Render complete, final list length: 2 @ http://localhost:8080/postscript.js:0
+[   56830ms] [LOG] [Explorer] Nav event received, generation: 1 @ http://localhost:8080/postscript.js:0
+[   56830ms] [LOG] [Explorer] Found 1 explorers @ http://localhost:8080/postscript.js:0
+[   56830ms] [LOG] [Explorer] Starting tree build... @ http://localhost:8080/postscript.js:0
+[   56830ms] [LOG] [Explorer] Fetching content index... @ http://localhost:8080/postscript.js:0
+[   56850ms] [LOG] [Explorer] Fetched data keys: [index, linux, tags/linux, tags/命令, tags/index] @ http://localhost:8080/postscript.js:0
+[   56850ms] [LOG] [Explorer] Entry count: 5 @ http://localhost:8080/postscript.js:0
+[   56850ms] [LOG] [Explorer] Trie root children: 2 @ http://localhost:8080/postscript.js:0
+[   56858ms] [LOG] [Explorer] Render generation is current, rendering tree @ http://localhost:8080/postscript.js:0
+[   56858ms] [LOG] [Explorer] Trie result: success @ http://localhost:8080/postscript.js:0
+[   56858ms] [LOG] [Explorer] Rendering 1 children @ http://localhost:8080/postscript.js:0
+[   56858ms] [LOG] [Explorer] Render complete, final list length: 2 @ http://localhost:8080/postscript.js:0
+[   57378ms] [LOG] [Explorer] Nav event received, generation: 1 @ http://localhost:8080/postscript.js:0
+[   57378ms] [LOG] [Explorer] Found 1 explorers @ http://localhost:8080/postscript.js:0
+[   57378ms] [LOG] [Explorer] Starting tree build... @ http://localhost:8080/postscript.js:0
+[   57378ms] [LOG] [Explorer] Fetching content index... @ http://localhost:8080/postscript.js:0
+[   57402ms] [LOG] [Explorer] Fetched data keys: [index, linux, tags/linux, tags/命令, tags/index] @ http://localhost:8080/postscript.js:0
+[   57402ms] [LOG] [Explorer] Entry count: 5 @ http://localhost:8080/postscript.js:0
+[   57402ms] [LOG] [Explorer] Trie root children: 2 @ http://localhost:8080/postscript.js:0
+[   57409ms] [LOG] [Explorer] Render generation is current, rendering tree @ http://localhost:8080/postscript.js:0
+[   57409ms] [LOG] [Explorer] Trie result: success @ http://localhost:8080/postscript.js:0
+[   57409ms] [LOG] [Explorer] Rendering 1 children @ http://localhost:8080/postscript.js:0
+[   57410ms] [LOG] [Explorer] Render complete, final list length: 2 @ http://localhost:8080/postscript.js:0
+[   57959ms] [LOG] [Explorer] Nav event received, generation: 1 @ http://localhost:8080/postscript.js:0
+[   57960ms] [LOG] [Explorer] Found 1 explorers @ http://localhost:8080/postscript.js:0
+[   57960ms] [LOG] [Explorer] Starting tree build... @ http://localhost:8080/postscript.js:0
+[   57960ms] [LOG] [Explorer] Fetching content index... @ http://localhost:8080/postscript.js:0
+[   57961ms] [LOG] [Explorer] Fetched data keys: [index, linux, tags/linux, tags/命令, tags/index] @ http://localhost:8080/postscript.js:0
+[   57961ms] [LOG] [Explorer] Entry count: 5 @ http://localhost:8080/postscript.js:0
+[   57961ms] [LOG] [Explorer] Trie root children: 2 @ http://localhost:8080/postscript.js:0
+[   57964ms] [LOG] [Explorer] Render generation is current, rendering tree @ http://localhost:8080/postscript.js:0
+[   57964ms] [LOG] [Explorer] Trie result: success @ http://localhost:8080/postscript.js:0
+[   57964ms] [LOG] [Explorer] Rendering 1 children @ http://localhost:8080/postscript.js:0
+[   57964ms] [LOG] [Explorer] Render complete, final list length: 2 @ http://localhost:8080/postscript.js:0
+[   58502ms] [LOG] [Explorer] Nav event received, generation: 1 @ http://localhost:8080/postscript.js:0
+[   58502ms] [LOG] [Explorer] Found 1 explorers @ http://localhost:8080/postscript.js:0
+[   58502ms] [LOG] [Explorer] Starting tree build... @ http://localhost:8080/postscript.js:0
+[   58502ms] [LOG] [Explorer] Fetching content index... @ http://localhost:8080/postscript.js:0
+[   58524ms] [LOG] [Explorer] Fetched data keys: [index, linux, tags/linux, tags/命令, tags/index] @ http://localhost:8080/postscript.js:0
+[   58524ms] [LOG] [Explorer] Entry count: 5 @ http://localhost:8080/postscript.js:0
+[   58524ms] [LOG] [Explorer] Trie root children: 2 @ http://localhost:8080/postscript.js:0
+[   58531ms] [LOG] [Explorer] Render generation is current, rendering tree @ http://localhost:8080/postscript.js:0
+[   58532ms] [LOG] [Explorer] Trie result: success @ http://localhost:8080/postscript.js:0
+[   58532ms] [LOG] [Explorer] Rendering 1 children @ http://localhost:8080/postscript.js:0
+[   58532ms] [LOG] [Explorer] Render complete, final list length: 2 @ http://localhost:8080/postscript.js:0
+[   59048ms] [LOG] [Explorer] Nav event received, generation: 1 @ http://localhost:8080/postscript.js:0
+[   59048ms] [LOG] [Explorer] Found 1 explorers @ http://localhost:8080/postscript.js:0
+[   59048ms] [LOG] [Explorer] Starting tree build... @ http://localhost:8080/postscript.js:0
+[   59048ms] [LOG] [Explorer] Fetching content index... @ http://localhost:8080/postscript.js:0
+[   59080ms] [LOG] [Explorer] Fetched data keys: [index, linux, tags/linux, tags/命令, tags/index] @ http://localhost:8080/postscript.js:0
+[   59080ms] [LOG] [Explorer] Entry count: 5 @ http://localhost:8080/postscript.js:0
+[   59080ms] [LOG] [Explorer] Trie root children: 2 @ http://localhost:8080/postscript.js:0
+[   59087ms] [LOG] [Explorer] Render generation is current, rendering tree @ http://localhost:8080/postscript.js:0
+[   59087ms] [LOG] [Explorer] Trie result: success @ http://localhost:8080/postscript.js:0
+[   59087ms] [LOG] [Explorer] Rendering 1 children @ http://localhost:8080/postscript.js:0
+[   59087ms] [LOG] [Explorer] Render complete, final list length: 2 @ http://localhost:8080/postscript.js:0
+[   59594ms] [LOG] [Explorer] Nav event received, generation: 1 @ http://localhost:8080/postscript.js:0
+[   59595ms] [LOG] [Explorer] Found 1 explorers @ http://localhost:8080/postscript.js:0
+[   59595ms] [LOG] [Explorer] Starting tree build... @ http://localhost:8080/postscript.js:0
+[   59595ms] [LOG] [Explorer] Fetching content index... @ http://localhost:8080/postscript.js:0
+[   59621ms] [LOG] [Explorer] Fetched data keys: [index, linux, tags/linux, tags/命令, tags/index] @ http://localhost:8080/postscript.js:0
+[   59621ms] [LOG] [Explorer] Entry count: 5 @ http://localhost:8080/postscript.js:0
+[   59621ms] [LOG] [Explorer] Trie root children: 2 @ http://localhost:8080/postscript.js:0
+[   59629ms] [LOG] [Explorer] Render generation is current, rendering tree @ http://localhost:8080/postscript.js:0
+[   59629ms] [LOG] [Explorer] Trie result: success @ http://localhost:8080/postscript.js:0
+[   59629ms] [LOG] [Explorer] Rendering 1 children @ http://localhost:8080/postscript.js:0
+[   59630ms] [LOG] [Explorer] Render complete, final list length: 2 @ http://localhost:8080/postscript.js:0
+[   60121ms] [LOG] [Explorer] Nav event received, generation: 1 @ http://localhost:8080/postscript.js:0
+[   60121ms] [LOG] [Explorer] Found 1 explorers @ http://localhost:8080/postscript.js:0
+[   60121ms] [LOG] [Explorer] Starting tree build... @ http://localhost:8080/postscript.js:0
+[   60121ms] [LOG] [Explorer] Fetching content index... @ http://localhost:8080/postscript.js:0
+[   60156ms] [LOG] [Explorer] Fetched data keys: [index, linux, tags/linux, tags/命令, tags/index] @ http://localhost:8080/postscript.js:0
+[   60156ms] [LOG] [Explorer] Entry count: 5 @ http://localhost:8080/postscript.js:0
+[   60156ms] [LOG] [Explorer] Trie root children: 2 @ http://localhost:8080/postscript.js:0
+[   60164ms] [LOG] [Explorer] Render generation is current, rendering tree @ http://localhost:8080/postscript.js:0
+[   60164ms] [LOG] [Explorer] Trie result: success @ http://localhost:8080/postscript.js:0
+[   60164ms] [LOG] [Explorer] Rendering 1 children @ http://localhost:8080/postscript.js:0
+[   60164ms] [LOG] [Explorer] Render complete, final list length: 2 @ http://localhost:8080/postscript.js:0
+[   60661ms] [LOG] [Explorer] Nav event received, generation: 1 @ http://localhost:8080/postscript.js:0
+[   60662ms] [LOG] [Explorer] Found 1 explorers @ http://localhost:8080/postscript.js:0
+[   60662ms] [LOG] [Explorer] Starting tree build... @ http://localhost:8080/postscript.js:0
+[   60662ms] [LOG] [Explorer] Fetching content index... @ http://localhost:8080/postscript.js:0
+[   60693ms] [LOG] [Explorer] Fetched data keys: [index, linux, tags/linux, tags/命令, tags/index] @ http://localhost:8080/postscript.js:0
+[   60694ms] [LOG] [Explorer] Entry count: 5 @ http://localhost:8080/postscript.js:0
+[   60694ms] [LOG] [Explorer] Trie root children: 2 @ http://localhost:8080/postscript.js:0
+[   60700ms] [LOG] [Explorer] Render generation is current, rendering tree @ http://localhost:8080/postscript.js:0
+[   60700ms] [LOG] [Explorer] Trie result: success @ http://localhost:8080/postscript.js:0
+[   60700ms] [LOG] [Explorer] Rendering 1 children @ http://localhost:8080/postscript.js:0
+[   60700ms] [LOG] [Explorer] Render complete, final list length: 2 @ http://localhost:8080/postscript.js:0
+[   61203ms] [LOG] [Explorer] Nav event received, generation: 1 @ http://localhost:8080/postscript.js:0
+[   61203ms] [LOG] [Explorer] Found 1 explorers @ http://localhost:8080/postscript.js:0
+[   61203ms] [LOG] [Explorer] Starting tree build... @ http://localhost:8080/postscript.js:0
+[   61203ms] [LOG] [Explorer] Fetching content index... @ http://localhost:8080/postscript.js:0
+[   61234ms] [LOG] [Explorer] Fetched data keys: [index, linux, tags/linux, tags/命令, tags/index] @ http://localhost:8080/postscript.js:0
+[   61234ms] [LOG] [Explorer] Entry count: 5 @ http://localhost:8080/postscript.js:0
+[   61234ms] [LOG] [Explorer] Trie root children: 2 @ http://localhost:8080/postscript.js:0
+[   61243ms] [LOG] [Explorer] Render generation is current, rendering tree @ http://localhost:8080/postscript.js:0
+[   61243ms] [LOG] [Explorer] Trie result: success @ http://localhost:8080/postscript.js:0
+[   61243ms] [LOG] [Explorer] Rendering 1 children @ http://localhost:8080/postscript.js:0
+[   61243ms] [LOG] [Explorer] Render complete, final list length: 2 @ http://localhost:8080/postscript.js:0
+[   61753ms] [LOG] [Explorer] Nav event received, generation: 1 @ http://localhost:8080/postscript.js:0
+[   61753ms] [LOG] [Explorer] Found 1 explorers @ http://localhost:8080/postscript.js:0
+[   61753ms] [LOG] [Explorer] Starting tree build... @ http://localhost:8080/postscript.js:0
+[   61753ms] [LOG] [Explorer] Fetching content index... @ http://localhost:8080/postscript.js:0
+[   61788ms] [LOG] [Explorer] Fetched data keys: [index, linux, tags/linux, tags/命令, tags/index] @ http://localhost:8080/postscript.js:0
+[   61788ms] [LOG] [Explorer] Entry count: 5 @ http://localhost:8080/postscript.js:0
+[   61788ms] [LOG] [Explorer] Trie root children: 2 @ http://localhost:8080/postscript.js:0
+[   61796ms] [LOG] [Explorer] Render generation is current, rendering tree @ http://localhost:8080/postscript.js:0
+[   61796ms] [LOG] [Explorer] Trie result: success @ http://localhost:8080/postscript.js:0
+[   61796ms] [LOG] [Explorer] Rendering 1 children @ http://localhost:8080/postscript.js:0
+[   61797ms] [LOG] [Explorer] Render complete, final list length: 2 @ http://localhost:8080/postscript.js:0
+[   62294ms] [LOG] [Explorer] Nav event received, generation: 1 @ http://localhost:8080/postscript.js:0
+[   62294ms] [LOG] [Explorer] Found 1 explorers @ http://localhost:8080/postscript.js:0
+[   62294ms] [LOG] [Explorer] Starting tree build... @ http://localhost:8080/postscript.js:0
+[   62294ms] [LOG] [Explorer] Fetching content index... @ http://localhost:8080/postscript.js:0
+[   62318ms] [LOG] [Explorer] Fetched data keys: [index, linux, tags/linux, tags/命令, tags/index] @ http://localhost:8080/postscript.js:0
+[   62318ms] [LOG] [Explorer] Entry count: 5 @ http://localhost:8080/postscript.js:0
+[   62319ms] [LOG] [Explorer] Trie root children: 2 @ http://localhost:8080/postscript.js:0
+[   62326ms] [LOG] [Explorer] Render generation is current, rendering tree @ http://localhost:8080/postscript.js:0
+[   62326ms] [LOG] [Explorer] Trie result: success @ http://localhost:8080/postscript.js:0
+[   62326ms] [LOG] [Explorer] Rendering 1 children @ http://localhost:8080/postscript.js:0
+[   62326ms] [LOG] [Explorer] Render complete, final list length: 2 @ http://localhost:8080/postscript.js:0
+[   62819ms] [LOG] [Explorer] Nav event received, generation: 1 @ http://localhost:8080/postscript.js:0
+[   62820ms] [LOG] [Explorer] Found 1 explorers @ http://localhost:8080/postscript.js:0
+[   62820ms] [LOG] [Explorer] Starting tree build... @ http://localhost:8080/postscript.js:0
+[   62820ms] [LOG] [Explorer] Fetching content index... @ http://localhost:8080/postscript.js:0
+[   62848ms] [LOG] [Explorer] Fetched data keys: [index, linux, tags/linux, tags/命令, tags/index] @ http://localhost:8080/postscript.js:0
+[   62848ms] [LOG] [Explorer] Entry count: 5 @ http://localhost:8080/postscript.js:0
+[   62849ms] [LOG] [Explorer] Trie root children: 2 @ http://localhost:8080/postscript.js:0
+[   62856ms] [LOG] [Explorer] Render generation is current, rendering tree @ http://localhost:8080/postscript.js:0
+[   62856ms] [LOG] [Explorer] Trie result: success @ http://localhost:8080/postscript.js:0
+[   62856ms] [LOG] [Explorer] Rendering 1 children @ http://localhost:8080/postscript.js:0
+[   62856ms] [LOG] [Explorer] Render complete, final list length: 2 @ http://localhost:8080/postscript.js:0
+[   63366ms] [LOG] [Explorer] Nav event received, generation: 1 @ http://localhost:8080/postscript.js:0
+[   63366ms] [LOG] [Explorer] Found 1 explorers @ http://localhost:8080/postscript.js:0
+[   63366ms] [LOG] [Explorer] Starting tree build... @ http://localhost:8080/postscript.js:0
+[   63366ms] [LOG] [Explorer] Fetching content index... @ http://localhost:8080/postscript.js:0
+[   63385ms] [LOG] [Explorer] Fetched data keys: [index, linux, tags/linux, tags/命令, tags/index] @ http://localhost:8080/postscript.js:0
+[   63386ms] [LOG] [Explorer] Entry count: 5 @ http://localhost:8080/postscript.js:0
+[   63386ms] [LOG] [Explorer] Trie root children: 2 @ http://localhost:8080/postscript.js:0
+[   63394ms] [LOG] [Explorer] Render generation is current, rendering tree @ http://localhost:8080/postscript.js:0
+[   63394ms] [LOG] [Explorer] Trie result: success @ http://localhost:8080/postscript.js:0
+[   63394ms] [LOG] [Explorer] Rendering 1 children @ http://localhost:8080/postscript.js:0
+[   63394ms] [LOG] [Explorer] Render complete, final list length: 2 @ http://localhost:8080/postscript.js:0
+[   63895ms] [LOG] [Explorer] Nav event received, generation: 1 @ http://localhost:8080/postscript.js:0
+[   63895ms] [LOG] [Explorer] Found 1 explorers @ http://localhost:8080/postscript.js:0
+[   63895ms] [LOG] [Explorer] Starting tree build... @ http://localhost:8080/postscript.js:0
+[   63895ms] [LOG] [Explorer] Fetching content index... @ http://localhost:8080/postscript.js:0
+[   63925ms] [LOG] [Explorer] Fetched data keys: [index, linux, tags/linux, tags/命令, tags/index] @ http://localhost:8080/postscript.js:0
+[   63926ms] [LOG] [Explorer] Entry count: 5 @ http://localhost:8080/postscript.js:0
+[   63926ms] [LOG] [Explorer] Trie root children: 2 @ http://localhost:8080/postscript.js:0
+[   63933ms] [LOG] [Explorer] Render generation is current, rendering tree @ http://localhost:8080/postscript.js:0
+[   63933ms] [LOG] [Explorer] Trie result: success @ http://localhost:8080/postscript.js:0
+[   63933ms] [LOG] [Explorer] Rendering 1 children @ http://localhost:8080/postscript.js:0
+[   63933ms] [LOG] [Explorer] Render complete, final list length: 2 @ http://localhost:8080/postscript.js:0
+[   64459ms] [LOG] [Explorer] Nav event received, generation: 1 @ http://localhost:8080/postscript.js:0
+[   64459ms] [LOG] [Explorer] Found 1 explorers @ http://localhost:8080/postscript.js:0
+[   64460ms] [LOG] [Explorer] Starting tree build... @ http://localhost:8080/postscript.js:0
+[   64460ms] [LOG] [Explorer] Fetching content index... @ http://localhost:8080/postscript.js:0
+[   64461ms] [LOG] [Explorer] Fetched data keys: [index, linux, tags/linux, tags/命令, tags/index] @ http://localhost:8080/postscript.js:0
+[   64461ms] [LOG] [Explorer] Entry count: 5 @ http://localhost:8080/postscript.js:0
+[   64462ms] [LOG] [Explorer] Trie root children: 2 @ http://localhost:8080/postscript.js:0
+[   64464ms] [LOG] [Explorer] Render generation is current, rendering tree @ http://localhost:8080/postscript.js:0
+[   64464ms] [LOG] [Explorer] Trie result: success @ http://localhost:8080/postscript.js:0
+[   64464ms] [LOG] [Explorer] Rendering 1 children @ http://localhost:8080/postscript.js:0
+[   64464ms] [LOG] [Explorer] Render complete, final list length: 2 @ http://localhost:8080/postscript.js:0
+[   65011ms] [LOG] [Explorer] Nav event received, generation: 1 @ http://localhost:8080/postscript.js:0
+[   65011ms] [LOG] [Explorer] Found 1 explorers @ http://localhost:8080/postscript.js:0
+[   65011ms] [LOG] [Explorer] Starting tree build... @ http://localhost:8080/postscript.js:0
+[   65011ms] [LOG] [Explorer] Fetching content index... @ http://localhost:8080/postscript.js:0
+[   65039ms] [LOG] [Explorer] Fetched data keys: [index, linux, tags/linux, tags/命令, tags/index] @ http://localhost:8080/postscript.js:0
+[   65039ms] [LOG] [Explorer] Entry count: 5 @ http://localhost:8080/postscript.js:0
+[   65039ms] [LOG] [Explorer] Trie root children: 2 @ http://localhost:8080/postscript.js:0
+[   65046ms] [LOG] [Explorer] Render generation is current, rendering tree @ http://localhost:8080/postscript.js:0
+[   65046ms] [LOG] [Explorer] Trie result: success @ http://localhost:8080/postscript.js:0
+[   65046ms] [LOG] [Explorer] Rendering 1 children @ http://localhost:8080/postscript.js:0
+[   65047ms] [LOG] [Explorer] Render complete, final list length: 2 @ http://localhost:8080/postscript.js:0
+[   65573ms] [LOG] [Explorer] Nav event received, generation: 1 @ http://localhost:8080/postscript.js:0
+[   65573ms] [LOG] [Explorer] Found 1 explorers @ http://localhost:8080/postscript.js:0
+[   65573ms] [LOG] [Explorer] Starting tree build... @ http://localhost:8080/postscript.js:0
+[   65573ms] [LOG] [Explorer] Fetching content index... @ http://localhost:8080/postscript.js:0
+[   65617ms] [LOG] [Explorer] Fetched data keys: [index, linux, tags/linux, tags/命令, tags/index] @ http://localhost:8080/postscript.js:0
+[   65617ms] [LOG] [Explorer] Entry count: 5 @ http://localhost:8080/postscript.js:0
+[   65617ms] [LOG] [Explorer] Trie root children: 2 @ http://localhost:8080/postscript.js:0
+[   65625ms] [LOG] [Explorer] Render generation is current, rendering tree @ http://localhost:8080/postscript.js:0
+[   65625ms] [LOG] [Explorer] Trie result: success @ http://localhost:8080/postscript.js:0
+[   65626ms] [LOG] [Explorer] Rendering 1 children @ http://localhost:8080/postscript.js:0
+[   65626ms] [LOG] [Explorer] Render complete, final list length: 2 @ http://localhost:8080/postscript.js:0
+[   66109ms] [LOG] [Explorer] Nav event received, generation: 1 @ http://localhost:8080/postscript.js:0
+[   66109ms] [LOG] [Explorer] Found 1 explorers @ http://localhost:8080/postscript.js:0
+[   66109ms] [LOG] [Explorer] Starting tree build... @ http://localhost:8080/postscript.js:0
+[   66109ms] [LOG] [Explorer] Fetching content index... @ http://localhost:8080/postscript.js:0
+[   66142ms] [LOG] [Explorer] Fetched data keys: [index, linux, tags/linux, tags/命令, tags/index] @ http://localhost:8080/postscript.js:0
+[   66142ms] [LOG] [Explorer] Entry count: 5 @ http://localhost:8080/postscript.js:0
+[   66142ms] [LOG] [Explorer] Trie root children: 2 @ http://localhost:8080/postscript.js:0
+[   66149ms] [LOG] [Explorer] Render generation is current, rendering tree @ http://localhost:8080/postscript.js:0
+[   66149ms] [LOG] [Explorer] Trie result: success @ http://localhost:8080/postscript.js:0
+[   66149ms] [LOG] [Explorer] Rendering 1 children @ http://localhost:8080/postscript.js:0
+[   66149ms] [LOG] [Explorer] Render complete, final list length: 2 @ http://localhost:8080/postscript.js:0
+[   66650ms] [LOG] [Explorer] Nav event received, generation: 1 @ http://localhost:8080/postscript.js:0
+[   66650ms] [LOG] [Explorer] Found 1 explorers @ http://localhost:8080/postscript.js:0
+[   66651ms] [LOG] [Explorer] Starting tree build... @ http://localhost:8080/postscript.js:0
+[   66651ms] [LOG] [Explorer] Fetching content index... @ http://localhost:8080/postscript.js:0
+[   66680ms] [LOG] [Explorer] Fetched data keys: [index, linux, tags/linux, tags/命令, tags/index] @ http://localhost:8080/postscript.js:0
+[   66680ms] [LOG] [Explorer] Entry count: 5 @ http://localhost:8080/postscript.js:0
+[   66680ms] [LOG] [Explorer] Trie root children: 2 @ http://localhost:8080/postscript.js:0
+[   66687ms] [LOG] [Explorer] Render generation is current, rendering tree @ http://localhost:8080/postscript.js:0
+[   66687ms] [LOG] [Explorer] Trie result: success @ http://localhost:8080/postscript.js:0
+[   66687ms] [LOG] [Explorer] Rendering 1 children @ http://localhost:8080/postscript.js:0
+[   66687ms] [LOG] [Explorer] Render complete, final list length: 2 @ http://localhost:8080/postscript.js:0
+[   67182ms] [LOG] [Explorer] Nav event received, generation: 1 @ http://localhost:8080/postscript.js:0
+[   67183ms] [LOG] [Explorer] Found 1 explorers @ http://localhost:8080/postscript.js:0
+[   67183ms] [LOG] [Explorer] Starting tree build... @ http://localhost:8080/postscript.js:0
+[   67183ms] [LOG] [Explorer] Fetching content index... @ http://localhost:8080/postscript.js:0
+[   67213ms] [LOG] [Explorer] Fetched data keys: [index, linux, tags/linux, tags/命令, tags/index] @ http://localhost:8080/postscript.js:0
+[   67213ms] [LOG] [Explorer] Entry count: 5 @ http://localhost:8080/postscript.js:0
+[   67213ms] [LOG] [Explorer] Trie root children: 2 @ http://localhost:8080/postscript.js:0
+[   67220ms] [LOG] [Explorer] Render generation is current, rendering tree @ http://localhost:8080/postscript.js:0
+[   67220ms] [LOG] [Explorer] Trie result: success @ http://localhost:8080/postscript.js:0
+[   67220ms] [LOG] [Explorer] Rendering 1 children @ http://localhost:8080/postscript.js:0
+[   67220ms] [LOG] [Explorer] Render complete, final list length: 2 @ http://localhost:8080/postscript.js:0
+[   67722ms] [LOG] [Explorer] Nav event received, generation: 1 @ http://localhost:8080/postscript.js:0
+[   67722ms] [LOG] [Explorer] Found 1 explorers @ http://localhost:8080/postscript.js:0
+[   67722ms] [LOG] [Explorer] Starting tree build... @ http://localhost:8080/postscript.js:0
+[   67722ms] [LOG] [Explorer] Fetching content index... @ http://localhost:8080/postscript.js:0
+[   67751ms] [LOG] [Explorer] Fetched data keys: [index, linux, tags/linux, tags/命令, tags/index] @ http://localhost:8080/postscript.js:0
+[   67751ms] [LOG] [Explorer] Entry count: 5 @ http://localhost:8080/postscript.js:0
+[   67751ms] [LOG] [Explorer] Trie root children: 2 @ http://localhost:8080/postscript.js:0
+[   67758ms] [LOG] [Explorer] Render generation is current, rendering tree @ http://localhost:8080/postscript.js:0
+[   67758ms] [LOG] [Explorer] Trie result: success @ http://localhost:8080/postscript.js:0
+[   67758ms] [LOG] [Explorer] Rendering 1 children @ http://localhost:8080/postscript.js:0
+[   67759ms] [LOG] [Explorer] Render complete, final list length: 2 @ http://localhost:8080/postscript.js:0
+[   68258ms] [LOG] [Explorer] Nav event received, generation: 1 @ http://localhost:8080/postscript.js:0
+[   68258ms] [LOG] [Explorer] Found 1 explorers @ http://localhost:8080/postscript.js:0
+[   68258ms] [LOG] [Explorer] Starting tree build... @ http://localhost:8080/postscript.js:0
+[   68258ms] [LOG] [Explorer] Fetching content index... @ http://localhost:8080/postscript.js:0
+[   68287ms] [LOG] [Explorer] Fetched data keys: [index, linux, tags/linux, tags/命令, tags/index] @ http://localhost:8080/postscript.js:0
+[   68287ms] [LOG] [Explorer] Entry count: 5 @ http://localhost:8080/postscript.js:0
+[   68287ms] [LOG] [Explorer] Trie root children: 2 @ http://localhost:8080/postscript.js:0
+[   68294ms] [LOG] [Explorer] Render generation is current, rendering tree @ http://localhost:8080/postscript.js:0
+[   68294ms] [LOG] [Explorer] Trie result: success @ http://localhost:8080/postscript.js:0
+[   68294ms] [LOG] [Explorer] Rendering 1 children @ http://localhost:8080/postscript.js:0
+[   68294ms] [LOG] [Explorer] Render complete, final list length: 2 @ http://localhost:8080/postscript.js:0
+[   68808ms] [LOG] [Explorer] Nav event received, generation: 1 @ http://localhost:8080/postscript.js:0
+[   68808ms] [LOG] [Explorer] Found 1 explorers @ http://localhost:8080/postscript.js:0
+[   68808ms] [LOG] [Explorer] Starting tree build... @ http://localhost:8080/postscript.js:0
+[   68808ms] [LOG] [Explorer] Fetching content index... @ http://localhost:8080/postscript.js:0
+[   68823ms] [LOG] [Explorer] Fetched data keys: [index, linux, tags/linux, tags/命令, tags/index] @ http://localhost:8080/postscript.js:0
+[   68823ms] [LOG] [Explorer] Entry count: 5 @ http://localhost:8080/postscript.js:0
+[   68823ms] [LOG] [Explorer] Trie root children: 2 @ http://localhost:8080/postscript.js:0
+[   68830ms] [LOG] [Explorer] Render generation is current, rendering tree @ http://localhost:8080/postscript.js:0
+[   68831ms] [LOG] [Explorer] Trie result: success @ http://localhost:8080/postscript.js:0
+[   68831ms] [LOG] [Explorer] Rendering 1 children @ http://localhost:8080/postscript.js:0
+[   68831ms] [LOG] [Explorer] Render complete, final list length: 2 @ http://localhost:8080/postscript.js:0
+[   69360ms] [LOG] [Explorer] Nav event received, generation: 1 @ http://localhost:8080/postscript.js:0
+[   69360ms] [LOG] [Explorer] Found 1 explorers @ http://localhost:8080/postscript.js:0
+[   69360ms] [LOG] [Explorer] Starting tree build... @ http://localhost:8080/postscript.js:0
+[   69360ms] [LOG] [Explorer] Fetching content index... @ http://localhost:8080/postscript.js:0
+[   69388ms] [LOG] [Explorer] Fetched data keys: [index, linux, tags/linux, tags/命令, tags/index] @ http://localhost:8080/postscript.js:0
+[   69388ms] [LOG] [Explorer] Entry count: 5 @ http://localhost:8080/postscript.js:0
+[   69388ms] [LOG] [Explorer] Trie root children: 2 @ http://localhost:8080/postscript.js:0
+[   69395ms] [LOG] [Explorer] Render generation is current, rendering tree @ http://localhost:8080/postscript.js:0
+[   69395ms] [LOG] [Explorer] Trie result: success @ http://localhost:8080/postscript.js:0
+[   69395ms] [LOG] [Explorer] Rendering 1 children @ http://localhost:8080/postscript.js:0
+[   69396ms] [LOG] [Explorer] Render complete, final list length: 2 @ http://localhost:8080/postscript.js:0
+[   69907ms] [LOG] [Explorer] Nav event received, generation: 1 @ http://localhost:8080/postscript.js:0
+[   69907ms] [LOG] [Explorer] Found 1 explorers @ http://localhost:8080/postscript.js:0
+[   69907ms] [LOG] [Explorer] Starting tree build... @ http://localhost:8080/postscript.js:0
+[   69907ms] [LOG] [Explorer] Fetching content index... @ http://localhost:8080/postscript.js:0
+[   69927ms] [LOG] [Explorer] Fetched data keys: [index, linux, tags/linux, tags/命令, tags/index] @ http://localhost:8080/postscript.js:0
+[   69927ms] [LOG] [Explorer] Entry count: 5 @ http://localhost:8080/postscript.js:0
+[   69927ms] [LOG] [Explorer] Trie root children: 2 @ http://localhost:8080/postscript.js:0
+[   69934ms] [LOG] [Explorer] Render generation is current, rendering tree @ http://localhost:8080/postscript.js:0
+[   69934ms] [LOG] [Explorer] Trie result: success @ http://localhost:8080/postscript.js:0
+[   69934ms] [LOG] [Explorer] Rendering 1 children @ http://localhost:8080/postscript.js:0
+[   69934ms] [LOG] [Explorer] Render complete, final list length: 2 @ http://localhost:8080/postscript.js:0
+[   70462ms] [LOG] [Explorer] Nav event received, generation: 1 @ http://localhost:8080/postscript.js:0
+[   70462ms] [LOG] [Explorer] Found 1 explorers @ http://localhost:8080/postscript.js:0
+[   70462ms] [LOG] [Explorer] Starting tree build... @ http://localhost:8080/postscript.js:0
+[   70462ms] [LOG] [Explorer] Fetching content index... @ http://localhost:8080/postscript.js:0
+[   70487ms] [LOG] [Explorer] Fetched data keys: [index, linux, tags/linux, tags/命令, tags/index] @ http://localhost:8080/postscript.js:0
+[   70487ms] [LOG] [Explorer] Entry count: 5 @ http://localhost:8080/postscript.js:0
+[   70487ms] [LOG] [Explorer] Trie root children: 2 @ http://localhost:8080/postscript.js:0
+[   70495ms] [LOG] [Explorer] Render generation is current, rendering tree @ http://localhost:8080/postscript.js:0
+[   70495ms] [LOG] [Explorer] Trie result: success @ http://localhost:8080/postscript.js:0
+[   70495ms] [LOG] [Explorer] Rendering 1 children @ http://localhost:8080/postscript.js:0
+[   70495ms] [LOG] [Explorer] Render complete, final list length: 2 @ http://localhost:8080/postscript.js:0
+[   71019ms] [LOG] [Explorer] Nav event received, generation: 1 @ http://localhost:8080/postscript.js:0
+[   71019ms] [LOG] [Explorer] Found 1 explorers @ http://localhost:8080/postscript.js:0
+[   71019ms] [LOG] [Explorer] Starting tree build... @ http://localhost:8080/postscript.js:0
+[   71019ms] [LOG] [Explorer] Fetching content index... @ http://localhost:8080/postscript.js:0
+[   71021ms] [LOG] [Explorer] Fetched data keys: [index, linux, tags/linux, tags/命令, tags/index] @ http://localhost:8080/postscript.js:0
+[   71021ms] [LOG] [Explorer] Entry count: 5 @ http://localhost:8080/postscript.js:0
+[   71021ms] [LOG] [Explorer] Trie root children: 2 @ http://localhost:8080/postscript.js:0
+[   71024ms] [LOG] [Explorer] Render generation is current, rendering tree @ http://localhost:8080/postscript.js:0
+[   71024ms] [LOG] [Explorer] Trie result: success @ http://localhost:8080/postscript.js:0
+[   71024ms] [LOG] [Explorer] Rendering 1 children @ http://localhost:8080/postscript.js:0
+[   71024ms] [LOG] [Explorer] Render complete, final list length: 2 @ http://localhost:8080/postscript.js:0
+[   71563ms] [LOG] [Explorer] Nav event received, generation: 1 @ http://localhost:8080/postscript.js:0
+[   71563ms] [LOG] [Explorer] Found 1 explorers @ http://localhost:8080/postscript.js:0
+[   71563ms] [LOG] [Explorer] Starting tree build... @ http://localhost:8080/postscript.js:0
+[   71563ms] [LOG] [Explorer] Fetching content index... @ http://localhost:8080/postscript.js:0
+[   71593ms] [LOG] [Explorer] Fetched data keys: [index, linux, tags/linux, tags/命令, tags/index] @ http://localhost:8080/postscript.js:0
+[   71593ms] [LOG] [Explorer] Entry count: 5 @ http://localhost:8080/postscript.js:0
+[   71593ms] [LOG] [Explorer] Trie root children: 2 @ http://localhost:8080/postscript.js:0
+[   71601ms] [LOG] [Explorer] Render generation is current, rendering tree @ http://localhost:8080/postscript.js:0
+[   71601ms] [LOG] [Explorer] Trie result: success @ http://localhost:8080/postscript.js:0
+[   71601ms] [LOG] [Explorer] Rendering 1 children @ http://localhost:8080/postscript.js:0
+[   71601ms] [LOG] [Explorer] Render complete, final list length: 2 @ http://localhost:8080/postscript.js:0
+[   72094ms] [LOG] [Explorer] Nav event received, generation: 1 @ http://localhost:8080/postscript.js:0
+[   72094ms] [LOG] [Explorer] Found 1 explorers @ http://localhost:8080/postscript.js:0
+[   72094ms] [LOG] [Explorer] Starting tree build... @ http://localhost:8080/postscript.js:0
+[   72094ms] [LOG] [Explorer] Fetching content index... @ http://localhost:8080/postscript.js:0
+[   72121ms] [LOG] [Explorer] Fetched data keys: [index, linux, tags/linux, tags/命令, tags/index] @ http://localhost:8080/postscript.js:0
+[   72121ms] [LOG] [Explorer] Entry count: 5 @ http://localhost:8080/postscript.js:0
+[   72121ms] [LOG] [Explorer] Trie root children: 2 @ http://localhost:8080/postscript.js:0
+[   72129ms] [LOG] [Explorer] Render generation is current, rendering tree @ http://localhost:8080/postscript.js:0
+[   72129ms] [LOG] [Explorer] Trie result: success @ http://localhost:8080/postscript.js:0
+[   72129ms] [LOG] [Explorer] Rendering 1 children @ http://localhost:8080/postscript.js:0
+[   72129ms] [LOG] [Explorer] Render complete, final list length: 2 @ http://localhost:8080/postscript.js:0
+[   72631ms] [LOG] [Explorer] Nav event received, generation: 1 @ http://localhost:8080/postscript.js:0
+[   72631ms] [LOG] [Explorer] Found 1 explorers @ http://localhost:8080/postscript.js:0
+[   72631ms] [LOG] [Explorer] Starting tree build... @ http://localhost:8080/postscript.js:0
+[   72631ms] [LOG] [Explorer] Fetching content index... @ http://localhost:8080/postscript.js:0
+[   72654ms] [LOG] [Explorer] Fetched data keys: [index, linux, tags/linux, tags/命令, tags/index] @ http://localhost:8080/postscript.js:0
+[   72654ms] [LOG] [Explorer] Entry count: 5 @ http://localhost:8080/postscript.js:0
+[   72654ms] [LOG] [Explorer] Trie root children: 2 @ http://localhost:8080/postscript.js:0
+[   72662ms] [LOG] [Explorer] Render generation is current, rendering tree @ http://localhost:8080/postscript.js:0
+[   72662ms] [LOG] [Explorer] Trie result: success @ http://localhost:8080/postscript.js:0
+[   72662ms] [LOG] [Explorer] Rendering 1 children @ http://localhost:8080/postscript.js:0
+[   72663ms] [LOG] [Explorer] Render complete, final list length: 2 @ http://localhost:8080/postscript.js:0
+[   73159ms] [LOG] [Explorer] Nav event received, generation: 1 @ http://localhost:8080/postscript.js:0
+[   73159ms] [LOG] [Explorer] Found 1 explorers @ http://localhost:8080/postscript.js:0
+[   73159ms] [LOG] [Explorer] Starting tree build... @ http://localhost:8080/postscript.js:0
+[   73159ms] [LOG] [Explorer] Fetching content index... @ http://localhost:8080/postscript.js:0
+[   73183ms] [LOG] [Explorer] Fetched data keys: [index, linux, tags/linux, tags/命令, tags/index] @ http://localhost:8080/postscript.js:0
+[   73183ms] [LOG] [Explorer] Entry count: 5 @ http://localhost:8080/postscript.js:0
+[   73183ms] [LOG] [Explorer] Trie root children: 2 @ http://localhost:8080/postscript.js:0
+[   73190ms] [LOG] [Explorer] Render generation is current, rendering tree @ http://localhost:8080/postscript.js:0
+[   73190ms] [LOG] [Explorer] Trie result: success @ http://localhost:8080/postscript.js:0
+[   73191ms] [LOG] [Explorer] Rendering 1 children @ http://localhost:8080/postscript.js:0
+[   73191ms] [LOG] [Explorer] Render complete, final list length: 2 @ http://localhost:8080/postscript.js:0
+[   73700ms] [LOG] [Explorer] Nav event received, generation: 1 @ http://localhost:8080/postscript.js:0
+[   73700ms] [LOG] [Explorer] Found 1 explorers @ http://localhost:8080/postscript.js:0
+[   73700ms] [LOG] [Explorer] Starting tree build... @ http://localhost:8080/postscript.js:0
+[   73700ms] [LOG] [Explorer] Fetching content index... @ http://localhost:8080/postscript.js:0
+[   73723ms] [LOG] [Explorer] Fetched data keys: [index, linux, tags/linux, tags/命令, tags/index] @ http://localhost:8080/postscript.js:0
+[   73723ms] [LOG] [Explorer] Entry count: 5 @ http://localhost:8080/postscript.js:0
+[   73723ms] [LOG] [Explorer] Trie root children: 2 @ http://localhost:8080/postscript.js:0
+[   73731ms] [LOG] [Explorer] Render generation is current, rendering tree @ http://localhost:8080/postscript.js:0
+[   73731ms] [LOG] [Explorer] Trie result: success @ http://localhost:8080/postscript.js:0
+[   73731ms] [LOG] [Explorer] Rendering 1 children @ http://localhost:8080/postscript.js:0
+[   73732ms] [LOG] [Explorer] Render complete, final list length: 2 @ http://localhost:8080/postscript.js:0
+[   74261ms] [LOG] [Explorer] Nav event received, generation: 1 @ http://localhost:8080/postscript.js:0
+[   74261ms] [LOG] [Explorer] Found 1 explorers @ http://localhost:8080/postscript.js:0
+[   74261ms] [LOG] [Explorer] Starting tree build... @ http://localhost:8080/postscript.js:0
+[   74261ms] [LOG] [Explorer] Fetching content index... @ http://localhost:8080/postscript.js:0
+[   74287ms] [LOG] [Explorer] Fetched data keys: [index, linux, tags/linux, tags/命令, tags/index] @ http://localhost:8080/postscript.js:0
+[   74288ms] [LOG] [Explorer] Entry count: 5 @ http://localhost:8080/postscript.js:0
+[   74288ms] [LOG] [Explorer] Trie root children: 2 @ http://localhost:8080/postscript.js:0
+[   74297ms] [LOG] [Explorer] Render generation is current, rendering tree @ http://localhost:8080/postscript.js:0
+[   74297ms] [LOG] [Explorer] Trie result: success @ http://localhost:8080/postscript.js:0
+[   74297ms] [LOG] [Explorer] Rendering 1 children @ http://localhost:8080/postscript.js:0
+[   74297ms] [LOG] [Explorer] Render complete, final list length: 2 @ http://localhost:8080/postscript.js:0
+[   74795ms] [LOG] [Explorer] Nav event received, generation: 1 @ http://localhost:8080/postscript.js:0
+[   74795ms] [LOG] [Explorer] Found 1 explorers @ http://localhost:8080/postscript.js:0
+[   74795ms] [LOG] [Explorer] Starting tree build... @ http://localhost:8080/postscript.js:0
+[   74795ms] [LOG] [Explorer] Fetching content index... @ http://localhost:8080/postscript.js:0
+[   74827ms] [LOG] [Explorer] Fetched data keys: [index, linux, tags/linux, tags/命令, tags/index] @ http://localhost:8080/postscript.js:0
+[   74827ms] [LOG] [Explorer] Entry count: 5 @ http://localhost:8080/postscript.js:0
+[   74827ms] [LOG] [Explorer] Trie root children: 2 @ http://localhost:8080/postscript.js:0
+[   74835ms] [LOG] [Explorer] Render generation is current, rendering tree @ http://localhost:8080/postscript.js:0
+[   74835ms] [LOG] [Explorer] Trie result: success @ http://localhost:8080/postscript.js:0
+[   74836ms] [LOG] [Explorer] Rendering 1 children @ http://localhost:8080/postscript.js:0
+[   74836ms] [LOG] [Explorer] Render complete, final list length: 2 @ http://localhost:8080/postscript.js:0
+[   75343ms] [LOG] [Explorer] Nav event received, generation: 1 @ http://localhost:8080/postscript.js:0
+[   75344ms] [LOG] [Explorer] Found 1 explorers @ http://localhost:8080/postscript.js:0
+[   75344ms] [LOG] [Explorer] Starting tree build... @ http://localhost:8080/postscript.js:0
+[   75344ms] [LOG] [Explorer] Fetching content index... @ http://localhost:8080/postscript.js:0
+[   75375ms] [LOG] [Explorer] Fetched data keys: [index, linux, tags/linux, tags/命令, tags/index] @ http://localhost:8080/postscript.js:0
+[   75375ms] [LOG] [Explorer] Entry count: 5 @ http://localhost:8080/postscript.js:0
+[   75375ms] [LOG] [Explorer] Trie root children: 2 @ http://localhost:8080/postscript.js:0
+[   75382ms] [LOG] [Explorer] Render generation is current, rendering tree @ http://localhost:8080/postscript.js:0
+[   75382ms] [LOG] [Explorer] Trie result: success @ http://localhost:8080/postscript.js:0
+[   75382ms] [LOG] [Explorer] Rendering 1 children @ http://localhost:8080/postscript.js:0
+[   75382ms] [LOG] [Explorer] Render complete, final list length: 2 @ http://localhost:8080/postscript.js:0
+[   75887ms] [LOG] [Explorer] Nav event received, generation: 1 @ http://localhost:8080/postscript.js:0
+[   75887ms] [LOG] [Explorer] Found 1 explorers @ http://localhost:8080/postscript.js:0
+[   75887ms] [LOG] [Explorer] Starting tree build... @ http://localhost:8080/postscript.js:0
+[   75887ms] [LOG] [Explorer] Fetching content index... @ http://localhost:8080/postscript.js:0
+[   75914ms] [LOG] [Explorer] Fetched data keys: [index, linux, tags/linux, tags/命令, tags/index] @ http://localhost:8080/postscript.js:0
+[   75914ms] [LOG] [Explorer] Entry count: 5 @ http://localhost:8080/postscript.js:0
+[   75914ms] [LOG] [Explorer] Trie root children: 2 @ http://localhost:8080/postscript.js:0
+[   75922ms] [LOG] [Explorer] Render generation is current, rendering tree @ http://localhost:8080/postscript.js:0
+[   75922ms] [LOG] [Explorer] Trie result: success @ http://localhost:8080/postscript.js:0
+[   75922ms] [LOG] [Explorer] Rendering 1 children @ http://localhost:8080/postscript.js:0
+[   75922ms] [LOG] [Explorer] Render complete, final list length: 2 @ http://localhost:8080/postscript.js:0
+[   76435ms] [LOG] [Explorer] Nav event received, generation: 1 @ http://localhost:8080/postscript.js:0
+[   76435ms] [LOG] [Explorer] Found 1 explorers @ http://localhost:8080/postscript.js:0
+[   76435ms] [LOG] [Explorer] Starting tree build... @ http://localhost:8080/postscript.js:0
+[   76435ms] [LOG] [Explorer] Fetching content index... @ http://localhost:8080/postscript.js:0
+[   76467ms] [LOG] [Explorer] Fetched data keys: [index, linux, tags/linux, tags/命令, tags/index] @ http://localhost:8080/postscript.js:0
+[   76467ms] [LOG] [Explorer] Entry count: 5 @ http://localhost:8080/postscript.js:0
+[   76468ms] [LOG] [Explorer] Trie root children: 2 @ http://localhost:8080/postscript.js:0
+[   76475ms] [LOG] [Explorer] Render generation is current, rendering tree @ http://localhost:8080/postscript.js:0
+[   76475ms] [LOG] [Explorer] Trie result: success @ http://localhost:8080/postscript.js:0
+[   76475ms] [LOG] [Explorer] Rendering 1 children @ http://localhost:8080/postscript.js:0
+[   76475ms] [LOG] [Explorer] Render complete, final list length: 2 @ http://localhost:8080/postscript.js:0
+[   76971ms] [LOG] [Explorer] Nav event received, generation: 1 @ http://localhost:8080/postscript.js:0
+[   76971ms] [LOG] [Explorer] Found 1 explorers @ http://localhost:8080/postscript.js:0
+[   76971ms] [LOG] [Explorer] Starting tree build... @ http://localhost:8080/postscript.js:0
+[   76972ms] [LOG] [Explorer] Fetching content index... @ http://localhost:8080/postscript.js:0
+[   77001ms] [LOG] [Explorer] Fetched data keys: [index, linux, tags/linux, tags/命令, tags/index] @ http://localhost:8080/postscript.js:0
+[   77002ms] [LOG] [Explorer] Entry count: 5 @ http://localhost:8080/postscript.js:0
+[   77002ms] [LOG] [Explorer] Trie root children: 2 @ http://localhost:8080/postscript.js:0
+[   77009ms] [LOG] [Explorer] Render generation is current, rendering tree @ http://localhost:8080/postscript.js:0
+[   77009ms] [LOG] [Explorer] Trie result: success @ http://localhost:8080/postscript.js:0
+[   77009ms] [LOG] [Explorer] Rendering 1 children @ http://localhost:8080/postscript.js:0
+[   77009ms] [LOG] [Explorer] Render complete, final list length: 2 @ http://localhost:8080/postscript.js:0
+[   77526ms] [LOG] [Explorer] Nav event received, generation: 1 @ http://localhost:8080/postscript.js:0
+[   77526ms] [LOG] [Explorer] Found 1 explorers @ http://localhost:8080/postscript.js:0
+[   77526ms] [LOG] [Explorer] Starting tree build... @ http://localhost:8080/postscript.js:0
+[   77526ms] [LOG] [Explorer] Fetching content index... @ http://localhost:8080/postscript.js:0
+[   77547ms] [LOG] [Explorer] Fetched data keys: [index, linux, tags/linux, tags/命令, tags/index] @ http://localhost:8080/postscript.js:0
+[   77547ms] [LOG] [Explorer] Entry count: 5 @ http://localhost:8080/postscript.js:0
+[   77547ms] [LOG] [Explorer] Trie root children: 2 @ http://localhost:8080/postscript.js:0
+[   77554ms] [LOG] [Explorer] Render generation is current, rendering tree @ http://localhost:8080/postscript.js:0
+[   77554ms] [LOG] [Explorer] Trie result: success @ http://localhost:8080/postscript.js:0
+[   77554ms] [LOG] [Explorer] Rendering 1 children @ http://localhost:8080/postscript.js:0
+[   77554ms] [LOG] [Explorer] Render complete, final list length: 2 @ http://localhost:8080/postscript.js:0
+[   78081ms] [LOG] [Explorer] Nav event received, generation: 1 @ http://localhost:8080/postscript.js:0
+[   78082ms] [LOG] [Explorer] Found 1 explorers @ http://localhost:8080/postscript.js:0
+[   78082ms] [LOG] [Explorer] Starting tree build... @ http://localhost:8080/postscript.js:0
+[   78082ms] [LOG] [Explorer] Fetching content index... @ http://localhost:8080/postscript.js:0
+[   78107ms] [LOG] [Explorer] Fetched data keys: [index, linux, tags/linux, tags/命令, tags/index] @ http://localhost:8080/postscript.js:0
+[   78108ms] [LOG] [Explorer] Entry count: 5 @ http://localhost:8080/postscript.js:0
+[   78108ms] [LOG] [Explorer] Trie root children: 2 @ http://localhost:8080/postscript.js:0
+[   78116ms] [LOG] [Explorer] Render generation is current, rendering tree @ http://localhost:8080/postscript.js:0
+[   78116ms] [LOG] [Explorer] Trie result: success @ http://localhost:8080/postscript.js:0
+[   78116ms] [LOG] [Explorer] Rendering 1 children @ http://localhost:8080/postscript.js:0
+[   78116ms] [LOG] [Explorer] Render complete, final list length: 2 @ http://localhost:8080/postscript.js:0
+[   78650ms] [LOG] [Explorer] Nav event received, generation: 1 @ http://localhost:8080/postscript.js:0
+[   78650ms] [LOG] [Explorer] Found 1 explorers @ http://localhost:8080/postscript.js:0
+[   78650ms] [LOG] [Explorer] Starting tree build... @ http://localhost:8080/postscript.js:0
+[   78650ms] [LOG] [Explorer] Fetching content index... @ http://localhost:8080/postscript.js:0
+[   78652ms] [LOG] [Explorer] Fetched data keys: [index, linux, tags/linux, tags/命令, tags/index] @ http://localhost:8080/postscript.js:0
+[   78652ms] [LOG] [Explorer] Entry count: 5 @ http://localhost:8080/postscript.js:0
+[   78652ms] [LOG] [Explorer] Trie root children: 2 @ http://localhost:8080/postscript.js:0
+[   78654ms] [LOG] [Explorer] Render generation is current, rendering tree @ http://localhost:8080/postscript.js:0
+[   78654ms] [LOG] [Explorer] Trie result: success @ http://localhost:8080/postscript.js:0
+[   78655ms] [LOG] [Explorer] Rendering 1 children @ http://localhost:8080/postscript.js:0
+[   78655ms] [LOG] [Explorer] Render complete, final list length: 2 @ http://localhost:8080/postscript.js:0
+[   79179ms] [LOG] [Explorer] Nav event received, generation: 1 @ http://localhost:8080/postscript.js:0
+[   79179ms] [LOG] [Explorer] Found 1 explorers @ http://localhost:8080/postscript.js:0
+[   79179ms] [LOG] [Explorer] Starting tree build... @ http://localhost:8080/postscript.js:0
+[   79179ms] [LOG] [Explorer] Fetching content index... @ http://localhost:8080/postscript.js:0
+[   79207ms] [LOG] [Explorer] Fetched data keys: [index, linux, tags/linux, tags/命令, tags/index] @ http://localhost:8080/postscript.js:0
+[   79207ms] [LOG] [Explorer] Entry count: 5 @ http://localhost:8080/postscript.js:0
+[   79207ms] [LOG] [Explorer] Trie root children: 2 @ http://localhost:8080/postscript.js:0
+[   79214ms] [LOG] [Explorer] Render generation is current, rendering tree @ http://localhost:8080/postscript.js:0
+[   79214ms] [LOG] [Explorer] Trie result: success @ http://localhost:8080/postscript.js:0
+[   79214ms] [LOG] [Explorer] Rendering 1 children @ http://localhost:8080/postscript.js:0
+[   79214ms] [LOG] [Explorer] Render complete, final list length: 2 @ http://localhost:8080/postscript.js:0
+[   79709ms] [LOG] [Explorer] Nav event received, generation: 1 @ http://localhost:8080/postscript.js:0
+[   79709ms] [LOG] [Explorer] Found 1 explorers @ http://localhost:8080/postscript.js:0
+[   79709ms] [LOG] [Explorer] Starting tree build... @ http://localhost:8080/postscript.js:0
+[   79709ms] [LOG] [Explorer] Fetching content index... @ http://localhost:8080/postscript.js:0
+[   79738ms] [LOG] [Explorer] Fetched data keys: [index, linux, tags/linux, tags/命令, tags/index] @ http://localhost:8080/postscript.js:0
+[   79738ms] [LOG] [Explorer] Entry count: 5 @ http://localhost:8080/postscript.js:0
+[   79738ms] [LOG] [Explorer] Trie root children: 2 @ http://localhost:8080/postscript.js:0
+[   79745ms] [LOG] [Explorer] Render generation is current, rendering tree @ http://localhost:8080/postscript.js:0
+[   79745ms] [LOG] [Explorer] Trie result: success @ http://localhost:8080/postscript.js:0
+[   79745ms] [LOG] [Explorer] Rendering 1 children @ http://localhost:8080/postscript.js:0
+[   79745ms] [LOG] [Explorer] Render complete, final list length: 2 @ http://localhost:8080/postscript.js:0
+[   80240ms] [LOG] [Explorer] Nav event received, generation: 1 @ http://localhost:8080/postscript.js:0
+[   80240ms] [LOG] [Explorer] Found 1 explorers @ http://localhost:8080/postscript.js:0
+[   80240ms] [LOG] [Explorer] Starting tree build... @ http://localhost:8080/postscript.js:0
+[   80240ms] [LOG] [Explorer] Fetching content index... @ http://localhost:8080/postscript.js:0
+[   80264ms] [LOG] [Explorer] Fetched data keys: [index, linux, tags/linux, tags/命令, tags/index] @ http://localhost:8080/postscript.js:0
+[   80265ms] [LOG] [Explorer] Entry count: 5 @ http://localhost:8080/postscript.js:0
+[   80265ms] [LOG] [Explorer] Trie root children: 2 @ http://localhost:8080/postscript.js:0
+[   80273ms] [LOG] [Explorer] Render generation is current, rendering tree @ http://localhost:8080/postscript.js:0
+[   80273ms] [LOG] [Explorer] Trie result: success @ http://localhost:8080/postscript.js:0
+[   80273ms] [LOG] [Explorer] Rendering 1 children @ http://localhost:8080/postscript.js:0
+[   80273ms] [LOG] [Explorer] Render complete, final list length: 2 @ http://localhost:8080/postscript.js:0
+[   80785ms] [LOG] [Explorer] Nav event received, generation: 1 @ http://localhost:8080/postscript.js:0
+[   80785ms] [LOG] [Explorer] Found 1 explorers @ http://localhost:8080/postscript.js:0
+[   80785ms] [LOG] [Explorer] Starting tree build... @ http://localhost:8080/postscript.js:0
+[   80785ms] [LOG] [Explorer] Fetching content index... @ http://localhost:8080/postscript.js:0
+[   80816ms] [LOG] [Explorer] Fetched data keys: [index, linux, tags/linux, tags/命令, tags/index] @ http://localhost:8080/postscript.js:0
+[   80816ms] [LOG] [Explorer] Entry count: 5 @ http://localhost:8080/postscript.js:0
+[   80816ms] [LOG] [Explorer] Trie root children: 2 @ http://localhost:8080/postscript.js:0
+[   80824ms] [LOG] [Explorer] Render generation is current, rendering tree @ http://localhost:8080/postscript.js:0
+[   80824ms] [LOG] [Explorer] Trie result: success @ http://localhost:8080/postscript.js:0
+[   80824ms] [LOG] [Explorer] Rendering 1 children @ http://localhost:8080/postscript.js:0
+[   80824ms] [LOG] [Explorer] Render complete, final list length: 2 @ http://localhost:8080/postscript.js:0

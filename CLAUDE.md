@@ -1,0 +1,38 @@
+# CLAUDE.md
+
+This file provides guidance to Claude Code (claude.ai/code) when working with code in this repository.
+
+## Project
+
+A personal Linux knowledge base built with [Quartz](https://quartz.jzhao.xyz/) v5 and deployed to GitHub Pages at https://nrss33.github.io/Linux/. The actual content is Markdown notes in `content/`, authored in Obsidian.
+
+## Commands
+
+- `npm ci` — install dependencies (Node >= 22, npm >= 10.9.2; `engine-strict` is on)
+- `npx quartz build` — build the static site into `public/`
+- `npx quartz build --serve` — build and serve locally at http://localhost:8080
+- `publish.bat` — Windows helper: `git add -A && git commit && git push` to the `v5` branch, which triggers the CI deploy (also achievable with `npx quartz sync` per the README)
+- `npm run check` — `tsc --noEmit` + `prettier --check`
+- `npm run format` — `prettier --write`
+- `npm test` — run tests via `tsx --test`
+
+## Architecture
+
+- **Quartz v5** static site generator. Framework code in `quartz/` is vendored from upstream — do not edit it. User overrides go in `.quartz/` (gitignored).
+- **`content/`** — the only directory you author. Open this folder in Obsidian to edit notes. Two notes exist:
+  - `content/index.md` — homepage (title `Linux`), links into `Linux.md`.
+  - `content/Linux.md` — main note: a Linux command reference.
+- **`quartz.config.yaml`** — all site configuration (title, locale, theme, plugins, layout) is declared here. Plugins are `@quartz-community/*` / `@quartz-themes/*` npm packages that the `prebuild` script (`install-plugins`) auto-installs into `.quartz/plugins/`.
+- **`public/`** — build output (gitignored). Never edit directly.
+- **Deployment** — pushing to the `v5` branch triggers `.github/workflows/deploy.yml`, which runs `npm ci` + `npx quartz build` and deploys `public/` to GitHub Pages. No separate deploy branch is used.
+
+## Content conventions (`content/Linux.md`)
+
+- Frontmatter uses `title`, `tags`, `created`.
+- `## 目录` is the table of contents; the 14 content sections are `## 1. 文件与目录` … `## 14. 软件包管理`.
+- Each command is a `### <command>` heading with a fixed shape:
+  - a `>` blockquote describing the command
+  - `- 语法:` / `- 常用选项:` / `- 示例:` bullets
+  - fenced `bash` code blocks for examples
+- Cross-links use Obsidian wikilinks: `[[#anchor]]` within the note, `[[Linux#anchor]]` from `index.md`.
+- The build's `ignorePatterns` excludes `private`, `templates`, and `.obsidian`; `.claudian/` (Obsidian plugin state) is also gitignored.

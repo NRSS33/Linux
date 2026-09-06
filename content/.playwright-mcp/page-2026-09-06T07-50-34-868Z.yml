@@ -1,0 +1,2837 @@
+- generic [ref=f154e3]:
+  - generic [ref=f154e4]:
+    - heading [level=2] [ref=f154e5]:
+      - link "Linux" [ref=f154e6] [cursor=pointer]:
+        - /url: .
+    - generic [ref=f154e7]:
+      - button "搜索" [ref=f154e10] [cursor=pointer]:
+        - img "Search" [ref=f154e11]
+        - paragraph [ref=f154e15]: 搜索
+      - button "暗色模式" [ref=f154e17] [cursor=pointer]:
+        - img "暗色模式" [ref=f154e18]
+      - button "阅读模式" [ref=f154e21] [cursor=pointer]:
+        - img "阅读模式" [ref=f154e22]
+    - generic [ref=f154e25]:
+      - button [expanded] [ref=f154e26] [cursor=pointer]:
+        - heading "探索" [level=2] [ref=f154e27]
+      - group [ref=f154e29]:
+        - list [ref=f154e30]:
+          - listitem [ref=f154e31]
+          - listitem [ref=f154e32]:
+            - link "Linux 命令" [ref=f154e33] [cursor=pointer]:
+              - /url: /linux
+  - generic [ref=f154e34]:
+    - generic [ref=f154e36]:
+      - navigation "breadcrumbs" [ref=f154e37]:
+        - generic [ref=f154e38]:
+          - link "Home" [ref=f154e39] [cursor=pointer]:
+            - /url: ./
+          - paragraph [ref=f154e40]: ❯
+        - link "Linux 命令" [ref=f154e42] [cursor=pointer]:
+          - /url: ""
+      - heading "Linux 命令" [level=1] [ref=f154e43]
+      - group [ref=f154e44]:
+        - generic "Properties 1" [ref=f154e45] [cursor=pointer]:
+          - generic [ref=f154e46]: Properties
+          - generic [ref=f154e47]: "1"
+        - table [ref=f154e48]:
+          - rowgroup [ref=f154e49]:
+            - row [ref=f154e50]:
+              - cell "tags" [ref=f154e51]
+              - 'cell "#linux , #命令" [ref=f154e52]':
+                - generic [ref=f154e53]:
+                  - link "#linux" [ref=f154e54] [cursor=pointer]:
+                    - /url: ./tags/linux
+                  - generic [ref=f154e55]: ","
+                  - link "#命令" [ref=f154e56] [cursor=pointer]:
+                    - /url: ./tags/命令
+      - paragraph [ref=f154e57]:
+        - time [ref=f154e58]: 2026年9月04日,
+        - text: 27分钟阅读
+    - article [ref=f154e59]:
+      - generic [ref=f154e60]:
+        - heading "▾ 目录" [level=2] [ref=f154e61] [cursor=pointer]:
+          - text: ▾ 目录
+          - link [aria-hidden] [ref=f154e62]:
+            - /url: "#目录"
+        - paragraph [ref=f154e66]:
+          - strong [ref=f154e67]: 1. 文件与目录
+        - list [ref=f154e68]:
+          - listitem [ref=f154e69]:
+            - link "ls" [ref=f154e70] [cursor=pointer]:
+              - /url: "#ls"
+            - text: — 列出目录
+          - listitem [ref=f154e71]:
+            - link "cd" [ref=f154e72] [cursor=pointer]:
+              - /url: "#cd"
+            - text: — 切换目录
+          - listitem [ref=f154e73]:
+            - link "pwd" [ref=f154e74] [cursor=pointer]:
+              - /url: "#pwd"
+            - text: — 当前路径
+          - listitem [ref=f154e75]:
+            - link "mkdir" [ref=f154e76] [cursor=pointer]:
+              - /url: "#mkdir"
+            - text: — 创建目录
+          - listitem [ref=f154e77]:
+            - link "touch" [ref=f154e78] [cursor=pointer]:
+              - /url: "#touch"
+            - text: — 创建文件
+          - listitem [ref=f154e79]:
+            - link "cp" [ref=f154e80] [cursor=pointer]:
+              - /url: "#cp"
+            - text: — 复制文件/目录
+          - listitem [ref=f154e81]:
+            - link "mv" [ref=f154e82] [cursor=pointer]:
+              - /url: "#mv"
+            - text: — 移动/重命名
+          - listitem [ref=f154e83]:
+            - link "rm" [ref=f154e84] [cursor=pointer]:
+              - /url: "#rm"
+            - text: — 删除文件/目录
+          - listitem [ref=f154e85]:
+            - link "rmdir" [ref=f154e86] [cursor=pointer]:
+              - /url: "#rmdir"
+            - text: — 删除空目录
+          - listitem [ref=f154e87]:
+            - link "ln" [ref=f154e88] [cursor=pointer]:
+              - /url: "#ln"
+            - text: — 创建链接
+        - paragraph [ref=f154e89]:
+          - strong [ref=f154e90]: 2. 文本查看与处理
+        - list [ref=f154e91]:
+          - listitem [ref=f154e92]:
+            - link "cat" [ref=f154e93] [cursor=pointer]:
+              - /url: "#cat"
+            - text: — 查看文件内容
+          - listitem [ref=f154e94]:
+            - link "less" [ref=f154e95] [cursor=pointer]:
+              - /url: "#less"
+            - text: — 分页查看
+          - listitem [ref=f154e96]:
+            - link "head" [ref=f154e97] [cursor=pointer]:
+              - /url: "#head"
+            - text: — 查看文件开头
+          - listitem [ref=f154e98]:
+            - link "tail" [ref=f154e99] [cursor=pointer]:
+              - /url: "#tail"
+            - text: — 查看文件末尾/跟踪
+          - listitem [ref=f154e100]:
+            - link "grep" [ref=f154e101] [cursor=pointer]:
+              - /url: "#grep"
+            - text: — 搜索/过滤文本
+          - listitem [ref=f154e102]:
+            - link "wc" [ref=f154e103] [cursor=pointer]:
+              - /url: "#wc"
+            - text: — 统计行数
+          - listitem [ref=f154e104]:
+            - link "sed" [ref=f154e105] [cursor=pointer]:
+              - /url: "#sed"
+            - text: — 文本替换
+          - listitem [ref=f154e106]:
+            - link "awk" [ref=f154e107] [cursor=pointer]:
+              - /url: "#awk"
+            - text: — 按列处理文本
+          - listitem [ref=f154e108]:
+            - link "sort" [ref=f154e109] [cursor=pointer]:
+              - /url: "#sort"
+            - text: — 排序
+          - listitem [ref=f154e110]:
+            - link "uniq" [ref=f154e111] [cursor=pointer]:
+              - /url: "#uniq"
+            - text: — 去重
+          - listitem [ref=f154e112]:
+            - link "echo" [ref=f154e113] [cursor=pointer]:
+              - /url: "#echo"
+            - text: — 输出文本
+        - paragraph [ref=f154e114]:
+          - strong [ref=f154e115]: 3. 权限管理
+        - list [ref=f154e116]:
+          - listitem [ref=f154e117]:
+            - link "chmod" [ref=f154e118] [cursor=pointer]:
+              - /url: "#chmod"
+            - text: — 修改权限
+          - listitem [ref=f154e119]:
+            - link "chown" [ref=f154e120] [cursor=pointer]:
+              - /url: "#chown"
+            - text: — 修改属主
+        - paragraph [ref=f154e121]:
+          - strong [ref=f154e122]: 4. 进程管理
+        - list [ref=f154e123]:
+          - listitem [ref=f154e124]:
+            - link "ps" [ref=f154e125] [cursor=pointer]:
+              - /url: "#ps"
+            - text: — 查看进程
+          - listitem [ref=f154e126]:
+            - link "top" [ref=f154e127] [cursor=pointer]:
+              - /url: "#top"
+            - text: — 实时监控
+          - listitem [ref=f154e128]:
+            - link "kill" [ref=f154e129] [cursor=pointer]:
+              - /url: "#kill"
+            - text: — 按 PID 结束
+          - listitem [ref=f154e130]:
+            - link "killall" [ref=f154e131] [cursor=pointer]:
+              - /url: "#killall"
+            - text: — 按名称结束
+          - listitem [ref=f154e132]:
+            - link "jobs" [ref=f154e133] [cursor=pointer]:
+              - /url: "#jobs"
+            - text: — 后台任务
+          - listitem [ref=f154e134]:
+            - link "bg" [ref=f154e135] [cursor=pointer]:
+              - /url: "#bg"
+            - text: — 放后台运行
+          - listitem [ref=f154e136]:
+            - link "nohup" [ref=f154e137] [cursor=pointer]:
+              - /url: "#nohup"
+            - text: — 后台不挂断
+          - listitem [ref=f154e138]:
+            - link "systemctl" [ref=f154e139] [cursor=pointer]:
+              - /url: "#systemctl"
+            - text: — 服务管理
+        - paragraph [ref=f154e140]:
+          - strong [ref=f154e141]: 5. 系统信息
+        - list [ref=f154e142]:
+          - listitem [ref=f154e143]:
+            - link "uname" [ref=f154e144] [cursor=pointer]:
+              - /url: "#uname"
+            - text: — 系统/内核信息
+          - listitem [ref=f154e145]:
+            - link "hostname" [ref=f154e146] [cursor=pointer]:
+              - /url: "#hostname"
+            - text: — 主机名
+          - listitem [ref=f154e147]:
+            - link "uptime" [ref=f154e148] [cursor=pointer]:
+              - /url: "#uptime"
+            - text: — 运行时长/负载
+          - listitem [ref=f154e149]:
+            - link "date" [ref=f154e150] [cursor=pointer]:
+              - /url: "#date"
+            - text: — 日期时间
+          - listitem [ref=f154e151]:
+            - link "free" [ref=f154e152] [cursor=pointer]:
+              - /url: "#free"
+            - text: — 查看内存
+          - listitem [ref=f154e153]:
+            - link "env" [ref=f154e154] [cursor=pointer]:
+              - /url: "#env"
+            - text: — 环境变量
+          - listitem [ref=f154e155]:
+            - link "export" [ref=f154e156] [cursor=pointer]:
+              - /url: "#export"
+            - text: — 设置环境变量
+          - listitem [ref=f154e157]:
+            - link "history" [ref=f154e158] [cursor=pointer]:
+              - /url: "#history"
+            - text: — 历史命令
+          - listitem [ref=f154e159]:
+            - link "w" [ref=f154e160] [cursor=pointer]:
+              - /url: "#w"
+            - text: — 登录用户/负载
+          - listitem [ref=f154e161]:
+            - link "who" [ref=f154e162] [cursor=pointer]:
+              - /url: "#who"
+            - text: — 登录用户
+          - listitem [ref=f154e163]:
+            - link "exit" [ref=f154e164] [cursor=pointer]:
+              - /url: "#exit"
+            - text: — 退出终端
+          - listitem [ref=f154e165]:
+            - link "man" [ref=f154e166] [cursor=pointer]:
+              - /url: "#man"
+            - text: — 命令手册
+        - paragraph [ref=f154e167]:
+          - strong [ref=f154e168]: 6. 磁盘与存储
+        - list [ref=f154e169]:
+          - listitem [ref=f154e170]:
+            - link "df" [ref=f154e171] [cursor=pointer]:
+              - /url: "#df"
+            - text: — 磁盘分区
+          - listitem [ref=f154e172]:
+            - link "du" [ref=f154e173] [cursor=pointer]:
+              - /url: "#du"
+            - text: — 目录大小
+          - listitem [ref=f154e174]:
+            - link "mount" [ref=f154e175] [cursor=pointer]:
+              - /url: "#mount"
+            - text: — 挂载
+          - listitem [ref=f154e176]:
+            - link "umount" [ref=f154e177] [cursor=pointer]:
+              - /url: "#umount"
+            - text: — 卸载
+          - listitem [ref=f154e178]:
+            - link "lsblk" [ref=f154e179] [cursor=pointer]:
+              - /url: "#lsblk"
+            - text: — 块设备
+        - paragraph [ref=f154e180]:
+          - strong [ref=f154e181]: 7. 网络
+        - list [ref=f154e182]:
+          - listitem [ref=f154e183]:
+            - link "ping" [ref=f154e184] [cursor=pointer]:
+              - /url: "#ping"
+            - text: — 测试连通性
+          - listitem [ref=f154e185]:
+            - link "curl" [ref=f154e186] [cursor=pointer]:
+              - /url: "#curl"
+            - text: — HTTP 请求
+          - listitem [ref=f154e187]:
+            - link "wget" [ref=f154e188] [cursor=pointer]:
+              - /url: "#wget"
+            - text: — 下载文件
+          - listitem [ref=f154e189]:
+            - link "netstat" [ref=f154e190] [cursor=pointer]:
+              - /url: "#netstat"
+            - text: — 网络端口(旧)
+          - listitem [ref=f154e191]:
+            - link "ss" [ref=f154e192] [cursor=pointer]:
+              - /url: "#ss"
+            - text: — 监听端口
+          - listitem [ref=f154e193]:
+            - link "ifconfig" [ref=f154e194] [cursor=pointer]:
+              - /url: "#ifconfig"
+            - text: — 网络接口(旧)
+          - listitem [ref=f154e195]:
+            - link "ip" [ref=f154e196] [cursor=pointer]:
+              - /url: "#ip"
+            - text: — 网络接口
+          - listitem [ref=f154e197]:
+            - link "scp" [ref=f154e198] [cursor=pointer]:
+              - /url: "#scp"
+            - text: — 远程复制
+          - listitem [ref=f154e199]:
+            - link "ssh" [ref=f154e200] [cursor=pointer]:
+              - /url: "#ssh"
+            - text: — 远程登录
+          - listitem [ref=f154e201]:
+            - link "dig" [ref=f154e202] [cursor=pointer]:
+              - /url: "#dig"
+            - text: — DNS 解析
+        - paragraph [ref=f154e203]:
+          - strong [ref=f154e204]: 8. 压缩与解压
+        - list [ref=f154e205]:
+          - listitem [ref=f154e206]:
+            - link "tar" [ref=f154e207] [cursor=pointer]:
+              - /url: "#tar"
+            - text: — 打包/解包
+          - listitem [ref=f154e208]:
+            - link "gzip" [ref=f154e209] [cursor=pointer]:
+              - /url: "#gzip"
+            - text: — 压缩 .gz
+          - listitem [ref=f154e210]:
+            - link "gunzip" [ref=f154e211] [cursor=pointer]:
+              - /url: "#gunzip"
+            - text: — 解压 .gz
+          - listitem [ref=f154e212]:
+            - link "zip" [ref=f154e213] [cursor=pointer]:
+              - /url: "#zip"
+            - text: — 压缩 zip
+          - listitem [ref=f154e214]:
+            - link "unzip" [ref=f154e215] [cursor=pointer]:
+              - /url: "#unzip"
+            - text: — 解压 zip
+        - paragraph [ref=f154e216]:
+          - strong [ref=f154e217]: 9. 用户与用户组
+        - list [ref=f154e218]:
+          - listitem [ref=f154e219]:
+            - link "useradd" [ref=f154e220] [cursor=pointer]:
+              - /url: "#useradd"
+            - text: — 添加用户
+          - listitem [ref=f154e221]:
+            - link "usermod" [ref=f154e222] [cursor=pointer]:
+              - /url: "#usermod"
+            - text: — 修改用户
+          - listitem [ref=f154e223]:
+            - link "userdel" [ref=f154e224] [cursor=pointer]:
+              - /url: "#userdel"
+            - text: — 删除用户
+          - listitem [ref=f154e225]:
+            - link "passwd" [ref=f154e226] [cursor=pointer]:
+              - /url: "#passwd"
+            - text: — 修改密码
+          - listitem [ref=f154e227]:
+            - link "su" [ref=f154e228] [cursor=pointer]:
+              - /url: "#su"
+            - text: — 切换用户
+          - listitem [ref=f154e229]:
+            - link "sudo" [ref=f154e230] [cursor=pointer]:
+              - /url: "#sudo"
+            - text: — root 权限执行
+        - paragraph [ref=f154e231]:
+          - strong [ref=f154e232]: 10. 搜索与查找
+        - list [ref=f154e233]:
+          - listitem [ref=f154e234]:
+            - link "find" [ref=f154e235] [cursor=pointer]:
+              - /url: "#find"
+            - text: — 按条件查找
+          - listitem [ref=f154e236]:
+            - link "locate" [ref=f154e237] [cursor=pointer]:
+              - /url: "#locate"
+            - text: — 快速定位
+          - listitem [ref=f154e238]:
+            - link "which" [ref=f154e239] [cursor=pointer]:
+              - /url: "#which"
+            - text: — 命令路径
+          - listitem [ref=f154e240]:
+            - link "whereis" [ref=f154e241] [cursor=pointer]:
+              - /url: "#whereis"
+            - text: — 查找二进制
+        - paragraph [ref=f154e242]:
+          - strong [ref=f154e243]: 11. 系统管理
+        - list [ref=f154e244]:
+          - listitem [ref=f154e245]:
+            - link "shutdown" [ref=f154e246] [cursor=pointer]:
+              - /url: "#shutdown"
+            - text: — 关机/重启/定时
+          - listitem [ref=f154e247]:
+            - link "reboot" [ref=f154e248] [cursor=pointer]:
+              - /url: "#reboot"
+            - text: — 重启
+          - listitem [ref=f154e249]:
+            - link "poweroff" [ref=f154e250] [cursor=pointer]:
+              - /url: "#poweroff"
+            - text: — 立即关机
+          - listitem [ref=f154e251]:
+            - link "halt" [ref=f154e252] [cursor=pointer]:
+              - /url: "#halt"
+            - text: — 停止系统
+          - listitem [ref=f154e253]:
+            - link "crontab" [ref=f154e254] [cursor=pointer]:
+              - /url: "#crontab"
+            - text: — 定时任务
+          - listitem [ref=f154e255]:
+            - link "alias" [ref=f154e256] [cursor=pointer]:
+              - /url: "#alias"
+            - text: — 命令别名
+        - paragraph [ref=f154e257]:
+          - strong [ref=f154e258]: 12. 编辑器
+        - list [ref=f154e259]:
+          - listitem [ref=f154e260]:
+            - link "vim" [ref=f154e261] [cursor=pointer]:
+              - /url: "#vim"
+            - text: — 文本编辑器
+        - paragraph [ref=f154e262]:
+          - strong [ref=f154e263]: 13. 服务管理
+        - list [ref=f154e264]:
+          - listitem [ref=f154e265]:
+            - link "常用服务速查" [ref=f154e266] [cursor=pointer]:
+              - /url: "#%E5%B8%B8%E7%94%A8%E6%9C%8D%E5%8A%A1%E9%80%9F%E6%9F%A5"
+            - text: — 常见服务状态/启停
+          - listitem [ref=f154e267]:
+            - link "服务列表与自启" [ref=f154e268] [cursor=pointer]:
+              - /url: "#%E6%9C%8D%E5%8A%A1%E5%88%97%E8%A1%A8%E4%B8%8E%E8%87%AA%E5%90%AF"
+            - text: — 查看服务列表
+        - paragraph [ref=f154e269]:
+          - strong [ref=f154e270]: 14. 软件包管理
+        - list [ref=f154e271]:
+          - listitem [ref=f154e272]:
+            - link "apt" [ref=f154e273] [cursor=pointer]:
+              - /url: "#apt"
+            - text: — 软件包管理
+        - separator [ref=f154e274]
+        - heading "▾ 1. 文件与目录" [level=2] [ref=f154e275] [cursor=pointer]:
+          - text: ▾ 1. 文件与目录
+          - link [aria-hidden] [ref=f154e276]:
+            - /url: "#1-文件与目录"
+        - heading "▾ ls" [level=3] [ref=f154e280] [cursor=pointer]:
+          - text: ▾ ls
+          - link [aria-hidden] [ref=f154e281]:
+            - /url: "#ls"
+        - blockquote [ref=f154e285]:
+          - paragraph [ref=f154e286]: 列出目录内容。
+        - list [ref=f154e287]:
+          - listitem [ref=f154e288]:
+            - text: "语法:"
+            - code [ref=f154e289]: ls [选项] [路径]
+          - listitem [ref=f154e290]:
+            - text: "常用选项:"
+            - code [ref=f154e291]: "-l"
+            - text: 详情 ·
+            - code [ref=f154e292]: "-a"
+            - text: 隐藏 ·
+            - code [ref=f154e293]: "-h"
+            - text: 人类可读 ·
+            - code [ref=f154e294]: "-t"
+            - text: 按时间
+          - listitem [ref=f154e295]: "示例:"
+        - figure [ref=f154e296]:
+          - generic [ref=f154e297]:
+            - button "Copy source" [ref=f154e298]
+            - code [ref=f154e302]:
+              - generic [ref=f154e303]: ls
+              - generic [ref=f154e304]: ls -lah
+        - heading "▾ cd" [level=3] [ref=f154e305] [cursor=pointer]:
+          - text: ▾ cd
+          - link [aria-hidden] [ref=f154e306]:
+            - /url: "#cd"
+        - blockquote [ref=f154e310]:
+          - paragraph [ref=f154e311]: 切换目录。
+        - list [ref=f154e312]:
+          - listitem [ref=f154e313]:
+            - text: "语法:"
+            - code [ref=f154e314]: cd [目录]
+          - listitem [ref=f154e315]: "示例:"
+        - figure [ref=f154e316]:
+          - generic [ref=f154e317]:
+            - button "Copy source" [ref=f154e318]
+            - code [ref=f154e322]:
+              - generic [ref=f154e323]: cd /etc
+              - generic [ref=f154e324]: "cd .. # 上级目录"
+              - generic [ref=f154e325]: "cd ~ # 主目录"
+              - generic [ref=f154e326]: "cd - # 返回上次目录"
+        - heading "▾ pwd" [level=3] [ref=f154e327] [cursor=pointer]:
+          - text: ▾ pwd
+          - link [aria-hidden] [ref=f154e328]:
+            - /url: "#pwd"
+        - blockquote [ref=f154e332]:
+          - paragraph [ref=f154e333]: 显示当前路径。
+        - list [ref=f154e334]:
+          - listitem [ref=f154e335]:
+            - text: "语法:"
+            - code [ref=f154e336]: pwd
+          - listitem [ref=f154e337]: "示例:"
+        - figure [ref=f154e338]:
+          - generic [ref=f154e339]:
+            - button "Copy source" [ref=f154e340]
+            - code [ref=f154e344]:
+              - generic [ref=f154e345]: pwd
+        - heading "▾ mkdir" [level=3] [ref=f154e346] [cursor=pointer]:
+          - text: ▾ mkdir
+          - link [aria-hidden] [ref=f154e347]:
+            - /url: "#mkdir"
+        - blockquote [ref=f154e351]:
+          - paragraph [ref=f154e352]: 创建目录。
+        - list [ref=f154e353]:
+          - listitem [ref=f154e354]:
+            - text: "语法:"
+            - code [ref=f154e355]: mkdir [选项] 目录
+          - listitem [ref=f154e356]:
+            - text: "常用选项:"
+            - code [ref=f154e357]: "-p"
+            - text: 递归创建多级
+          - listitem [ref=f154e358]: "示例:"
+        - figure [ref=f154e359]:
+          - generic [ref=f154e360]:
+            - button "Copy source" [ref=f154e361]
+            - code [ref=f154e365]:
+              - generic [ref=f154e366]: mkdir test
+              - generic [ref=f154e367]: mkdir -p a/b/c
+        - heading "▾ touch" [level=3] [ref=f154e368] [cursor=pointer]:
+          - text: ▾ touch
+          - link [aria-hidden] [ref=f154e369]:
+            - /url: "#touch"
+        - blockquote [ref=f154e373]:
+          - paragraph [ref=f154e374]: 创建空文件 / 更新时间戳。
+        - list [ref=f154e375]:
+          - listitem [ref=f154e376]:
+            - text: "语法:"
+            - code [ref=f154e377]: touch 文件
+          - listitem [ref=f154e378]: "示例:"
+        - figure [ref=f154e379]:
+          - generic [ref=f154e380]:
+            - button "Copy source" [ref=f154e381]
+            - code [ref=f154e385]:
+              - generic [ref=f154e386]: touch file.txt
+        - heading "▾ cp" [level=3] [ref=f154e387] [cursor=pointer]:
+          - text: ▾ cp
+          - link [aria-hidden] [ref=f154e388]:
+            - /url: "#cp"
+        - blockquote [ref=f154e392]:
+          - paragraph [ref=f154e393]: 复制文件或目录。
+        - list [ref=f154e394]:
+          - listitem [ref=f154e395]:
+            - text: "语法:"
+            - code [ref=f154e396]: cp [选项] 源 目标
+          - listitem [ref=f154e397]:
+            - text: "常用选项:"
+            - code [ref=f154e398]: "-r"
+            - text: 递归 ·
+            - code [ref=f154e399]: "-p"
+            - text: 保留属性 ·
+            - code [ref=f154e400]: "-i"
+            - text: 覆盖询问
+          - listitem [ref=f154e401]: "示例:"
+        - figure [ref=f154e402]:
+          - generic [ref=f154e403]:
+            - button "Copy source" [ref=f154e404]
+            - code [ref=f154e408]:
+              - generic [ref=f154e409]: cp a.txt b.txt
+              - generic [ref=f154e410]: cp -rp src/ dst/
+        - heading "▾ mv" [level=3] [ref=f154e411] [cursor=pointer]:
+          - text: ▾ mv
+          - link [aria-hidden] [ref=f154e412]:
+            - /url: "#mv"
+        - blockquote [ref=f154e416]:
+          - paragraph [ref=f154e417]: 移动 / 重命名。
+        - list [ref=f154e418]:
+          - listitem [ref=f154e419]:
+            - text: "语法:"
+            - code [ref=f154e420]: mv [选项] 源 目标
+          - listitem [ref=f154e421]:
+            - text: "常用选项:"
+            - code [ref=f154e422]: "-i"
+            - text: 覆盖询问
+          - listitem [ref=f154e423]: "示例:"
+        - figure [ref=f154e424]:
+          - generic [ref=f154e425]:
+            - button "Copy source" [ref=f154e426]
+            - code [ref=f154e430]:
+              - generic [ref=f154e431]: mv a.txt b.txt
+              - generic [ref=f154e432]: mv file.txt /tmp/
+        - heading "▾ rm" [level=3] [ref=f154e433] [cursor=pointer]:
+          - text: ▾ rm
+          - link [aria-hidden] [ref=f154e434]:
+            - /url: "#rm"
+        - blockquote [ref=f154e438]:
+          - paragraph [ref=f154e439]: 删除文件 / 目录。
+        - list [ref=f154e440]:
+          - listitem [ref=f154e441]:
+            - text: "语法:"
+            - code [ref=f154e442]: rm [选项] 文件
+          - listitem [ref=f154e443]:
+            - text: "常用选项:"
+            - code [ref=f154e444]: "-r"
+            - text: 递归 ·
+            - code [ref=f154e445]: "-f"
+            - text: 强制 ·
+            - code [ref=f154e446]: "-i"
+            - text: 确认
+          - listitem [ref=f154e447]: "示例:"
+        - figure [ref=f154e448]:
+          - generic [ref=f154e449]:
+            - button "Copy source" [ref=f154e450]
+            - code [ref=f154e454]:
+              - generic [ref=f154e455]: rm file.txt
+              - generic [ref=f154e456]: "rm -rf dir/ # 危险,慎用"
+        - heading "▾ rmdir" [level=3] [ref=f154e457] [cursor=pointer]:
+          - text: ▾ rmdir
+          - link [aria-hidden] [ref=f154e458]:
+            - /url: "#rmdir"
+        - blockquote [ref=f154e462]:
+          - paragraph [ref=f154e463]: 删除空目录。
+        - list [ref=f154e464]:
+          - listitem [ref=f154e465]:
+            - text: "语法:"
+            - code [ref=f154e466]: rmdir 目录
+          - listitem [ref=f154e467]: "示例:"
+        - figure [ref=f154e468]:
+          - generic [ref=f154e469]:
+            - button "Copy source" [ref=f154e470]
+            - code [ref=f154e474]:
+              - generic [ref=f154e475]: rmdir empty_dir
+        - heading "▾ ln" [level=3] [ref=f154e476] [cursor=pointer]:
+          - text: ▾ ln
+          - link [aria-hidden] [ref=f154e477]:
+            - /url: "#ln"
+        - blockquote [ref=f154e481]:
+          - paragraph [ref=f154e482]: 创建链接。
+        - list [ref=f154e483]:
+          - listitem [ref=f154e484]:
+            - text: "语法:"
+            - code [ref=f154e485]: ln [选项] 目标 链接名
+          - listitem [ref=f154e486]:
+            - text: "常用选项:"
+            - code [ref=f154e487]: "-s"
+            - text: 软链接
+          - listitem [ref=f154e488]: "示例:"
+        - figure [ref=f154e489]:
+          - generic [ref=f154e490]:
+            - button "Copy source" [ref=f154e491]
+            - code [ref=f154e495]:
+              - generic [ref=f154e496]: ln -s /usr/local/nginx /opt/nginx
+        - heading "▾ 2. 文本查看与处理" [level=2] [ref=f154e497] [cursor=pointer]:
+          - text: ▾ 2. 文本查看与处理
+          - link [aria-hidden] [ref=f154e498]:
+            - /url: "#2-文本查看与处理"
+        - heading "▾ cat" [level=3] [ref=f154e502] [cursor=pointer]:
+          - text: ▾ cat
+          - link [aria-hidden] [ref=f154e503]:
+            - /url: "#cat"
+        - blockquote [ref=f154e507]:
+          - paragraph [ref=f154e508]: 输出文件全部内容。
+        - list [ref=f154e509]:
+          - listitem [ref=f154e510]:
+            - text: "语法:"
+            - code [ref=f154e511]: cat [选项] 文件
+          - listitem [ref=f154e512]:
+            - text: "常用选项:"
+            - code [ref=f154e513]: "-n"
+            - text: 显示行号
+          - listitem [ref=f154e514]: "示例:"
+        - figure [ref=f154e515]:
+          - generic [ref=f154e516]:
+            - button "Copy source" [ref=f154e517]
+            - code [ref=f154e521]:
+              - generic [ref=f154e522]: cat file.txt
+              - generic [ref=f154e523]: cat -n file.txt
+        - heading "▾ less" [level=3] [ref=f154e524] [cursor=pointer]:
+          - text: ▾ less
+          - link [aria-hidden] [ref=f154e525]:
+            - /url: "#less"
+        - blockquote [ref=f154e529]:
+          - paragraph [ref=f154e530]: 分页查看文件(可上下翻)。
+        - list [ref=f154e531]:
+          - listitem [ref=f154e532]:
+            - text: "语法:"
+            - code [ref=f154e533]: less 文件
+          - listitem [ref=f154e534]:
+            - text: "快捷键:"
+            - code [ref=f154e535]: q
+            - text: 退出 ·
+            - code [ref=f154e536]: /
+            - text: 搜索 ·
+            - code [ref=f154e537]: g
+            - text: 首行 ·
+            - code [ref=f154e538]: G
+            - text: 末行
+          - listitem [ref=f154e539]: "示例:"
+        - figure [ref=f154e540]:
+          - generic [ref=f154e541]:
+            - button "Copy source" [ref=f154e542]
+            - code [ref=f154e546]:
+              - generic [ref=f154e547]: less app.log
+        - heading "▾ head" [level=3] [ref=f154e548] [cursor=pointer]:
+          - text: ▾ head
+          - link [aria-hidden] [ref=f154e549]:
+            - /url: "#head"
+        - blockquote [ref=f154e553]:
+          - paragraph [ref=f154e554]: 查看文件开头 N 行。
+        - list [ref=f154e555]:
+          - listitem [ref=f154e556]:
+            - text: "语法:"
+            - code [ref=f154e557]: head [选项] 文件
+          - listitem [ref=f154e558]:
+            - text: "常用选项:"
+            - code [ref=f154e559]: "-n"
+            - text: 行数
+          - listitem [ref=f154e560]: "示例:"
+        - figure [ref=f154e561]:
+          - generic [ref=f154e562]:
+            - button "Copy source" [ref=f154e563]
+            - code [ref=f154e567]:
+              - generic [ref=f154e568]: head file.txt
+              - generic [ref=f154e569]: head -n 20 file.txt
+        - heading "▾ tail" [level=3] [ref=f154e570] [cursor=pointer]:
+          - text: ▾ tail
+          - link [aria-hidden] [ref=f154e571]:
+            - /url: "#tail"
+        - blockquote [ref=f154e575]:
+          - paragraph [ref=f154e576]: 查看文件末尾 N 行 / 实时跟踪。
+        - list [ref=f154e577]:
+          - listitem [ref=f154e578]:
+            - text: "语法:"
+            - code [ref=f154e579]: tail [选项] 文件
+          - listitem [ref=f154e580]:
+            - text: "常用选项:"
+            - code [ref=f154e581]: "-f"
+            - text: 实时跟踪 ·
+            - code [ref=f154e582]: "-n"
+            - text: 行数
+          - listitem [ref=f154e583]: "示例:"
+        - figure [ref=f154e584]:
+          - generic [ref=f154e585]:
+            - button "Copy source" [ref=f154e586]
+            - code [ref=f154e590]:
+              - generic [ref=f154e591]: tail -f app.log
+              - generic [ref=f154e592]: tail -n 50 app.log
+        - heading "▾ grep" [level=3] [ref=f154e593] [cursor=pointer]:
+          - text: ▾ grep
+          - link [aria-hidden] [ref=f154e594]:
+            - /url: "#grep"
+        - blockquote [ref=f154e598]:
+          - paragraph [ref=f154e599]: 搜索 / 过滤匹配文本。
+        - list [ref=f154e600]:
+          - listitem [ref=f154e601]:
+            - text: "语法:"
+            - code [ref=f154e602]: grep [选项] 模式 [文件]
+          - listitem [ref=f154e603]:
+            - text: "常用选项:"
+            - code [ref=f154e604]: "-i"
+            - text: 忽略大小写 ·
+            - code [ref=f154e605]: "-r"
+            - text: 递归 ·
+            - code [ref=f154e606]: "-n"
+            - text: 行号 ·
+            - code [ref=f154e607]: "-v"
+            - text: 取反 ·
+            - code [ref=f154e608]: "-E"
+            - text: 扩展正则 ·
+            - code [ref=f154e609]: "-o"
+            - text: 只输出匹配 ·
+            - code [ref=f154e610]: "-w"
+            - text: 全词 ·
+            - code [ref=f154e611]: "-e"
+            - text: 多模式
+          - listitem [ref=f154e612]: "示例:"
+        - figure [ref=f154e613]:
+          - generic [ref=f154e614]:
+            - button "Copy source" [ref=f154e615]
+            - code [ref=f154e619]:
+              - generic [ref=f154e620]: grep "error" app.log
+              - generic [ref=f154e621]: grep -rn "error" /var/log/
+              - generic [ref=f154e622]: "grep -v \"^#\" conf.conf # 过滤注释行"
+              - generic [ref=f154e623]: "grep -v \"^#\" conf.conf | grep -v \"^$\" # 过滤注释和空行"
+              - generic [ref=f154e624]: "grep -E \"error|warn\" app.log # 多模式(扩展正则)"
+              - generic [ref=f154e625]: "grep -o \"[0-9.]*\" access.log # 只输出匹配部分"
+        - heading "▾ wc" [level=3] [ref=f154e626] [cursor=pointer]:
+          - text: ▾ wc
+          - link [aria-hidden] [ref=f154e627]:
+            - /url: "#wc"
+        - blockquote [ref=f154e631]:
+          - paragraph [ref=f154e632]: 统计行数 / 字数 / 字节。
+        - list [ref=f154e633]:
+          - listitem [ref=f154e634]:
+            - text: "语法:"
+            - code [ref=f154e635]: wc [选项] 文件
+          - listitem [ref=f154e636]:
+            - text: "常用选项:"
+            - code [ref=f154e637]: "-l"
+            - text: 行数 ·
+            - code [ref=f154e638]: "-c"
+            - text: 字节 ·
+            - code [ref=f154e639]: "-w"
+            - text: 单词
+          - listitem [ref=f154e640]: "示例:"
+        - figure [ref=f154e641]:
+          - generic [ref=f154e642]:
+            - button "Copy source" [ref=f154e643]
+            - code [ref=f154e647]:
+              - generic [ref=f154e648]: wc -l file.txt
+        - heading "▾ sed" [level=3] [ref=f154e649] [cursor=pointer]:
+          - text: ▾ sed
+          - link [aria-hidden] [ref=f154e650]:
+            - /url: "#sed"
+        - blockquote [ref=f154e654]:
+          - paragraph [ref=f154e655]: 流式文本编辑 / 替换。
+        - list [ref=f154e656]:
+          - listitem [ref=f154e657]:
+            - text: "语法:"
+            - code [ref=f154e658]: sed [选项] '动作' 文件
+          - listitem [ref=f154e659]:
+            - text: "常用选项:"
+            - code [ref=f154e660]: "-i"
+            - text: 直接修改 ·
+            - code [ref=f154e661]: "-n"
+            - text: 配合 p 打印
+          - listitem [ref=f154e662]: "示例:"
+        - figure [ref=f154e663]:
+          - generic [ref=f154e664]:
+            - button "Copy source" [ref=f154e665]
+            - code [ref=f154e669]:
+              - generic [ref=f154e670]: sed 's/old/new/g' file.txt
+              - generic [ref=f154e671]: sed -i 's/old/new/g' file.txt
+              - generic [ref=f154e672]: sed -n '10p' file.txt
+        - heading "▾ awk" [level=3] [ref=f154e673] [cursor=pointer]:
+          - text: ▾ awk
+          - link [aria-hidden] [ref=f154e674]:
+            - /url: "#awk"
+        - blockquote [ref=f154e678]:
+          - paragraph [ref=f154e679]: 按列/字段处理文本。
+        - list [ref=f154e680]:
+          - listitem [ref=f154e681]:
+            - text: "语法:"
+            - code [ref=f154e682]: "awk [选项] '{动作}' 文件"
+          - listitem [ref=f154e683]:
+            - text: "常用选项:"
+            - code [ref=f154e684]: "-F"
+            - text: 指定分隔符
+          - listitem [ref=f154e685]: "示例:"
+        - figure [ref=f154e686]:
+          - generic [ref=f154e687]:
+            - button "Copy source" [ref=f154e688]
+            - code [ref=f154e692]:
+              - generic [ref=f154e693]: "awk '{print $1}' file.txt # 输出第 1 列"
+              - generic [ref=f154e694]: "awk -F: '{print $1,$3}' /etc/passwd # 以 : 分隔,输出第 1、3 列"
+        - heading "▾ sort" [level=3] [ref=f154e695] [cursor=pointer]:
+          - text: ▾ sort
+          - link [aria-hidden] [ref=f154e696]:
+            - /url: "#sort"
+        - blockquote [ref=f154e700]:
+          - paragraph [ref=f154e701]: 排序。
+        - list [ref=f154e702]:
+          - listitem [ref=f154e703]:
+            - text: "语法:"
+            - code [ref=f154e704]: sort [选项] 文件
+          - listitem [ref=f154e705]:
+            - text: "常用选项:"
+            - code [ref=f154e706]: "-n"
+            - text: 数值 ·
+            - code [ref=f154e707]: "-r"
+            - text: 降序 ·
+            - code [ref=f154e708]: "-u"
+            - text: 去重 ·
+            - code [ref=f154e709]: "-k"
+            - text: 按列
+          - listitem [ref=f154e710]: "示例:"
+        - figure [ref=f154e711]:
+          - generic [ref=f154e712]:
+            - button "Copy source" [ref=f154e713]
+            - code [ref=f154e717]:
+              - generic [ref=f154e718]: sort file.txt
+              - generic [ref=f154e719]: sort -rn -k 3 file.txt
+        - heading "▾ uniq" [level=3] [ref=f154e720] [cursor=pointer]:
+          - text: ▾ uniq
+          - link [aria-hidden] [ref=f154e721]:
+            - /url: "#uniq"
+        - blockquote [ref=f154e725]:
+          - paragraph [ref=f154e726]: 去重(相邻行)。
+        - list [ref=f154e727]:
+          - listitem [ref=f154e728]:
+            - text: "语法:"
+            - code [ref=f154e729]: uniq [选项]
+          - listitem [ref=f154e730]:
+            - text: "常用选项:"
+            - code [ref=f154e731]: "-c"
+            - text: 计数
+          - listitem [ref=f154e732]: "示例:"
+        - figure [ref=f154e733]:
+          - generic [ref=f154e734]:
+            - button "Copy source" [ref=f154e735]
+            - code [ref=f154e739]:
+              - generic [ref=f154e740]: sort file.txt | uniq
+              - generic [ref=f154e741]: sort file.txt | uniq -c
+        - heading "▾ echo" [level=3] [ref=f154e742] [cursor=pointer]:
+          - text: ▾ echo
+          - link [aria-hidden] [ref=f154e743]:
+            - /url: "#echo"
+        - blockquote [ref=f154e747]:
+          - paragraph [ref=f154e748]: 输出文本 / 变量。
+        - list [ref=f154e749]:
+          - listitem [ref=f154e750]:
+            - text: "语法:"
+            - code [ref=f154e751]: echo [选项] 内容
+          - listitem [ref=f154e752]:
+            - text: "常用选项:"
+            - code [ref=f154e753]: "-e"
+            - text: 解析转义符
+          - listitem [ref=f154e754]: "示例:"
+        - figure [ref=f154e755]:
+          - generic [ref=f154e756]:
+            - button "Copy source" [ref=f154e757]
+            - code [ref=f154e761]:
+              - generic [ref=f154e762]: echo "hello"
+              - generic [ref=f154e763]: echo $PATH
+              - generic [ref=f154e764]: echo "line" >> file.txt
+        - heading "▾ 3. 权限管理" [level=2] [ref=f154e765] [cursor=pointer]:
+          - text: ▾ 3. 权限管理
+          - link [aria-hidden] [ref=f154e766]:
+            - /url: "#3-权限管理"
+        - heading "▾ chmod" [level=3] [ref=f154e770] [cursor=pointer]:
+          - text: ▾ chmod
+          - link [aria-hidden] [ref=f154e771]:
+            - /url: "#chmod"
+        - blockquote [ref=f154e775]:
+          - paragraph [ref=f154e776]: 修改文件权限。
+        - list [ref=f154e777]:
+          - listitem [ref=f154e778]:
+            - text: "语法:"
+            - code [ref=f154e779]: chmod [选项] 权限 文件
+          - listitem [ref=f154e780]:
+            - text: "常用选项:"
+            - code [ref=f154e781]: "-R"
+            - text: 递归
+          - listitem [ref=f154e782]:
+            - text: "权限:"
+            - code [ref=f154e783]: r
+            - text: 读(4) ·
+            - code [ref=f154e784]: w
+            - text: 写(2) ·
+            - code [ref=f154e785]: x
+            - text: 执行(1);
+            - code [ref=f154e786]: u
+            - text: 属主 ·
+            - code [ref=f154e787]: g
+            - text: 属组 ·
+            - code [ref=f154e788]: o
+            - text: 其他 ·
+            - code [ref=f154e789]: a
+            - text: 全部
+          - listitem [ref=f154e790]: "常用数字权限:"
+        - table [ref=f154e792]:
+          - rowgroup [ref=f154e793]:
+            - row [ref=f154e794]:
+              - columnheader "数字" [ref=f154e795]
+              - columnheader "权限" [ref=f154e796]
+              - columnheader "说明" [ref=f154e797]
+          - rowgroup [ref=f154e798]:
+            - row [ref=f154e799]:
+              - cell [ref=f154e800]:
+                - code [ref=f154e801]: "755"
+              - cell "rwxr-xr-x" [ref=f154e802]
+              - cell "属主可读写执行,他人只读执行(脚本/目录常用)" [ref=f154e803]
+            - row [ref=f154e804]:
+              - cell [ref=f154e805]:
+                - code [ref=f154e806]: "644"
+              - cell "rw-r—r—" [ref=f154e807]
+              - cell "属主可读写,他人只读(普通文件常用)" [ref=f154e808]
+            - row [ref=f154e809]:
+              - cell [ref=f154e810]:
+                - code [ref=f154e811]: "700"
+              - cell "rwx------" [ref=f154e812]
+              - cell "仅属主可读写执行" [ref=f154e813]
+            - row [ref=f154e814]:
+              - cell [ref=f154e815]:
+                - code [ref=f154e816]: "600"
+              - cell "rw-------" [ref=f154e817]
+              - cell "仅属主可读写(私密文件)" [ref=f154e818]
+            - row [ref=f154e819]:
+              - cell [ref=f154e820]:
+                - code [ref=f154e821]: "777"
+              - cell "rwxrwxrwx" [ref=f154e822]
+              - cell "所有人可读写执行(危险,慎用)" [ref=f154e823]
+        - list [ref=f154e824]:
+          - listitem [ref=f154e825]: "示例:"
+        - figure [ref=f154e826]:
+          - generic [ref=f154e827]:
+            - button "Copy source" [ref=f154e828]
+            - code [ref=f154e832]:
+              - generic [ref=f154e833]: "chmod +x run.sh # 加执行权限"
+              - generic [ref=f154e834]: "chmod +w file.txt # 加写权限"
+              - generic [ref=f154e835]: "chmod -w file.txt # 去掉写权限"
+              - generic [ref=f154e836]: "chmod +r file.txt # 加读权限"
+              - generic [ref=f154e837]: "chmod u+w file.txt # 属主加写"
+              - generic [ref=f154e838]: "chmod 644 file.txt # rw-r--r--"
+              - generic [ref=f154e839]: "chmod 755 run.sh # rwxr-xr-x"
+              - generic [ref=f154e840]: "chmod -R 755 dir/ # 递归"
+        - heading "▾ chown" [level=3] [ref=f154e841] [cursor=pointer]:
+          - text: ▾ chown
+          - link [aria-hidden] [ref=f154e842]:
+            - /url: "#chown"
+        - blockquote [ref=f154e846]:
+          - paragraph [ref=f154e847]: 修改文件属主/属组。
+        - list [ref=f154e848]:
+          - listitem [ref=f154e849]:
+            - text: "语法:"
+            - code [ref=f154e850]: chown [选项] 用户[:组] 文件
+          - listitem [ref=f154e851]:
+            - text: "常用选项:"
+            - code [ref=f154e852]: "-R"
+            - text: 递归
+          - listitem [ref=f154e853]: "示例:"
+        - figure [ref=f154e854]:
+          - generic [ref=f154e855]:
+            - button "Copy source" [ref=f154e856]
+            - code [ref=f154e860]:
+              - generic [ref=f154e861]: chown www:www file.txt
+              - generic [ref=f154e862]: chown -R www:www /var/www
+        - heading "▾ 4. 进程管理" [level=2] [ref=f154e863] [cursor=pointer]:
+          - text: ▾ 4. 进程管理
+          - link [aria-hidden] [ref=f154e864]:
+            - /url: "#4-进程管理"
+        - heading "▾ ps" [level=3] [ref=f154e868] [cursor=pointer]:
+          - text: ▾ ps
+          - link [aria-hidden] [ref=f154e869]:
+            - /url: "#ps"
+        - blockquote [ref=f154e873]:
+          - paragraph [ref=f154e874]: 查看进程。
+        - list [ref=f154e875]:
+          - listitem [ref=f154e876]:
+            - text: "语法:"
+            - code [ref=f154e877]: ps [选项]
+          - listitem [ref=f154e878]:
+            - text: "常用选项:"
+            - code [ref=f154e879]: aux
+            - text: /
+            - code [ref=f154e880]: "-ef"
+            - text: 查看所有进程
+          - listitem [ref=f154e881]: "示例:"
+        - figure [ref=f154e882]:
+          - generic [ref=f154e883]:
+            - button "Copy source" [ref=f154e884]
+            - code [ref=f154e888]:
+              - generic [ref=f154e889]: ps aux
+              - generic [ref=f154e890]: ps aux | grep nginx
+        - heading "▾ top" [level=3] [ref=f154e891] [cursor=pointer]:
+          - text: ▾ top
+          - link [aria-hidden] [ref=f154e892]:
+            - /url: "#top"
+        - blockquote [ref=f154e896]:
+          - paragraph [ref=f154e897]: 实时监控进程与资源。
+        - list [ref=f154e898]:
+          - listitem [ref=f154e899]:
+            - text: "语法:"
+            - code [ref=f154e900]: top [选项]
+          - listitem [ref=f154e901]:
+            - text: "快捷键:"
+            - code [ref=f154e902]: P
+            - text: 按 CPU 排序 ·
+            - code [ref=f154e903]: M
+            - text: 按内存排序 ·
+            - code [ref=f154e904]: q
+            - text: 退出
+          - listitem [ref=f154e905]: "示例:"
+        - figure [ref=f154e906]:
+          - generic [ref=f154e907]:
+            - button "Copy source" [ref=f154e908]
+            - code [ref=f154e912]:
+              - generic [ref=f154e913]: top
+        - heading "▾ kill" [level=3] [ref=f154e914] [cursor=pointer]:
+          - text: ▾ kill
+          - link [aria-hidden] [ref=f154e915]:
+            - /url: "#kill"
+        - blockquote [ref=f154e919]:
+          - paragraph [ref=f154e920]: 结束进程(按 PID)。
+        - list [ref=f154e921]:
+          - listitem [ref=f154e922]:
+            - text: "语法:"
+            - code [ref=f154e923]: kill [选项] PID
+          - listitem [ref=f154e924]:
+            - text: "常用选项:"
+            - code [ref=f154e925]: "-9"
+            - text: 强制 ·
+            - code [ref=f154e926]: "-15"
+            - text: 正常终止
+          - listitem [ref=f154e927]: "示例:"
+        - figure [ref=f154e928]:
+          - generic [ref=f154e929]:
+            - button "Copy source" [ref=f154e930]
+            - code [ref=f154e934]:
+              - generic [ref=f154e935]: kill 1234
+              - generic [ref=f154e936]: kill -9 1234
+        - heading "▾ killall" [level=3] [ref=f154e937] [cursor=pointer]:
+          - text: ▾ killall
+          - link [aria-hidden] [ref=f154e938]:
+            - /url: "#killall"
+        - blockquote [ref=f154e942]:
+          - paragraph [ref=f154e943]: 结束进程(按名称)。
+        - list [ref=f154e944]:
+          - listitem [ref=f154e945]:
+            - text: "语法:"
+            - code [ref=f154e946]: killall [选项] 进程名
+          - listitem [ref=f154e947]: "示例:"
+        - figure [ref=f154e948]:
+          - generic [ref=f154e949]:
+            - button "Copy source" [ref=f154e950]
+            - code [ref=f154e954]:
+              - generic [ref=f154e955]: killall nginx
+        - heading "▾ jobs" [level=3] [ref=f154e956] [cursor=pointer]:
+          - text: ▾ jobs
+          - link [aria-hidden] [ref=f154e957]:
+            - /url: "#jobs"
+        - blockquote [ref=f154e961]:
+          - paragraph [ref=f154e962]: 查看当前 shell 的后台任务。
+        - list [ref=f154e963]:
+          - listitem [ref=f154e964]:
+            - text: "语法:"
+            - code [ref=f154e965]: jobs [选项]
+          - listitem [ref=f154e966]:
+            - text: "常用选项:"
+            - code [ref=f154e967]: "-l"
+            - text: 显示 PID
+          - listitem [ref=f154e968]: "示例:"
+        - figure [ref=f154e969]:
+          - generic [ref=f154e970]:
+            - button "Copy source" [ref=f154e971]
+            - code [ref=f154e975]:
+              - generic [ref=f154e976]: jobs
+        - heading "▾ bg" [level=3] [ref=f154e977] [cursor=pointer]:
+          - text: ▾ bg
+          - link [aria-hidden] [ref=f154e978]:
+            - /url: "#bg"
+        - blockquote [ref=f154e982]:
+          - paragraph [ref=f154e983]: 把挂起的任务放到后台继续运行。
+        - list [ref=f154e984]:
+          - listitem [ref=f154e985]:
+            - text: "语法:"
+            - code [ref=f154e986]: bg [任务号]
+          - listitem [ref=f154e987]: "示例:"
+        - figure [ref=f154e988]:
+          - generic [ref=f154e989]:
+            - button "Copy source" [ref=f154e990]
+            - code [ref=f154e994]:
+              - generic [ref=f154e995]: bg %1
+        - heading "▾ nohup" [level=3] [ref=f154e996] [cursor=pointer]:
+          - text: ▾ nohup
+          - link [aria-hidden] [ref=f154e997]:
+            - /url: "#nohup"
+        - blockquote [ref=f154e1001]:
+          - paragraph [ref=f154e1002]: 后台运行,退出终端不中断。
+        - list [ref=f154e1003]:
+          - listitem [ref=f154e1004]:
+            - text: "语法:"
+            - code [ref=f154e1005]: nohup 命令 &
+          - listitem [ref=f154e1006]: "示例:"
+        - figure [ref=f154e1007]:
+          - generic [ref=f154e1008]:
+            - button "Copy source" [ref=f154e1009]
+            - code [ref=f154e1013]:
+              - generic [ref=f154e1014]: nohup ./app > app.log 2>&1 &
+        - heading "▾ systemctl" [level=3] [ref=f154e1015] [cursor=pointer]:
+          - text: ▾ systemctl
+          - link [aria-hidden] [ref=f154e1016]:
+            - /url: "#systemctl"
+        - blockquote [ref=f154e1020]:
+          - paragraph [ref=f154e1021]: 服务管理(systemd)。
+        - list [ref=f154e1022]:
+          - listitem [ref=f154e1023]:
+            - text: "语法:"
+            - code [ref=f154e1024]: systemctl 动作 服务
+          - listitem [ref=f154e1025]: "常用动作:"
+        - table [ref=f154e1027]:
+          - rowgroup [ref=f154e1028]:
+            - row [ref=f154e1029]:
+              - columnheader "动作" [ref=f154e1030]
+              - columnheader "作用" [ref=f154e1031]
+          - rowgroup [ref=f154e1032]:
+            - row [ref=f154e1033]:
+              - cell [ref=f154e1034]:
+                - code [ref=f154e1035]: status
+              - cell "查看服务运行状态" [ref=f154e1036]
+            - row [ref=f154e1037]:
+              - cell [ref=f154e1038]:
+                - code [ref=f154e1039]: start
+              - cell "启动服务" [ref=f154e1040]
+            - row [ref=f154e1041]:
+              - cell [ref=f154e1042]:
+                - code [ref=f154e1043]: stop
+              - cell "停止服务" [ref=f154e1044]
+            - row [ref=f154e1045]:
+              - cell [ref=f154e1046]:
+                - code [ref=f154e1047]: restart
+              - cell "重启服务" [ref=f154e1048]
+            - row [ref=f154e1049]:
+              - cell [ref=f154e1050]:
+                - code [ref=f154e1051]: reload
+              - cell "重新加载配置(不中断服务)" [ref=f154e1052]
+            - row [ref=f154e1053]:
+              - cell [ref=f154e1054]:
+                - code [ref=f154e1055]: enable
+              - cell "设置开机自启" [ref=f154e1056]
+            - row [ref=f154e1057]:
+              - cell [ref=f154e1058]:
+                - code [ref=f154e1059]: disable
+              - cell "取消开机自启" [ref=f154e1060]
+        - list [ref=f154e1061]:
+          - listitem [ref=f154e1062]: "示例:"
+        - figure [ref=f154e1063]:
+          - generic [ref=f154e1064]:
+            - button "Copy source" [ref=f154e1065]
+            - code [ref=f154e1069]:
+              - generic [ref=f154e1070]: "systemctl status nginx # 查看 nginx 运行状态"
+              - generic [ref=f154e1071]: "systemctl start nginx # 启动 nginx"
+              - generic [ref=f154e1072]: "systemctl stop nginx # 停止 nginx"
+              - generic [ref=f154e1073]: "systemctl restart nginx # 重启 nginx"
+              - generic [ref=f154e1074]: "systemctl reload nginx # 重新加载配置"
+              - generic [ref=f154e1075]: "systemctl enable nginx # 设置开机自启"
+              - generic [ref=f154e1076]: "systemctl disable nginx # 取消开机自启"
+        - heading "▾ 5. 系统信息" [level=2] [ref=f154e1077] [cursor=pointer]:
+          - text: ▾ 5. 系统信息
+          - link [aria-hidden] [ref=f154e1078]:
+            - /url: "#5-系统信息"
+        - heading "▾ uname" [level=3] [ref=f154e1082] [cursor=pointer]:
+          - text: ▾ uname
+          - link [aria-hidden] [ref=f154e1083]:
+            - /url: "#uname"
+        - blockquote [ref=f154e1087]:
+          - paragraph [ref=f154e1088]: 查看系统 / 内核信息。
+        - list [ref=f154e1089]:
+          - listitem [ref=f154e1090]:
+            - text: "语法:"
+            - code [ref=f154e1091]: uname [选项]
+          - listitem [ref=f154e1092]:
+            - text: "常用选项:"
+            - code [ref=f154e1093]: "-a"
+            - text: 全部 ·
+            - code [ref=f154e1094]: "-r"
+            - text: 内核版本
+          - listitem [ref=f154e1095]: "示例:"
+        - figure [ref=f154e1096]:
+          - generic [ref=f154e1097]:
+            - button "Copy source" [ref=f154e1098]
+            - code [ref=f154e1102]:
+              - generic [ref=f154e1103]: uname -a
+              - generic [ref=f154e1104]: uname -r
+        - heading "▾ hostname" [level=3] [ref=f154e1105] [cursor=pointer]:
+          - text: ▾ hostname
+          - link [aria-hidden] [ref=f154e1106]:
+            - /url: "#hostname"
+        - blockquote [ref=f154e1110]:
+          - paragraph [ref=f154e1111]: 查看 / 设置主机名。
+        - list [ref=f154e1112]:
+          - listitem [ref=f154e1113]:
+            - text: "语法:"
+            - code [ref=f154e1114]: hostname [选项]
+          - listitem [ref=f154e1115]: "示例:"
+        - figure [ref=f154e1116]:
+          - generic [ref=f154e1117]:
+            - button "Copy source" [ref=f154e1118]
+            - code [ref=f154e1122]:
+              - generic [ref=f154e1123]: hostname
+              - generic [ref=f154e1124]: hostnamectl set-hostname myserver
+        - heading "▾ uptime" [level=3] [ref=f154e1125] [cursor=pointer]:
+          - text: ▾ uptime
+          - link [aria-hidden] [ref=f154e1126]:
+            - /url: "#uptime"
+        - blockquote [ref=f154e1130]:
+          - paragraph [ref=f154e1131]: 查看运行时长与负载。
+        - list [ref=f154e1132]:
+          - listitem [ref=f154e1133]:
+            - text: "语法:"
+            - code [ref=f154e1134]: uptime
+          - listitem [ref=f154e1135]: "示例:"
+        - figure [ref=f154e1136]:
+          - generic [ref=f154e1137]:
+            - button "Copy source" [ref=f154e1138]
+            - code [ref=f154e1142]:
+              - generic [ref=f154e1143]: uptime
+        - heading "▾ date" [level=3] [ref=f154e1144] [cursor=pointer]:
+          - text: ▾ date
+          - link [aria-hidden] [ref=f154e1145]:
+            - /url: "#date"
+        - blockquote [ref=f154e1149]:
+          - paragraph [ref=f154e1150]: 查看 / 设置日期时间。
+        - list [ref=f154e1151]:
+          - listitem [ref=f154e1152]:
+            - text: "语法:"
+            - code [ref=f154e1153]: date [选项] [格式]
+          - listitem [ref=f154e1154]:
+            - text: "常用选项:"
+            - code [ref=f154e1155]: "-d"
+            - text: 显示指定时间 ·
+            - code [ref=f154e1156]: "-s"
+            - text: 设置系统时间(需 root)
+          - listitem [ref=f154e1157]:
+            - text: "常用格式:"
+            - code [ref=f154e1158]: "%Y"
+            - text: 年 ·
+            - code [ref=f154e1159]: "%m"
+            - text: 月 ·
+            - code [ref=f154e1160]: "%d"
+            - text: 日 ·
+            - code [ref=f154e1161]: "%H"
+            - text: 时 ·
+            - code [ref=f154e1162]: "%M"
+            - text: 分 ·
+            - code [ref=f154e1163]: "%S"
+            - text: 秒 ·
+            - code [ref=f154e1164]: "%s"
+            - text: 时间戳 ·
+            - code [ref=f154e1165]: "%A"
+            - text: 星期
+          - listitem [ref=f154e1166]: "示例:"
+        - figure [ref=f154e1167]:
+          - generic [ref=f154e1168]:
+            - button "Copy source" [ref=f154e1169]
+            - code [ref=f154e1173]:
+              - generic [ref=f154e1174]: "date # 当前日期时间"
+              - generic [ref=f154e1175]: "date +%Y-%m-%d # 如 2024-01-01"
+              - generic [ref=f154e1176]: "date +%s # unix 时间戳"
+              - generic [ref=f154e1177]: "date -d \"2024-01-01\" # 显示指定日期"
+              - generic [ref=f154e1178]: "date -d \"yesterday\" # 昨天"
+              - generic [ref=f154e1179]: "date -d \"1 day ago\" # 1 天前"
+              - generic [ref=f154e1180]: "date -d \"@1700000000\" # 时间戳转日期"
+              - generic [ref=f154e1181]: "sudo date -s \"2024-01-01 12:00:00\" # 设置系统时间"
+        - heading "▾ free" [level=3] [ref=f154e1182] [cursor=pointer]:
+          - text: ▾ free
+          - link [aria-hidden] [ref=f154e1183]:
+            - /url: "#free"
+        - blockquote [ref=f154e1187]:
+          - paragraph [ref=f154e1188]: 查看内存使用。
+        - list [ref=f154e1189]:
+          - listitem [ref=f154e1190]:
+            - text: "语法:"
+            - code [ref=f154e1191]: free [选项]
+          - listitem [ref=f154e1192]:
+            - text: "常用选项:"
+            - code [ref=f154e1193]: "-h"
+            - text: 人类可读
+          - listitem [ref=f154e1194]: "示例:"
+        - figure [ref=f154e1195]:
+          - generic [ref=f154e1196]:
+            - button "Copy source" [ref=f154e1197]
+            - code [ref=f154e1201]:
+              - generic [ref=f154e1202]: free -h
+        - heading "▾ env" [level=3] [ref=f154e1203] [cursor=pointer]:
+          - text: ▾ env
+          - link [aria-hidden] [ref=f154e1204]:
+            - /url: "#env"
+        - blockquote [ref=f154e1208]:
+          - paragraph [ref=f154e1209]: 查看环境变量。
+        - list [ref=f154e1210]:
+          - listitem [ref=f154e1211]:
+            - text: "语法:"
+            - code [ref=f154e1212]: env [选项]
+          - listitem [ref=f154e1213]: "示例:"
+        - figure [ref=f154e1214]:
+          - generic [ref=f154e1215]:
+            - button "Copy source" [ref=f154e1216]
+            - code [ref=f154e1220]:
+              - generic [ref=f154e1221]: env
+        - heading "▾ export" [level=3] [ref=f154e1222] [cursor=pointer]:
+          - text: ▾ export
+          - link [aria-hidden] [ref=f154e1223]:
+            - /url: "#export"
+        - blockquote [ref=f154e1227]:
+          - paragraph [ref=f154e1228]: 设置环境变量。
+        - list [ref=f154e1229]:
+          - listitem [ref=f154e1230]:
+            - text: "语法:"
+            - code [ref=f154e1231]: export 变量=值
+          - listitem [ref=f154e1232]: "示例:"
+        - figure [ref=f154e1233]:
+          - generic [ref=f154e1234]:
+            - button "Copy source" [ref=f154e1235]
+            - code [ref=f154e1239]:
+              - generic [ref=f154e1240]: export PATH=/usr/local/bin:$PATH
+        - heading "▾ history" [level=3] [ref=f154e1241] [cursor=pointer]:
+          - text: ▾ history
+          - link [aria-hidden] [ref=f154e1242]:
+            - /url: "#history"
+        - blockquote [ref=f154e1246]:
+          - paragraph [ref=f154e1247]: 查看 / 使用命令历史。
+        - list [ref=f154e1248]:
+          - listitem [ref=f154e1249]:
+            - text: "语法:"
+            - code [ref=f154e1250]: history [选项] [数量]
+          - listitem [ref=f154e1251]:
+            - text: "常用选项:"
+            - code [ref=f154e1252]: "-c"
+            - text: 清空当前会话历史 ·
+            - code [ref=f154e1253]: "-w"
+            - text: 立即写入历史文件
+          - listitem [ref=f154e1254]: "快捷用法:"
+        - table [ref=f154e1256]:
+          - rowgroup [ref=f154e1257]:
+            - row [ref=f154e1258]:
+              - columnheader "用法" [ref=f154e1259]
+              - columnheader "作用" [ref=f154e1260]
+          - rowgroup [ref=f154e1261]:
+            - row [ref=f154e1262]:
+              - cell [ref=f154e1263]:
+                - code [ref=f154e1264]: "!!"
+              - cell "重复执行上一条命令" [ref=f154e1265]
+            - row [ref=f154e1266]:
+              - cell [ref=f154e1267]:
+                - code [ref=f154e1268]: "!N"
+              - cell "执行第 N 条历史命令" [ref=f154e1269]
+            - row [ref=f154e1270]:
+              - cell [ref=f154e1271]:
+                - code [ref=f154e1272]: "!$"
+              - cell "上一条命令的最后一个参数" [ref=f154e1273]
+            - row [ref=f154e1274]:
+              - cell [ref=f154e1275]:
+                - code [ref=f154e1276]: "!关键字"
+              - cell "执行最近一条以关键字开头的命令" [ref=f154e1277]
+            - row [ref=f154e1278]:
+              - cell [ref=f154e1279]:
+                - code [ref=f154e1280]: Ctrl+R
+              - cell "反向搜索历史" [ref=f154e1281]
+        - list [ref=f154e1282]:
+          - listitem [ref=f154e1283]: "示例:"
+        - figure [ref=f154e1284]:
+          - generic [ref=f154e1285]:
+            - button "Copy source" [ref=f154e1286]
+            - code [ref=f154e1290]:
+              - generic [ref=f154e1291]: "history # 查看全部历史"
+              - generic [ref=f154e1292]: "history 20 # 最近 20 条"
+              - generic [ref=f154e1293]: "history -c # 清空当前会话历史"
+              - generic [ref=f154e1294]: "sudo !! # 用 sudo 重跑上一条命令"
+              - generic [ref=f154e1295]: "!100 # 执行第 100 条历史命令"
+        - heading "▾ w" [level=3] [ref=f154e1296] [cursor=pointer]:
+          - text: ▾ w
+          - link [aria-hidden] [ref=f154e1297]:
+            - /url: "#w"
+        - blockquote [ref=f154e1301]:
+          - paragraph [ref=f154e1302]: 查看登录用户及负载。
+        - list [ref=f154e1303]:
+          - listitem [ref=f154e1304]:
+            - text: "语法:"
+            - code [ref=f154e1305]: w
+          - listitem [ref=f154e1306]: "示例:"
+        - figure [ref=f154e1307]:
+          - generic [ref=f154e1308]:
+            - button "Copy source" [ref=f154e1309]
+            - code [ref=f154e1313]:
+              - generic [ref=f154e1314]: w
+        - heading "▾ who" [level=3] [ref=f154e1315] [cursor=pointer]:
+          - text: ▾ who
+          - link [aria-hidden] [ref=f154e1316]:
+            - /url: "#who"
+        - blockquote [ref=f154e1320]:
+          - paragraph [ref=f154e1321]: 查看登录用户。
+        - list [ref=f154e1322]:
+          - listitem [ref=f154e1323]:
+            - text: "语法:"
+            - code [ref=f154e1324]: who
+          - listitem [ref=f154e1325]: "示例:"
+        - figure [ref=f154e1326]:
+          - generic [ref=f154e1327]:
+            - button "Copy source" [ref=f154e1328]
+            - code [ref=f154e1332]:
+              - generic [ref=f154e1333]: who
+        - heading "▾ exit" [level=3] [ref=f154e1334] [cursor=pointer]:
+          - text: ▾ exit
+          - link [aria-hidden] [ref=f154e1335]:
+            - /url: "#exit"
+        - blockquote [ref=f154e1339]:
+          - paragraph [ref=f154e1340]: 退出当前 shell / 终端。
+        - list [ref=f154e1341]:
+          - listitem [ref=f154e1342]:
+            - text: "语法:"
+            - code [ref=f154e1343]: exit [状态码]
+          - listitem [ref=f154e1344]: "示例:"
+        - figure [ref=f154e1345]:
+          - generic [ref=f154e1346]:
+            - button "Copy source" [ref=f154e1347]
+            - code [ref=f154e1351]:
+              - generic [ref=f154e1352]: exit
+              - generic [ref=f154e1353]: exit 0
+        - heading "▾ man" [level=3] [ref=f154e1354] [cursor=pointer]:
+          - text: ▾ man
+          - link [aria-hidden] [ref=f154e1355]:
+            - /url: "#man"
+        - blockquote [ref=f154e1359]:
+          - paragraph [ref=f154e1360]: 查看命令手册。
+        - list [ref=f154e1361]:
+          - listitem [ref=f154e1362]:
+            - text: "语法:"
+            - code [ref=f154e1363]: man 命令
+          - listitem [ref=f154e1364]: "示例:"
+        - figure [ref=f154e1365]:
+          - generic [ref=f154e1366]:
+            - button "Copy source" [ref=f154e1367]
+            - code [ref=f154e1371]:
+              - generic [ref=f154e1372]: man ls
+        - heading "▾ 6. 磁盘与存储" [level=2] [ref=f154e1373] [cursor=pointer]:
+          - text: ▾ 6. 磁盘与存储
+          - link [aria-hidden] [ref=f154e1374]:
+            - /url: "#6-磁盘与存储"
+        - heading "▾ df" [level=3] [ref=f154e1378] [cursor=pointer]:
+          - text: ▾ df
+          - link [aria-hidden] [ref=f154e1379]:
+            - /url: "#df"
+        - blockquote [ref=f154e1383]:
+          - paragraph [ref=f154e1384]: 查看磁盘分区使用情况。
+        - list [ref=f154e1385]:
+          - listitem [ref=f154e1386]:
+            - text: "语法:"
+            - code [ref=f154e1387]: df [选项]
+          - listitem [ref=f154e1388]:
+            - text: "常用选项:"
+            - code [ref=f154e1389]: "-h"
+            - text: 人类可读 ·
+            - code [ref=f154e1390]: "-T"
+            - text: 显示文件系统类型
+          - listitem [ref=f154e1391]: "示例:"
+        - figure [ref=f154e1392]:
+          - generic [ref=f154e1393]:
+            - button "Copy source" [ref=f154e1394]
+            - code [ref=f154e1398]:
+              - generic [ref=f154e1399]: df -h
+        - heading "▾ du" [level=3] [ref=f154e1400] [cursor=pointer]:
+          - text: ▾ du
+          - link [aria-hidden] [ref=f154e1401]:
+            - /url: "#du"
+        - blockquote [ref=f154e1405]:
+          - paragraph [ref=f154e1406]: 统计文件/目录占用空间。
+        - list [ref=f154e1407]:
+          - listitem [ref=f154e1408]:
+            - text: "语法:"
+            - code [ref=f154e1409]: du [选项] [路径]
+          - listitem [ref=f154e1410]:
+            - text: "常用选项:"
+            - code [ref=f154e1411]: "-h"
+            - text: 人类可读 ·
+            - code [ref=f154e1412]: "-s"
+            - text: 汇总 ·
+            - code [ref=f154e1413]: "--max-depth=1"
+            - text: 层级
+          - listitem [ref=f154e1414]: "示例:"
+        - figure [ref=f154e1415]:
+          - generic [ref=f154e1416]:
+            - button "Copy source" [ref=f154e1417]
+            - code [ref=f154e1421]:
+              - generic [ref=f154e1422]: du -sh *
+              - generic [ref=f154e1423]: du -h --max-depth=1 .
+        - heading "▾ mount" [level=3] [ref=f154e1424] [cursor=pointer]:
+          - text: ▾ mount
+          - link [aria-hidden] [ref=f154e1425]:
+            - /url: "#mount"
+        - blockquote [ref=f154e1429]:
+          - paragraph [ref=f154e1430]: 挂载文件系统。
+        - list [ref=f154e1431]:
+          - listitem [ref=f154e1432]:
+            - text: "语法:"
+            - code [ref=f154e1433]: mount [选项] 设备 挂载点
+          - listitem [ref=f154e1434]:
+            - text: "常用选项:"
+            - code [ref=f154e1435]: "-t"
+            - text: 类型 ·
+            - code [ref=f154e1436]: "-o"
+            - text: 选项
+          - listitem [ref=f154e1437]: "示例:"
+        - figure [ref=f154e1438]:
+          - generic [ref=f154e1439]:
+            - button "Copy source" [ref=f154e1440]
+            - code [ref=f154e1444]:
+              - generic [ref=f154e1445]: mount /dev/sdb1 /mnt
+              - generic [ref=f154e1446]: mount -t nfs 192.168.1.10:/data /mnt/nfs
+        - heading "▾ umount" [level=3] [ref=f154e1447] [cursor=pointer]:
+          - text: ▾ umount
+          - link [aria-hidden] [ref=f154e1448]:
+            - /url: "#umount"
+        - blockquote [ref=f154e1452]:
+          - paragraph [ref=f154e1453]: 卸载文件系统。
+        - list [ref=f154e1454]:
+          - listitem [ref=f154e1455]:
+            - text: "语法:"
+            - code [ref=f154e1456]: umount 挂载点
+          - listitem [ref=f154e1457]: "示例:"
+        - figure [ref=f154e1458]:
+          - generic [ref=f154e1459]:
+            - button "Copy source" [ref=f154e1460]
+            - code [ref=f154e1464]:
+              - generic [ref=f154e1465]: umount /mnt
+        - heading "▾ lsblk" [level=3] [ref=f154e1466] [cursor=pointer]:
+          - text: ▾ lsblk
+          - link [aria-hidden] [ref=f154e1467]:
+            - /url: "#lsblk"
+        - blockquote [ref=f154e1471]:
+          - paragraph [ref=f154e1472]: 查看块设备(磁盘、分区)。
+        - list [ref=f154e1473]:
+          - listitem [ref=f154e1474]:
+            - text: "语法:"
+            - code [ref=f154e1475]: lsblk [选项]
+          - listitem [ref=f154e1476]: "示例:"
+        - figure [ref=f154e1477]:
+          - generic [ref=f154e1478]:
+            - button "Copy source" [ref=f154e1479]
+            - code [ref=f154e1483]:
+              - generic [ref=f154e1484]: lsblk
+        - heading "▾ 7. 网络" [level=2] [ref=f154e1485] [cursor=pointer]:
+          - text: ▾ 7. 网络
+          - link [aria-hidden] [ref=f154e1486]:
+            - /url: "#7-网络"
+        - heading "▾ ping" [level=3] [ref=f154e1490] [cursor=pointer]:
+          - text: ▾ ping
+          - link [aria-hidden] [ref=f154e1491]:
+            - /url: "#ping"
+        - blockquote [ref=f154e1495]:
+          - paragraph [ref=f154e1496]: 测试网络连通性。
+        - list [ref=f154e1497]:
+          - listitem [ref=f154e1498]:
+            - text: "语法:"
+            - code [ref=f154e1499]: ping [选项] 主机
+          - listitem [ref=f154e1500]:
+            - text: "常用选项:"
+            - code [ref=f154e1501]: "-c"
+            - text: 次数
+          - listitem [ref=f154e1502]: "示例:"
+        - figure [ref=f154e1503]:
+          - generic [ref=f154e1504]:
+            - button "Copy source" [ref=f154e1505]
+            - code [ref=f154e1509]:
+              - generic [ref=f154e1510]: ping -c 4 www.baidu.com
+        - heading "▾ curl" [level=3] [ref=f154e1511] [cursor=pointer]:
+          - text: ▾ curl
+          - link [aria-hidden] [ref=f154e1512]:
+            - /url: "#curl"
+        - blockquote [ref=f154e1516]:
+          - paragraph [ref=f154e1517]: 发送 HTTP 请求 / 下载。
+        - list [ref=f154e1518]:
+          - listitem [ref=f154e1519]:
+            - text: "语法:"
+            - code [ref=f154e1520]: curl [选项] URL
+          - listitem [ref=f154e1521]:
+            - text: "常用选项:"
+            - code [ref=f154e1522]: "-I"
+            - text: 仅响应头 ·
+            - code [ref=f154e1523]: "-X"
+            - text: 请求方法 ·
+            - code [ref=f154e1524]: "-d"
+            - text: 数据 ·
+            - code [ref=f154e1525]: "-H"
+            - text: 请求头 ·
+            - code [ref=f154e1526]: "-o"
+            - text: 输出到文件
+          - listitem [ref=f154e1527]: "示例:"
+        - figure [ref=f154e1528]:
+          - generic [ref=f154e1529]:
+            - button "Copy source" [ref=f154e1530]
+            - code [ref=f154e1534]:
+              - generic [ref=f154e1535]: curl -I https://example.com
+              - generic [ref=f154e1536]: "curl -X POST -H \"Content-Type: application/json\" -d '{\"a\":1}' http://localhost/api"
+              - generic [ref=f154e1537]: curl -o file.tar.gz https://example.com/file.tar.gz
+        - heading "▾ wget" [level=3] [ref=f154e1538] [cursor=pointer]:
+          - text: ▾ wget
+          - link [aria-hidden] [ref=f154e1539]:
+            - /url: "#wget"
+        - blockquote [ref=f154e1543]:
+          - paragraph [ref=f154e1544]: 下载文件。
+        - list [ref=f154e1545]:
+          - listitem [ref=f154e1546]:
+            - text: "语法:"
+            - code [ref=f154e1547]: wget [选项] URL
+          - listitem [ref=f154e1548]:
+            - text: "常用选项:"
+            - code [ref=f154e1549]: "-c"
+            - text: 断点续传 ·
+            - code [ref=f154e1550]: "-O"
+            - text: 指定文件名
+          - listitem [ref=f154e1551]: "示例:"
+        - figure [ref=f154e1552]:
+          - generic [ref=f154e1553]:
+            - button "Copy source" [ref=f154e1554]
+            - code [ref=f154e1558]:
+              - generic [ref=f154e1559]: wget https://example.com/file.tar.gz
+              - generic [ref=f154e1560]: wget -c -O out.tar.gz https://example.com/file.tar.gz
+        - heading "▾ netstat" [level=3] [ref=f154e1561] [cursor=pointer]:
+          - text: ▾ netstat
+          - link [aria-hidden] [ref=f154e1562]:
+            - /url: "#netstat"
+        - blockquote [ref=f154e1566]:
+          - paragraph [ref=f154e1567]: 查看网络连接 / 端口(旧,新系统用 ss)。
+        - list [ref=f154e1568]:
+          - listitem [ref=f154e1569]:
+            - text: "语法:"
+            - code [ref=f154e1570]: netstat [选项]
+          - listitem [ref=f154e1571]:
+            - text: "常用选项:"
+            - code [ref=f154e1572]: "-tunlp"
+            - text: 查看监听端口
+          - listitem [ref=f154e1573]: "示例:"
+        - figure [ref=f154e1574]:
+          - generic [ref=f154e1575]:
+            - button "Copy source" [ref=f154e1576]
+            - code [ref=f154e1580]:
+              - generic [ref=f154e1581]: netstat -tunlp
+        - heading "▾ ss" [level=3] [ref=f154e1582] [cursor=pointer]:
+          - text: ▾ ss
+          - link [aria-hidden] [ref=f154e1583]:
+            - /url: "#ss"
+        - blockquote [ref=f154e1587]:
+          - paragraph [ref=f154e1588]: 查看套接字 / 监听端口(推荐)。
+        - list [ref=f154e1589]:
+          - listitem [ref=f154e1590]:
+            - text: "语法:"
+            - code [ref=f154e1591]: ss [选项]
+          - listitem [ref=f154e1592]:
+            - text: "常用选项:"
+            - code [ref=f154e1593]: "-tunlp"
+            - text: 查看监听端口
+          - listitem [ref=f154e1594]: "示例:"
+        - figure [ref=f154e1595]:
+          - generic [ref=f154e1596]:
+            - button "Copy source" [ref=f154e1597]
+            - code [ref=f154e1601]:
+              - generic [ref=f154e1602]: ss -tunlp
+        - heading "▾ ifconfig" [level=3] [ref=f154e1603] [cursor=pointer]:
+          - text: ▾ ifconfig
+          - link [aria-hidden] [ref=f154e1604]:
+            - /url: "#ifconfig"
+        - blockquote [ref=f154e1608]:
+          - paragraph [ref=f154e1609]: 查看 / 配置网络接口(旧,新系统用 ip)。
+        - list [ref=f154e1610]:
+          - listitem [ref=f154e1611]:
+            - text: "语法:"
+            - code [ref=f154e1612]: ifconfig [接口]
+          - listitem [ref=f154e1613]: "示例:"
+        - figure [ref=f154e1614]:
+          - generic [ref=f154e1615]:
+            - button "Copy source" [ref=f154e1616]
+            - code [ref=f154e1620]:
+              - generic [ref=f154e1621]: ifconfig
+        - heading "▾ ip" [level=3] [ref=f154e1622] [cursor=pointer]:
+          - text: ▾ ip
+          - link [aria-hidden] [ref=f154e1623]:
+            - /url: "#ip"
+        - blockquote [ref=f154e1627]:
+          - paragraph [ref=f154e1628]: 查看 / 配置网络接口、地址与路由(推荐,替代 ifconfig)。
+        - list [ref=f154e1629]:
+          - listitem [ref=f154e1630]:
+            - text: "语法:"
+            - code [ref=f154e1631]: ip 子命令 [选项]
+          - listitem [ref=f154e1632]: "常用子命令:"
+        - table [ref=f154e1634]:
+          - rowgroup [ref=f154e1635]:
+            - row [ref=f154e1636]:
+              - columnheader "子命令" [ref=f154e1637]
+              - columnheader "作用" [ref=f154e1638]
+          - rowgroup [ref=f154e1639]:
+            - row [ref=f154e1640]:
+              - cell [ref=f154e1641]:
+                - code [ref=f154e1642]: ip addr
+              - cell [ref=f154e1643]:
+                - text: 查看 / 管理 IP 地址(简写
+                - code [ref=f154e1644]: ip a
+                - text: )
+            - row [ref=f154e1645]:
+              - cell [ref=f154e1646]:
+                - code [ref=f154e1647]: ip link
+              - cell "查看 / 管理网络接口(链路层,启用/禁用网卡)" [ref=f154e1648]
+            - row [ref=f154e1649]:
+              - cell [ref=f154e1650]:
+                - code [ref=f154e1651]: ip route
+              - cell "查看 / 管理路由表" [ref=f154e1652]
+        - list [ref=f154e1653]:
+          - listitem [ref=f154e1654]: "示例:"
+        - figure [ref=f154e1655]:
+          - generic [ref=f154e1656]:
+            - button "Copy source" [ref=f154e1657]
+            - code [ref=f154e1661]:
+              - generic [ref=f154e1662]: "ip addr # 查看所有网卡的 IP 地址"
+              - generic [ref=f154e1663]: "ip a # 同上,简写"
+              - generic [ref=f154e1664]: "ip link # 查看网络接口状态(UP/DOWN)"
+              - generic [ref=f154e1665]: "ip link set eth0 up # 启用网卡 eth0"
+              - generic [ref=f154e1666]: "ip link set eth0 down # 禁用网卡 eth0"
+              - generic [ref=f154e1667]: "ip route # 查看路由表"
+              - generic [ref=f154e1668]: "ip route add default via 192.168.1.1 # 添加默认网关"
+        - heading "▾ scp" [level=3] [ref=f154e1669] [cursor=pointer]:
+          - text: ▾ scp
+          - link [aria-hidden] [ref=f154e1670]:
+            - /url: "#scp"
+        - blockquote [ref=f154e1674]:
+          - paragraph [ref=f154e1675]: 远程复制文件。
+        - list [ref=f154e1676]:
+          - listitem [ref=f154e1677]:
+            - text: "语法:"
+            - code [ref=f154e1678]: scp [选项] 源 目标
+          - listitem [ref=f154e1679]:
+            - text: "常用选项:"
+            - code [ref=f154e1680]: "-r"
+            - text: 递归 ·
+            - code [ref=f154e1681]: "-P"
+            - text: 端口
+          - listitem [ref=f154e1682]: "示例:"
+        - figure [ref=f154e1683]:
+          - generic [ref=f154e1684]:
+            - button "Copy source" [ref=f154e1685]
+            - code [ref=f154e1689]:
+              - generic [ref=f154e1690]: scp local.txt user@host:/remote/
+              - generic [ref=f154e1691]: scp -r dir/ user@host:/remote/
+              - generic [ref=f154e1692]: scp user@host:/remote/a.txt ./
+        - heading "▾ ssh" [level=3] [ref=f154e1693] [cursor=pointer]:
+          - text: ▾ ssh
+          - link [aria-hidden] [ref=f154e1694]:
+            - /url: "#ssh"
+        - blockquote [ref=f154e1698]:
+          - paragraph [ref=f154e1699]: 远程登录。
+        - list [ref=f154e1700]:
+          - listitem [ref=f154e1701]:
+            - text: "语法:"
+            - code [ref=f154e1702]: ssh [选项] 用户@主机
+          - listitem [ref=f154e1703]:
+            - text: "常用选项:"
+            - code [ref=f154e1704]: "-p"
+            - text: 端口 ·
+            - code [ref=f154e1705]: "-i"
+            - text: 密钥
+          - listitem [ref=f154e1706]: "示例:"
+        - figure [ref=f154e1707]:
+          - generic [ref=f154e1708]:
+            - button "Copy source" [ref=f154e1709]
+            - code [ref=f154e1713]:
+              - generic [ref=f154e1714]: ssh root@192.168.1.10
+              - generic [ref=f154e1715]: ssh -p 2222 -i ~/.ssh/id_rsa user@host
+        - heading "▾ dig" [level=3] [ref=f154e1716] [cursor=pointer]:
+          - text: ▾ dig
+          - link [aria-hidden] [ref=f154e1717]:
+            - /url: "#dig"
+        - blockquote [ref=f154e1721]:
+          - paragraph [ref=f154e1722]: DNS 解析查询。
+        - list [ref=f154e1723]:
+          - listitem [ref=f154e1724]:
+            - text: "语法:"
+            - code [ref=f154e1725]: dig 域名
+          - listitem [ref=f154e1726]: "示例:"
+        - figure [ref=f154e1727]:
+          - generic [ref=f154e1728]:
+            - button "Copy source" [ref=f154e1729]
+            - code [ref=f154e1733]:
+              - generic [ref=f154e1734]: dig www.baidu.com
+        - heading "▾ 8. 压缩与解压" [level=2] [ref=f154e1735] [cursor=pointer]:
+          - text: ▾ 8. 压缩与解压
+          - link [aria-hidden] [ref=f154e1736]:
+            - /url: "#8-压缩与解压"
+        - heading "▾ tar" [level=3] [ref=f154e1740] [cursor=pointer]:
+          - text: ▾ tar
+          - link [aria-hidden] [ref=f154e1741]:
+            - /url: "#tar"
+        - blockquote [ref=f154e1745]:
+          - paragraph [ref=f154e1746]: 打包 / 解包。
+        - list [ref=f154e1747]:
+          - listitem [ref=f154e1748]:
+            - text: "语法:"
+            - code [ref=f154e1749]: tar [选项] 文件
+          - listitem [ref=f154e1750]:
+            - text: "常用选项:"
+            - code [ref=f154e1751]: "-c"
+            - text: 创建 ·
+            - code [ref=f154e1752]: "-x"
+            - text: 解包 ·
+            - code [ref=f154e1753]: "-z"
+            - text: gzip ·
+            - code [ref=f154e1754]: "-j"
+            - text: bzip2 ·
+            - code [ref=f154e1755]: "-f"
+            - text: 文件 ·
+            - code [ref=f154e1756]: "-v"
+            - text: 过程 ·
+            - code [ref=f154e1757]: "-C"
+            - text: 指定目录
+          - listitem [ref=f154e1758]: "示例:"
+        - figure [ref=f154e1759]:
+          - generic [ref=f154e1760]:
+            - button "Copy source" [ref=f154e1761]
+            - code [ref=f154e1765]:
+              - generic [ref=f154e1766]: "tar -czf backup.tar.gz dir/ # 压缩"
+              - generic [ref=f154e1767]: "tar -xzf backup.tar.gz # 解压"
+              - generic [ref=f154e1768]: "tar -xzf backup.tar.gz -C /opt # 解压到指定目录"
+        - heading "▾ gzip" [level=3] [ref=f154e1769] [cursor=pointer]:
+          - text: ▾ gzip
+          - link [aria-hidden] [ref=f154e1770]:
+            - /url: "#gzip"
+        - blockquote [ref=f154e1774]:
+          - paragraph [ref=f154e1775]: 压缩为 .gz 文件。
+        - list [ref=f154e1776]:
+          - listitem [ref=f154e1777]:
+            - text: "语法:"
+            - code [ref=f154e1778]: gzip [选项] 文件
+          - listitem [ref=f154e1779]:
+            - text: "常用选项:"
+            - code [ref=f154e1780]: "-k"
+            - text: 保留原文件 ·
+            - code [ref=f154e1781]: "-d"
+            - text: 解压
+          - listitem [ref=f154e1782]: "示例:"
+        - figure [ref=f154e1783]:
+          - generic [ref=f154e1784]:
+            - button "Copy source" [ref=f154e1785]
+            - code [ref=f154e1789]:
+              - generic [ref=f154e1790]: gzip file.txt
+              - generic [ref=f154e1791]: gzip -d file.txt.gz
+        - heading "▾ gunzip" [level=3] [ref=f154e1792] [cursor=pointer]:
+          - text: ▾ gunzip
+          - link [aria-hidden] [ref=f154e1793]:
+            - /url: "#gunzip"
+        - blockquote [ref=f154e1797]:
+          - paragraph [ref=f154e1798]: 解压 .gz 文件。
+        - list [ref=f154e1799]:
+          - listitem [ref=f154e1800]:
+            - text: "语法:"
+            - code [ref=f154e1801]: gunzip [选项] 文件
+          - listitem [ref=f154e1802]:
+            - text: "常用选项:"
+            - code [ref=f154e1803]: "-k"
+            - text: 保留原文件
+          - listitem [ref=f154e1804]: "示例:"
+        - figure [ref=f154e1805]:
+          - generic [ref=f154e1806]:
+            - button "Copy source" [ref=f154e1807]
+            - code [ref=f154e1811]:
+              - generic [ref=f154e1812]: gunzip file.gz
+        - heading "▾ zip" [level=3] [ref=f154e1813] [cursor=pointer]:
+          - text: ▾ zip
+          - link [aria-hidden] [ref=f154e1814]:
+            - /url: "#zip"
+        - blockquote [ref=f154e1818]:
+          - paragraph [ref=f154e1819]: 压缩为 zip。
+        - list [ref=f154e1820]:
+          - listitem [ref=f154e1821]:
+            - text: "语法:"
+            - code [ref=f154e1822]: zip [选项] 输出文件 输入
+          - listitem [ref=f154e1823]:
+            - text: "常用选项:"
+            - code [ref=f154e1824]: "-r"
+            - text: 递归
+          - listitem [ref=f154e1825]: "示例:"
+        - figure [ref=f154e1826]:
+          - generic [ref=f154e1827]:
+            - button "Copy source" [ref=f154e1828]
+            - code [ref=f154e1832]:
+              - generic [ref=f154e1833]: zip -r backup.zip dir/
+        - heading "▾ unzip" [level=3] [ref=f154e1834] [cursor=pointer]:
+          - text: ▾ unzip
+          - link [aria-hidden] [ref=f154e1835]:
+            - /url: "#unzip"
+        - blockquote [ref=f154e1839]:
+          - paragraph [ref=f154e1840]: 解压 zip。
+        - list [ref=f154e1841]:
+          - listitem [ref=f154e1842]:
+            - text: "语法:"
+            - code [ref=f154e1843]: unzip [选项] 文件
+          - listitem [ref=f154e1844]: "示例:"
+        - figure [ref=f154e1845]:
+          - generic [ref=f154e1846]:
+            - button "Copy source" [ref=f154e1847]
+            - code [ref=f154e1851]:
+              - generic [ref=f154e1852]: unzip backup.zip
+        - heading "▾ 9. 用户与用户组" [level=2] [ref=f154e1853] [cursor=pointer]:
+          - text: ▾ 9. 用户与用户组
+          - link [aria-hidden] [ref=f154e1854]:
+            - /url: "#9-用户与用户组"
+        - heading "▾ useradd" [level=3] [ref=f154e1858] [cursor=pointer]:
+          - text: ▾ useradd
+          - link [aria-hidden] [ref=f154e1859]:
+            - /url: "#useradd"
+        - blockquote [ref=f154e1863]:
+          - paragraph [ref=f154e1864]: 添加用户。
+        - list [ref=f154e1865]:
+          - listitem [ref=f154e1866]:
+            - text: "语法:"
+            - code [ref=f154e1867]: useradd [选项] 用户名
+          - listitem [ref=f154e1868]:
+            - text: "常用选项:"
+            - code [ref=f154e1869]: "-m"
+            - text: 建主目录 ·
+            - code [ref=f154e1870]: "-s"
+            - text: 指定 shell
+          - listitem [ref=f154e1871]: "示例:"
+        - figure [ref=f154e1872]:
+          - generic [ref=f154e1873]:
+            - button "Copy source" [ref=f154e1874]
+            - code [ref=f154e1878]:
+              - generic [ref=f154e1879]: useradd -m -s /bin/bash zhangsan
+        - heading "▾ usermod" [level=3] [ref=f154e1880] [cursor=pointer]:
+          - text: ▾ usermod
+          - link [aria-hidden] [ref=f154e1881]:
+            - /url: "#usermod"
+        - blockquote [ref=f154e1885]:
+          - paragraph [ref=f154e1886]: 修改用户。
+        - list [ref=f154e1887]:
+          - listitem [ref=f154e1888]:
+            - text: "语法:"
+            - code [ref=f154e1889]: usermod [选项] 用户名
+          - listitem [ref=f154e1890]:
+            - text: "常用选项:"
+            - code [ref=f154e1891]: "-aG"
+            - text: 追加到组
+          - listitem [ref=f154e1892]: "示例:"
+        - figure [ref=f154e1893]:
+          - generic [ref=f154e1894]:
+            - button "Copy source" [ref=f154e1895]
+            - code [ref=f154e1899]:
+              - generic [ref=f154e1900]: usermod -aG sudo zhangsan
+        - heading "▾ userdel" [level=3] [ref=f154e1901] [cursor=pointer]:
+          - text: ▾ userdel
+          - link [aria-hidden] [ref=f154e1902]:
+            - /url: "#userdel"
+        - blockquote [ref=f154e1906]:
+          - paragraph [ref=f154e1907]: 删除用户。
+        - list [ref=f154e1908]:
+          - listitem [ref=f154e1909]:
+            - text: "语法:"
+            - code [ref=f154e1910]: userdel [选项] 用户名
+          - listitem [ref=f154e1911]:
+            - text: "常用选项:"
+            - code [ref=f154e1912]: "-r"
+            - text: 连同主目录
+          - listitem [ref=f154e1913]: "示例:"
+        - figure [ref=f154e1914]:
+          - generic [ref=f154e1915]:
+            - button "Copy source" [ref=f154e1916]
+            - code [ref=f154e1920]:
+              - generic [ref=f154e1921]: userdel -r zhangsan
+        - heading "▾ passwd" [level=3] [ref=f154e1922] [cursor=pointer]:
+          - text: ▾ passwd
+          - link [aria-hidden] [ref=f154e1923]:
+            - /url: "#passwd"
+        - blockquote [ref=f154e1927]:
+          - paragraph [ref=f154e1928]: 设置 / 修改密码。
+        - list [ref=f154e1929]:
+          - listitem [ref=f154e1930]:
+            - text: "语法:"
+            - code [ref=f154e1931]: passwd [用户名]
+          - listitem [ref=f154e1932]: "示例:"
+        - figure [ref=f154e1933]:
+          - generic [ref=f154e1934]:
+            - button "Copy source" [ref=f154e1935]
+            - code [ref=f154e1939]:
+              - generic [ref=f154e1940]: passwd
+              - generic [ref=f154e1941]: passwd zhangsan
+        - heading "▾ su" [level=3] [ref=f154e1942] [cursor=pointer]:
+          - text: ▾ su
+          - link [aria-hidden] [ref=f154e1943]:
+            - /url: "#su"
+        - blockquote [ref=f154e1947]:
+          - paragraph [ref=f154e1948]: 切换用户。
+        - list [ref=f154e1949]:
+          - listitem [ref=f154e1950]:
+            - text: "语法:"
+            - code [ref=f154e1951]: su [选项] [用户]
+          - listitem [ref=f154e1952]:
+            - text: "常用选项:"
+            - code [ref=f154e1953]: "-"
+            - text: 加载环境变量
+          - listitem [ref=f154e1954]: "示例:"
+        - figure [ref=f154e1955]:
+          - generic [ref=f154e1956]:
+            - button "Copy source" [ref=f154e1957]
+            - code [ref=f154e1961]:
+              - generic [ref=f154e1962]: su -
+              - generic [ref=f154e1963]: su - zhangsan
+        - heading "▾ sudo" [level=3] [ref=f154e1964] [cursor=pointer]:
+          - text: ▾ sudo
+          - link [aria-hidden] [ref=f154e1965]:
+            - /url: "#sudo"
+        - blockquote [ref=f154e1969]:
+          - paragraph [ref=f154e1970]: 以 root 权限执行命令。
+        - list [ref=f154e1971]:
+          - listitem [ref=f154e1972]:
+            - text: "语法:"
+            - code [ref=f154e1973]: sudo 命令
+          - listitem [ref=f154e1974]: "示例:"
+        - figure [ref=f154e1975]:
+          - generic [ref=f154e1976]:
+            - button "Copy source" [ref=f154e1977]
+            - code [ref=f154e1981]:
+              - generic [ref=f154e1982]: sudo apt update
+              - generic [ref=f154e1983]: sudo systemctl restart nginx
+        - heading "▾ 10. 搜索与查找" [level=2] [ref=f154e1984] [cursor=pointer]:
+          - text: ▾ 10. 搜索与查找
+          - link [aria-hidden] [ref=f154e1985]:
+            - /url: "#10-搜索与查找"
+        - heading "▾ find" [level=3] [ref=f154e1989] [cursor=pointer]:
+          - text: ▾ find
+          - link [aria-hidden] [ref=f154e1990]:
+            - /url: "#find"
+        - blockquote [ref=f154e1994]:
+          - paragraph [ref=f154e1995]: 按条件查找文件。
+        - list [ref=f154e1996]:
+          - listitem [ref=f154e1997]:
+            - text: "语法:"
+            - code [ref=f154e1998]: find 路径 [条件]
+          - listitem [ref=f154e1999]:
+            - text: "常用条件:"
+            - code [ref=f154e2000]: "-name"
+            - text: 名称 ·
+            - code [ref=f154e2001]: "-type"
+            - text: 类型 ·
+            - code [ref=f154e2002]: "-size"
+            - text: 大小 ·
+            - code [ref=f154e2003]: "-mtime"
+            - text: 修改时间 ·
+            - code [ref=f154e2004]: "-exec"
+            - text: 执行命令
+        - paragraph [ref=f154e2005]:
+          - strong [ref=f154e2006]: 示例
+        - paragraph [ref=f154e2007]:
+          - strong [ref=f154e2008]: 1. 按文件名查找
+        - figure [ref=f154e2009]:
+          - generic [ref=f154e2010]:
+            - button "Copy source" [ref=f154e2011]
+            - code [ref=f154e2015]:
+              - generic [ref=f154e2016]: find / -name "*.log"
+        - list [ref=f154e2017]:
+          - listitem [ref=f154e2018]:
+            - code [ref=f154e2019]: find
+            - text: 查找命令;
+            - code [ref=f154e2020]: /
+            - text: 从根目录开始,在整个系统里搜索
+          - listitem [ref=f154e2021]:
+            - code [ref=f154e2022]: "-name \"*.log\""
+            - text: 只匹配以
+            - code [ref=f154e2023]: .log
+            - text: 结尾的文件名,
+            - code [ref=f154e2024]: "*"
+            - text: 是通配符
+          - listitem [ref=f154e2025]:
+            - text: 作用:找出全盘所有
+            - code [ref=f154e2026]: .log
+            - text: 日志文件
+          - listitem [ref=f154e2027]:
+            - text: 提示:全盘搜索较慢、易因权限报错,可改用
+            - code [ref=f154e2028]: find /var/log -name "*.log"
+            - text: 缩小范围
+        - paragraph [ref=f154e2029]:
+          - strong [ref=f154e2030]: 2. 按类型 + 大小查找
+        - figure [ref=f154e2031]:
+          - generic [ref=f154e2032]:
+            - button "Copy source" [ref=f154e2033]
+            - code [ref=f154e2037]:
+              - generic [ref=f154e2038]: find / -type f -size +100M
+        - list [ref=f154e2039]:
+          - listitem [ref=f154e2040]:
+            - code [ref=f154e2041]: "-type f"
+            - text: ":"
+            - code [ref=f154e2042]: f
+            - text: 表示普通文件(排除目录、链接等)
+          - listitem [ref=f154e2043]:
+            - code [ref=f154e2044]: "-size +100M"
+            - text: :文件大于 100M;
+            - code [ref=f154e2045]: +
+            - text: 表示大于、
+            - code [ref=f154e2046]: "-"
+            - text: 表示小于,大小单位可用
+            - code [ref=f154e2047]: k
+            - text: 、
+            - code [ref=f154e2048]: M
+            - text: 、
+            - code [ref=f154e2049]: G
+          - listitem [ref=f154e2050]: 作用:找出全盘大于 100M 的普通文件,常用于排查磁盘被谁占满
+        - paragraph [ref=f154e2051]:
+          - strong [ref=f154e2052]: 3. 查找并执行删除
+        - figure [ref=f154e2053]:
+          - generic [ref=f154e2054]:
+            - button "Copy source" [ref=f154e2055]
+            - code [ref=f154e2059]:
+              - generic [ref=f154e2060]: "find /tmp -type f -empty -exec rm {} \\;"
+        - list [ref=f154e2061]:
+          - listitem [ref=f154e2062]:
+            - code [ref=f154e2063]: /tmp
+            - text: :只在
+            - code [ref=f154e2064]: /tmp
+            - text: 目录下搜索
+          - listitem [ref=f154e2065]:
+            - code [ref=f154e2066]: "-empty"
+            - text: :只匹配空文件
+          - listitem [ref=f154e2067]:
+            - code [ref=f154e2068]: "-exec rm {} \\;"
+            - text: :对找到的每个文件执行
+            - code [ref=f154e2069]: rm
+            - text: ;
+            - code [ref=f154e2070]: "{}"
+            - text: 代表找到的文件,
+            - code [ref=f154e2071]: \;
+            - text: 是命令结束标记
+          - listitem [ref=f154e2072]:
+            - text: 作用:删除
+            - code [ref=f154e2073]: /tmp
+            - text: 下所有空文件,常用于清理临时目录
+          - listitem [ref=f154e2074]:
+            - text: 安全做法:不确定时先把
+            - code [ref=f154e2075]: "-exec rm {} \\;"
+            - text: 换成
+            - code [ref=f154e2076]: "-print"
+            - text: 预览要删的文件,确认无误再删;等价写法
+            - code [ref=f154e2077]: find /tmp -type f -empty -delete
+        - heading "▾ locate" [level=3] [ref=f154e2078] [cursor=pointer]:
+          - text: ▾ locate
+          - link [aria-hidden] [ref=f154e2079]:
+            - /url: "#locate"
+        - blockquote [ref=f154e2083]:
+          - paragraph [ref=f154e2084]: 快速定位文件(基于索引库)。
+        - list [ref=f154e2085]:
+          - listitem [ref=f154e2086]:
+            - text: "语法:"
+            - code [ref=f154e2087]: locate [选项] 名称
+          - listitem [ref=f154e2088]:
+            - text: "常用选项:"
+            - code [ref=f154e2089]: "-i"
+            - text: 忽略大小写
+          - listitem [ref=f154e2090]: "示例:"
+        - figure [ref=f154e2091]:
+          - generic [ref=f154e2092]:
+            - button "Copy source" [ref=f154e2093]
+            - code [ref=f154e2097]:
+              - generic [ref=f154e2098]: locate nginx.conf
+        - heading "▾ which" [level=3] [ref=f154e2099] [cursor=pointer]:
+          - text: ▾ which
+          - link [aria-hidden] [ref=f154e2100]:
+            - /url: "#which"
+        - blockquote [ref=f154e2104]:
+          - paragraph [ref=f154e2105]: 查找命令所在路径。
+        - list [ref=f154e2106]:
+          - listitem [ref=f154e2107]:
+            - text: "语法:"
+            - code [ref=f154e2108]: which 命令
+          - listitem [ref=f154e2109]: "示例:"
+        - figure [ref=f154e2110]:
+          - generic [ref=f154e2111]:
+            - button "Copy source" [ref=f154e2112]
+            - code [ref=f154e2116]:
+              - generic [ref=f154e2117]: which python3
+        - heading "▾ whereis" [level=3] [ref=f154e2118] [cursor=pointer]:
+          - text: ▾ whereis
+          - link [aria-hidden] [ref=f154e2119]:
+            - /url: "#whereis"
+        - blockquote [ref=f154e2123]:
+          - paragraph [ref=f154e2124]: 查找二进制 / 源码 / 手册位置。
+        - list [ref=f154e2125]:
+          - listitem [ref=f154e2126]:
+            - text: "语法:"
+            - code [ref=f154e2127]: whereis 命令
+          - listitem [ref=f154e2128]: "示例:"
+        - figure [ref=f154e2129]:
+          - generic [ref=f154e2130]:
+            - button "Copy source" [ref=f154e2131]
+            - code [ref=f154e2135]:
+              - generic [ref=f154e2136]: whereis nginx
+        - heading "▾ 11. 系统管理" [level=2] [ref=f154e2137] [cursor=pointer]:
+          - text: ▾ 11. 系统管理
+          - link [aria-hidden] [ref=f154e2138]:
+            - /url: "#11-系统管理"
+        - heading "▾ shutdown" [level=3] [ref=f154e2142] [cursor=pointer]:
+          - text: ▾ shutdown
+          - link [aria-hidden] [ref=f154e2143]:
+            - /url: "#shutdown"
+        - blockquote [ref=f154e2147]:
+          - paragraph [ref=f154e2148]: 关机 / 重启 / 定时关机。
+        - list [ref=f154e2149]:
+          - listitem [ref=f154e2150]:
+            - text: "语法:"
+            - code [ref=f154e2151]: shutdown [选项] [时间]
+          - listitem [ref=f154e2152]:
+            - text: "常用选项:"
+            - code [ref=f154e2153]: "-h"
+            - text: 关机 ·
+            - code [ref=f154e2154]: "-r"
+            - text: 重启 ·
+            - code [ref=f154e2155]: "-c"
+            - text: 取消定时
+          - listitem [ref=f154e2156]:
+            - text: "时间写法:"
+            - code [ref=f154e2157]: now
+            - text: 立即 ·
+            - code [ref=f154e2158]: HH:MM
+            - text: 指定时刻 ·
+            - code [ref=f154e2159]: +N
+            - text: N 分钟后
+          - listitem [ref=f154e2160]: "示例:"
+        - figure [ref=f154e2161]:
+          - generic [ref=f154e2162]:
+            - button "Copy source" [ref=f154e2163]
+            - code [ref=f154e2167]:
+              - generic [ref=f154e2168]: "shutdown -h now # 立即关机"
+              - generic [ref=f154e2169]: "shutdown -r now # 立即重启"
+              - generic [ref=f154e2170]: "shutdown -h 23:00 # 23:00 关机"
+              - generic [ref=f154e2171]: "shutdown -h +10 # 10 分钟后关机"
+              - generic [ref=f154e2172]: "shutdown -c # 取消已计划的关机"
+        - heading "▾ reboot" [level=3] [ref=f154e2173] [cursor=pointer]:
+          - text: ▾ reboot
+          - link [aria-hidden] [ref=f154e2174]:
+            - /url: "#reboot"
+        - blockquote [ref=f154e2178]:
+          - paragraph [ref=f154e2179]: 重启系统。
+        - list [ref=f154e2180]:
+          - listitem [ref=f154e2181]:
+            - text: "语法:"
+            - code [ref=f154e2182]: reboot [选项]
+          - listitem [ref=f154e2183]:
+            - text: "常用选项:"
+            - code [ref=f154e2184]: "-f"
+            - text: 强制重启(跳过正常关机流程)
+          - listitem [ref=f154e2185]: "示例:"
+        - figure [ref=f154e2186]:
+          - generic [ref=f154e2187]:
+            - button "Copy source" [ref=f154e2188]
+            - code [ref=f154e2192]:
+              - generic [ref=f154e2193]: "reboot # 正常重启"
+              - generic [ref=f154e2194]: "reboot -f # 强制重启(慎用)"
+        - heading "▾ poweroff" [level=3] [ref=f154e2195] [cursor=pointer]:
+          - text: ▾ poweroff
+          - link [aria-hidden] [ref=f154e2196]:
+            - /url: "#poweroff"
+        - blockquote [ref=f154e2200]:
+          - paragraph [ref=f154e2201]: 立即关机。
+        - list [ref=f154e2202]:
+          - listitem [ref=f154e2203]:
+            - text: "语法:"
+            - code [ref=f154e2204]: poweroff
+            - text: /
+            - code [ref=f154e2205]: systemctl poweroff [选项]
+          - listitem [ref=f154e2206]:
+            - text: "常用选项:"
+            - code [ref=f154e2207]: "-i"
+            - text: 忽略抑制器(其他登录用户 / 进程的阻止)
+          - listitem [ref=f154e2208]: "示例:"
+        - figure [ref=f154e2209]:
+          - generic [ref=f154e2210]:
+            - button "Copy source" [ref=f154e2211]
+            - code [ref=f154e2215]:
+              - generic [ref=f154e2216]: poweroff
+              - generic [ref=f154e2217]: "systemctl poweroff # systemd 方式关机"
+              - generic [ref=f154e2218]: "systemctl poweroff -i # 忽略抑制器,强制关机"
+        - heading "▾ halt" [level=3] [ref=f154e2219] [cursor=pointer]:
+          - text: ▾ halt
+          - link [aria-hidden] [ref=f154e2220]:
+            - /url: "#halt"
+        - blockquote [ref=f154e2224]:
+          - paragraph [ref=f154e2225]: 立即停止系统(关机)。
+        - list [ref=f154e2226]:
+          - listitem [ref=f154e2227]:
+            - text: "语法:"
+            - code [ref=f154e2228]: halt [选项]
+          - listitem [ref=f154e2229]:
+            - text: "常用选项:"
+            - code [ref=f154e2230]: "-p"
+            - text: 停止后断电
+          - listitem [ref=f154e2231]: "示例:"
+        - figure [ref=f154e2232]:
+          - generic [ref=f154e2233]:
+            - button "Copy source" [ref=f154e2234]
+            - code [ref=f154e2238]:
+              - generic [ref=f154e2239]: halt
+              - generic [ref=f154e2240]: halt -p
+        - blockquote [ref=f154e2241]:
+          - paragraph [ref=f154e2242]:
+            - text: 补充:老式 SysV 中
+            - code [ref=f154e2243]: init 0
+            - text: = 关机、
+            - code [ref=f154e2244]: init 6
+            - text: = 重启;systemd 系统也可用
+            - code [ref=f154e2245]: systemctl poweroff
+            - text: /
+            - code [ref=f154e2246]: systemctl reboot
+            - text: 。
+        - heading "▾ crontab" [level=3] [ref=f154e2247] [cursor=pointer]:
+          - text: ▾ crontab
+          - link [aria-hidden] [ref=f154e2248]:
+            - /url: "#crontab"
+        - blockquote [ref=f154e2252]:
+          - paragraph [ref=f154e2253]: 设置定时任务。
+        - list [ref=f154e2254]:
+          - listitem [ref=f154e2255]:
+            - text: "语法:"
+            - code [ref=f154e2256]: crontab -e
+            - text: (编辑)·
+            - code [ref=f154e2257]: "-l"
+            - text: (查看)·
+            - code [ref=f154e2258]: "-r"
+            - text: (删除)
+          - listitem [ref=f154e2259]:
+            - text: "格式:"
+            - code [ref=f154e2260]: 分 时 日 月 周 命令
+          - listitem [ref=f154e2261]: "示例:"
+        - figure [ref=f154e2262]:
+          - generic [ref=f154e2263]:
+            - button "Copy source" [ref=f154e2264]
+            - code [ref=f154e2268]:
+              - generic [ref=f154e2269]: "0 2 * * * /opt/backup.sh # 每天 2 点执行"
+        - heading "▾ alias" [level=3] [ref=f154e2270] [cursor=pointer]:
+          - text: ▾ alias
+          - link [aria-hidden] [ref=f154e2271]:
+            - /url: "#alias"
+        - blockquote [ref=f154e2275]:
+          - paragraph [ref=f154e2276]: 设置命令别名。
+        - list [ref=f154e2277]:
+          - listitem [ref=f154e2278]:
+            - text: "语法:"
+            - code [ref=f154e2279]: alias 别名='命令'
+          - listitem [ref=f154e2280]: "示例:"
+        - figure [ref=f154e2281]:
+          - generic [ref=f154e2282]:
+            - button "Copy source" [ref=f154e2283]
+            - code [ref=f154e2287]:
+              - generic [ref=f154e2288]: "alias ll='ls -lah' # 设置别名"
+              - generic [ref=f154e2289]: "unalias ll # 取消别名"
+        - heading "▾ 12. 编辑器" [level=2] [ref=f154e2290] [cursor=pointer]:
+          - text: ▾ 12. 编辑器
+          - link [aria-hidden] [ref=f154e2291]:
+            - /url: "#12-编辑器"
+        - heading "▾ vim" [level=3] [ref=f154e2295] [cursor=pointer]:
+          - text: ▾ vim
+          - link [aria-hidden] [ref=f154e2296]:
+            - /url: "#vim"
+        - blockquote [ref=f154e2300]:
+          - paragraph [ref=f154e2301]: 文本编辑器。
+        - list [ref=f154e2302]:
+          - listitem [ref=f154e2303]:
+            - paragraph [ref=f154e2304]:
+              - text: "语法:"
+              - code [ref=f154e2305]: vim 文件
+          - listitem [ref=f154e2306]:
+            - paragraph [ref=f154e2307]:
+              - text: "模式切换:"
+              - code [ref=f154e2308]: i
+              - text: /
+              - code [ref=f154e2309]: a
+              - text: /
+              - code [ref=f154e2310]: o
+              - text: 进入编辑 ·
+              - code [ref=f154e2311]: Esc
+              - text: 回命令模式 ·
+              - code [ref=f154e2312]: ":"
+              - text: 底行命令 ·
+              - code [ref=f154e2313]: v
+              - text: 可视模式
+          - listitem [ref=f154e2314]:
+            - paragraph [ref=f154e2315]: "移动光标(命令模式):"
+        - table [ref=f154e2317]:
+          - rowgroup [ref=f154e2318]:
+            - row [ref=f154e2319]:
+              - columnheader "键" [ref=f154e2320]
+              - columnheader "作用" [ref=f154e2321]
+          - rowgroup [ref=f154e2322]:
+            - row [ref=f154e2323]:
+              - cell [ref=f154e2324]:
+                - code [ref=f154e2325]: h
+                - text: /
+                - code [ref=f154e2326]: j
+                - text: /
+                - code [ref=f154e2327]: k
+                - text: /
+                - code [ref=f154e2328]: l
+              - cell "左 / 下 / 上 / 右" [ref=f154e2329]
+            - row [ref=f154e2330]:
+              - cell [ref=f154e2331]:
+                - code [ref=f154e2332]: w
+                - text: /
+                - code [ref=f154e2333]: b
+              - cell "下一个词 / 上一个词" [ref=f154e2334]
+            - row [ref=f154e2335]:
+              - cell [ref=f154e2336]:
+                - code [ref=f154e2337]: "0"
+                - text: /
+                - code [ref=f154e2338]: $
+              - cell "行首 / 行尾" [ref=f154e2339]
+            - row [ref=f154e2340]:
+              - cell [ref=f154e2341]:
+                - code [ref=f154e2342]: gg
+                - text: /
+                - code [ref=f154e2343]: G
+              - cell "文件开头 / 文件末尾" [ref=f154e2344]
+            - row [ref=f154e2345]:
+              - cell [ref=f154e2346]:
+                - code [ref=f154e2347]: Ctrl+f
+                - text: /
+                - code [ref=f154e2348]: Ctrl+b
+              - cell "向下 / 向上翻页" [ref=f154e2349]
+        - list [ref=f154e2350]:
+          - listitem [ref=f154e2351]: "编辑操作(命令模式):"
+        - table [ref=f154e2353]:
+          - rowgroup [ref=f154e2354]:
+            - row [ref=f154e2355]:
+              - columnheader "键" [ref=f154e2356]
+              - columnheader "作用" [ref=f154e2357]
+          - rowgroup [ref=f154e2358]:
+            - row [ref=f154e2359]:
+              - cell [ref=f154e2360]:
+                - code [ref=f154e2361]: x
+              - cell "删除光标处字符" [ref=f154e2362]
+            - row [ref=f154e2363]:
+              - cell [ref=f154e2364]:
+                - code [ref=f154e2365]: dw
+              - cell "删除一个词" [ref=f154e2366]
+            - row [ref=f154e2367]:
+              - cell [ref=f154e2368]:
+                - code [ref=f154e2369]: dd
+              - cell "删除(剪切)整行" [ref=f154e2370]
+            - row [ref=f154e2371]:
+              - cell [ref=f154e2372]:
+                - code [ref=f154e2373]: yy
+              - cell "复制整行" [ref=f154e2374]
+            - row [ref=f154e2375]:
+              - cell [ref=f154e2376]:
+                - code [ref=f154e2377]: Nyy
+              - cell "复制 N 行" [ref=f154e2378]
+            - row [ref=f154e2379]:
+              - cell [ref=f154e2380]:
+                - code [ref=f154e2381]: p
+                - text: /
+                - code [ref=f154e2382]: P
+              - cell "粘贴到光标后 / 前" [ref=f154e2383]
+            - row [ref=f154e2384]:
+              - cell [ref=f154e2385]:
+                - code [ref=f154e2386]: u
+              - cell "撤销" [ref=f154e2387]
+            - row [ref=f154e2388]:
+              - cell [ref=f154e2389]:
+                - code [ref=f154e2390]: Ctrl+r
+              - cell "重做" [ref=f154e2391]
+        - list [ref=f154e2392]:
+          - listitem [ref=f154e2393]: "查找 / 替换 / 保存退出:"
+        - table [ref=f154e2395]:
+          - rowgroup [ref=f154e2396]:
+            - row [ref=f154e2397]:
+              - columnheader "命令" [ref=f154e2398]
+              - columnheader "作用" [ref=f154e2399]
+          - rowgroup [ref=f154e2400]:
+            - row [ref=f154e2401]:
+              - cell [ref=f154e2402]:
+                - code [ref=f154e2403]: /关键词
+              - cell "向下搜索" [ref=f154e2404]
+            - row [ref=f154e2405]:
+              - cell [ref=f154e2406]:
+                - code [ref=f154e2407]: "n"
+                - text: /
+                - code [ref=f154e2408]: "N"
+              - cell "下一个 / 上一个匹配" [ref=f154e2409]
+            - row [ref=f154e2410]:
+              - cell [ref=f154e2411]:
+                - code [ref=f154e2412]: :%s/old/new/g
+              - cell "全文替换" [ref=f154e2413]
+            - row [ref=f154e2414]:
+              - cell [ref=f154e2415]:
+                - code [ref=f154e2416]: :w
+              - cell "保存" [ref=f154e2417]
+            - row [ref=f154e2418]:
+              - cell [ref=f154e2419]:
+                - code [ref=f154e2420]: :q
+              - cell "退出" [ref=f154e2421]
+            - row [ref=f154e2422]:
+              - cell [ref=f154e2423]:
+                - code [ref=f154e2424]: :wq
+                - text: /
+                - code [ref=f154e2425]: :x
+              - cell "保存并退出" [ref=f154e2426]
+            - row [ref=f154e2427]:
+              - cell [ref=f154e2428]:
+                - code [ref=f154e2429]: :q!
+              - cell "不保存强制退出" [ref=f154e2430]
+        - list [ref=f154e2431]:
+          - listitem [ref=f154e2432]: "示例:"
+        - figure [ref=f154e2433]:
+          - generic [ref=f154e2434]:
+            - button "Copy source" [ref=f154e2435]
+            - code [ref=f154e2439]:
+              - generic [ref=f154e2440]: "vim file.txt # 打开 / 新建文件"
+              - generic [ref=f154e2441]: "vim +100 file.txt # 打开并定位到第 100 行"
+        - heading "▾ 13. 服务管理" [level=2] [ref=f154e2442] [cursor=pointer]:
+          - text: ▾ 13. 服务管理
+          - link [aria-hidden] [ref=f154e2443]:
+            - /url: "#13-服务管理"
+        - blockquote [ref=f154e2447]:
+          - paragraph [ref=f154e2448]:
+            - text: 用
+            - code [ref=f154e2449]: systemctl
+            - text: 统一管理服务。查看状态用
+            - code [ref=f154e2450]: status
+            - text: ",启动/停止/重启/开机自启等动作见"
+            - link "systemctl" [ref=f154e2451] [cursor=pointer]:
+              - /url: "#systemctl"
+            - text: 。
+        - heading "▾ 常用服务速查" [level=3] [ref=f154e2452] [cursor=pointer]:
+          - text: ▾ 常用服务速查
+          - link [aria-hidden] [ref=f154e2453]:
+            - /url: "#常用服务速查"
+        - table [ref=f154e2458]:
+          - rowgroup [ref=f154e2459]:
+            - row [ref=f154e2460]:
+              - columnheader "服务名" [ref=f154e2461]
+              - columnheader "作用" [ref=f154e2462]
+              - columnheader "查看状态" [ref=f154e2463]
+          - rowgroup [ref=f154e2464]:
+            - row [ref=f154e2465]:
+              - cell "NetworkManager" [ref=f154e2466]
+              - cell "网络连接管理" [ref=f154e2467]
+              - cell [ref=f154e2468]:
+                - code [ref=f154e2469]: sudo systemctl status NetworkManager
+            - row [ref=f154e2470]:
+              - cell "ufw" [ref=f154e2471]
+              - cell "防火墙" [ref=f154e2472]
+              - cell [ref=f154e2473]:
+                - code [ref=f154e2474]: sudo ufw status
+            - row [ref=f154e2475]:
+              - cell "sshd / ssh" [ref=f154e2476]
+              - cell "SSH 远程登录" [ref=f154e2477]
+              - cell [ref=f154e2478]:
+                - code [ref=f154e2479]: sudo systemctl status sshd
+            - row [ref=f154e2480]:
+              - cell "httpd / apache2" [ref=f154e2481]
+              - cell "Apache Web 服务" [ref=f154e2482]
+              - cell [ref=f154e2483]:
+                - code [ref=f154e2484]: sudo systemctl status httpd
+            - row [ref=f154e2485]:
+              - cell "nginx" [ref=f154e2486]
+              - cell "Nginx Web 服务" [ref=f154e2487]
+              - cell [ref=f154e2488]:
+                - code [ref=f154e2489]: sudo systemctl status nginx
+            - row [ref=f154e2490]:
+              - cell "mysqld / mariadb" [ref=f154e2491]
+              - cell "MySQL/MariaDB 数据库" [ref=f154e2492]
+              - cell [ref=f154e2493]:
+                - code [ref=f154e2494]: sudo systemctl status mysqld
+            - row [ref=f154e2495]:
+              - cell "docker" [ref=f154e2496]
+              - cell "Docker 容器引擎" [ref=f154e2497]
+              - cell [ref=f154e2498]:
+                - code [ref=f154e2499]: sudo systemctl status docker
+            - row [ref=f154e2500]:
+              - cell "crond / cron" [ref=f154e2501]
+              - cell "定时任务" [ref=f154e2502]
+              - cell [ref=f154e2503]:
+                - code [ref=f154e2504]: sudo systemctl status crond
+            - row [ref=f154e2505]:
+              - cell [ref=f154e2506]
+              - cell [ref=f154e2507]
+              - cell [ref=f154e2508]
+        - list [ref=f154e2509]:
+          - listitem [ref=f154e2510]:
+            - text: "语法:"
+            - code [ref=f154e2511]: sudo systemctl 动作 服务名
+          - listitem [ref=f154e2512]:
+            - text: "常用动作:"
+            - code [ref=f154e2513]: status
+            - text: 查看状态 ·
+            - code [ref=f154e2514]: start
+            - text: 启动 ·
+            - code [ref=f154e2515]: stop
+            - text: 停止 ·
+            - code [ref=f154e2516]: restart
+            - text: 重启 ·
+            - code [ref=f154e2517]: reload
+            - text: 重载配置 ·
+            - code [ref=f154e2518]: enable
+            - text: 开机自启 ·
+            - code [ref=f154e2519]: disable
+            - text: 取消自启 ·
+            - code [ref=f154e2520]: is-active
+            - text: 是否运行 ·
+            - code [ref=f154e2521]: is-enabled
+            - text: 是否自启
+          - listitem [ref=f154e2522]: "示例:"
+        - figure [ref=f154e2523]:
+          - generic [ref=f154e2524]:
+            - button "Copy source" [ref=f154e2525]
+            - code [ref=f154e2529]:
+              - generic [ref=f154e2530]: "# —— 网络服务 ——"
+              - generic [ref=f154e2531]: "sudo systemctl status NetworkManager # 查看网络服务状态"
+              - generic [ref=f154e2532]: "sudo systemctl restart NetworkManager # 重启网络服务"
+              - generic [ref=f154e2533]: "sudo systemctl enable NetworkManager # 设置开机自启"
+              - generic [ref=f154e2535]: "# —— 防火墙(RHEL 系 firewalld / Debian 系 ufw)——"
+              - generic [ref=f154e2536]: sudo systemctl status firewalld
+              - generic [ref=f154e2537]: "sudo systemctl start firewalld # 启动"
+              - generic [ref=f154e2538]: "sudo systemctl stop firewalld # 停止"
+              - generic [ref=f154e2539]: "sudo systemctl disable firewalld # 取消开机自启"
+              - generic [ref=f154e2541]: "sudo ufw status # 查看状态(ufw)"
+              - generic [ref=f154e2542]: "sudo ufw enable # 启用防火墙"
+              - generic [ref=f154e2543]: "sudo ufw disable # 禁用防火墙"
+              - generic [ref=f154e2544]: "sudo ufw allow 22 # 放行 22 端口"
+              - generic [ref=f154e2546]: "# —— SSH ——"
+              - generic [ref=f154e2547]: sudo systemctl status sshd
+              - generic [ref=f154e2548]: sudo systemctl restart sshd
+              - generic [ref=f154e2549]: sudo systemctl enable sshd
+              - generic [ref=f154e2551]: "# —— Web / 数据库 / 容器 ——"
+              - generic [ref=f154e2552]: sudo systemctl restart nginx
+              - generic [ref=f154e2553]: sudo systemctl restart httpd
+              - generic [ref=f154e2554]: sudo systemctl restart mysqld
+              - generic [ref=f154e2555]: sudo systemctl restart docker
+        - blockquote [ref=f154e2556]:
+          - paragraph [ref=f154e2557]:
+            - text: 提示:若
+            - code [ref=f154e2558]: status
+            - text: 报
+            - code [ref=f154e2559]: Unit xxx.service could not be found
+            - text: ",通常是该服务未安装,或服务名因发行版而异(如 Ubuntu 用"
+            - code [ref=f154e2560]: ufw
+            - text: /
+            - code [ref=f154e2561]: ssh
+            - text: /
+            - code [ref=f154e2562]: apache2
+            - text: /
+            - code [ref=f154e2563]: cron
+            - text: ",RHEL 系用"
+            - code [ref=f154e2564]: firewalld
+            - text: /
+            - code [ref=f154e2565]: sshd
+            - text: /
+            - code [ref=f154e2566]: httpd
+            - text: /
+            - code [ref=f154e2567]: crond
+            - text: )。可用
+            - code [ref=f154e2568]: systemctl list-unit-files --type=service | grep 关键词
+            - text: 查实际服务名。
+        - heading "▾ 服务列表与自启" [level=3] [ref=f154e2569] [cursor=pointer]:
+          - text: ▾ 服务列表与自启
+          - link [aria-hidden] [ref=f154e2570]:
+            - /url: "#服务列表与自启"
+        - blockquote [ref=f154e2574]:
+          - paragraph [ref=f154e2575]: 查看系统里有哪些服务、哪些在运行、哪些开机自启。
+        - figure [ref=f154e2576]:
+          - generic [ref=f154e2577]:
+            - button "Copy source" [ref=f154e2578]
+            - code [ref=f154e2582]:
+              - generic [ref=f154e2583]: "systemctl list-units --type=service # 正在运行的服务"
+              - generic [ref=f154e2584]: "systemctl list-units --type=service --all # 全部服务(含未运行)"
+              - generic [ref=f154e2585]: "systemctl list-unit-files --type=service # 所有服务及开机自启情况"
+              - generic [ref=f154e2586]: "systemctl is-active sshd # 某服务是否正在运行"
+              - generic [ref=f154e2587]: "systemctl is-enabled sshd # 某服务是否开机自启"
+        - heading "▾ 14. 软件包管理" [level=2] [ref=f154e2588] [cursor=pointer]:
+          - text: ▾ 14. 软件包管理
+          - link [aria-hidden] [ref=f154e2589]:
+            - /url: "#14-软件包管理"
+        - heading "▾ apt" [level=3] [ref=f154e2593] [cursor=pointer]:
+          - text: ▾ apt
+          - link [aria-hidden] [ref=f154e2594]:
+            - /url: "#apt"
+        - blockquote [ref=f154e2598]:
+          - paragraph [ref=f154e2599]: Debian / Ubuntu 系软件包管理工具。
+        - list [ref=f154e2600]:
+          - listitem [ref=f154e2601]:
+            - text: "语法:"
+            - code [ref=f154e2602]: sudo apt 动作 [包名]
+          - listitem [ref=f154e2603]: "常用动作:"
+        - table [ref=f154e2605]:
+          - rowgroup [ref=f154e2606]:
+            - row [ref=f154e2607]:
+              - columnheader "动作" [ref=f154e2608]
+              - columnheader "作用" [ref=f154e2609]
+          - rowgroup [ref=f154e2610]:
+            - row [ref=f154e2611]:
+              - cell [ref=f154e2612]:
+                - code [ref=f154e2613]: update
+              - cell "更新软件源索引" [ref=f154e2614]
+            - row [ref=f154e2615]:
+              - cell [ref=f154e2616]:
+                - code [ref=f154e2617]: upgrade
+              - cell "升级所有可升级的软件" [ref=f154e2618]
+            - row [ref=f154e2619]:
+              - cell [ref=f154e2620]:
+                - code [ref=f154e2621]: full-upgrade
+              - cell "升级(可处理依赖变更,更彻底)" [ref=f154e2622]
+            - row [ref=f154e2623]:
+              - cell [ref=f154e2624]:
+                - code [ref=f154e2625]: install 包名
+              - cell "安装软件" [ref=f154e2626]
+            - row [ref=f154e2627]:
+              - cell [ref=f154e2628]:
+                - code [ref=f154e2629]: remove 包名
+              - cell "卸载(保留配置)" [ref=f154e2630]
+            - row [ref=f154e2631]:
+              - cell [ref=f154e2632]:
+                - code [ref=f154e2633]: purge 包名
+              - cell "卸载并删除配置" [ref=f154e2634]
+            - row [ref=f154e2635]:
+              - cell [ref=f154e2636]:
+                - code [ref=f154e2637]: autoremove
+              - cell "清理不再需要的依赖" [ref=f154e2638]
+            - row [ref=f154e2639]:
+              - cell [ref=f154e2640]:
+                - code [ref=f154e2641]: search 关键词
+              - cell "搜索软件" [ref=f154e2642]
+            - row [ref=f154e2643]:
+              - cell [ref=f154e2644]:
+                - code [ref=f154e2645]: show 包名
+              - cell "查看软件详情" [ref=f154e2646]
+            - row [ref=f154e2647]:
+              - cell [ref=f154e2648]:
+                - code [ref=f154e2649]: list --upgradable
+              - cell "列出可升级的软件" [ref=f154e2650]
+        - list [ref=f154e2651]:
+          - listitem [ref=f154e2652]: "示例:"
+        - figure [ref=f154e2653]:
+          - generic [ref=f154e2654]:
+            - button "Copy source" [ref=f154e2655]
+            - code [ref=f154e2659]:
+              - generic [ref=f154e2660]: "sudo apt update # 更新软件源"
+              - generic [ref=f154e2661]: "sudo apt upgrade # 升级已安装软件"
+              - generic [ref=f154e2662]: "sudo apt install nginx # 安装 nginx"
+              - generic [ref=f154e2663]: "sudo apt remove nginx # 卸载 nginx(保留配置)"
+              - generic [ref=f154e2664]: "sudo apt purge nginx # 卸载并删除配置"
+              - generic [ref=f154e2665]: "sudo apt autoremove # 清理无用依赖"
+              - generic [ref=f154e2666]: "sudo apt search \"web server\" # 搜索软件"
+              - generic [ref=f154e2667]: "sudo apt show nginx # 查看 nginx 详情"
+        - blockquote [ref=f154e2668]:
+          - paragraph [ref=f154e2669]:
+            - text: "注:"
+            - code [ref=f154e2670]: apt
+            - text: 是
+            - code [ref=f154e2671]: apt-get
+            - text: /
+            - code [ref=f154e2672]: apt-cache
+            - text: 的简化封装,日常使用更友好;脚本里仍建议用
+            - code [ref=f154e2673]: apt-get
+            - text: 。
+    - separator [ref=f154e2674]
+  - generic [ref=f154e2675]:
+    - generic [ref=f154e2676]:
+      - heading "关系图谱" [level=3] [ref=f154e2677]
+      - button "Global Graph" [ref=f154e2681] [cursor=pointer]
+    - generic [ref=f154e2684]:
+      - heading "反向链接" [level=3] [ref=f154e2685]
+      - list [ref=f154e2686]:
+        - listitem [ref=f154e2687]:
+          - link "Linux" [ref=f154e2688] [cursor=pointer]:
+            - /url: ./
+        - listitem [ref=f154e2689]
+  - contentinfo [ref=f154e2690]:
+    - paragraph [ref=f154e2691]:
+      - text: Created with
+      - link "Quartz v5.0.0" [ref=f154e2692] [cursor=pointer]:
+        - /url: https://quartz.jzhao.xyz/
+      - text: © 2026
+    - list [ref=f154e2693]:
+      - listitem [ref=f154e2694]:
+        - link "GitHub" [ref=f154e2695] [cursor=pointer]:
+          - /url: https://github.com/NRSS33/Linux
