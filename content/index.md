@@ -31,3 +31,23 @@ title: Linux
 - [[shell_script#语法|语法]]
 - [[shell_script#流程控制|流程控制]]
 - [[shell_script#函数|函数]]
+
+### [[process|进程]]
+
+- [[process#进程创建|进程创建]]
+
+### [[makefile|Makefile]]
+
+- [[makefile#基本规则|基本规则]]
+- [[makefile#变量|变量]]
+
+### [[c_stdlib|C 标准库]]
+
+- [[c_stdlib#文件 I/O|文件 I/O]]
+- [[c_stdlib#字符读写|字符读写]]
+- [[c_stdlib#格式化 I/O|格式化 I/O]]
+- [[c_stdlib#标准流|标准流]]
+
+### [[syscall|系统调用]]
+
+- [[syscall#文件操作|文件操作]]
