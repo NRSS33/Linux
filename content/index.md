@@ -51,3 +51,8 @@ title: Linux
 ### [[syscall|系统调用]]
 
 - [[syscall#文件操作|文件操作]]
+- [[syscall#进程控制|进程控制]]
+
+### [[sys_types|系统类型]]
+
+- [[sys_types#进程与用户 ID|进程与用户 ID]]
