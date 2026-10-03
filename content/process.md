@@ -19,6 +19,7 @@ created: 2026-09-19
 ### 进程间通信
 - [[#pipe 匿名管道|pipe 匿名管道]]
 - [[#mkfifo 命名管道|mkfifo 命名管道]]
+- [[#shm_open 共享内存|shm_open 共享内存]]
 
 ---
 
@@ -327,4 +328,94 @@ gcc demo.c -o demo
 
 > 说明:`mkfifo` 只是建了个入口文件（`ls -l` 里类型是 `p`），本身不存数据，数据在内存缓冲里。双向通信同样要建两根，或用 `O_RDWR` 打开——但 POSIX 对 `O_RDWR` 打开 FIFO 的行为没有定义，不推荐。无关进程之间点对点传数据用它最省事；要一对多、多进程或跨网络，就得上 socket。
 
+### shm_open 共享内存
 
+> POSIX 共享内存：`shm_open` 在 `/dev/shm` 下创建或打开一个共享内存对象（对象名必须以 `/` 开头），拿到一个文件描述符，再 `ftruncate` 设大小、`mmap` 映射进地址空间，多个进程就能直接读写同一块物理内存。用完 `shm_unlink` 删除对象。它不需要经内核逐字节拷贝，是 IPC 里速度最快的一种。
+
+- 头文件:`<sys/mman.h>`（`shm_open` / `shm_unlink` / `mmap` / `munmap` 函数原型）、`<fcntl.h>`（`O_RDWR` / `O_CREAT` / `O_EXCL` 等 open 标志）、`<sys/stat.h>`（权限宏）、`<sys/types.h>`（`mode_t`）、`<unistd.h>`（`ftruncate` / `close`）
+- 语法:`int shm_open(const char *name, int oflag, mode_t mode);`
+- 参数 `name`:共享内存对象名，必须以 `/` 开头（如 `/myshm`），且不能包含其他 `/`；Linux 上对应 `/dev/shm/` 下的一个文件
+- 参数 `oflag`:open 标志，常用 `O_RDWR`（读写）、`O_CREAT`（不存在则创建）、`O_EXCL`（配合 `O_CREAT`，已存在则报 `EEXIST`）
+- 参数 `mode`:创建时的权限位（如 `0666`），仅在配合 `O_CREAT` 时生效
+- 返回值:
+
+| 返回值 | 含义 |
+|--------|------|
+| `>= 0` | 成功，返回文件描述符 |
+| `-1` | 失败（`ENOENT` 对象不存在、`EEXIST` 已存在、`EACCES` 权限不足） |
+
+- 语法:`int shm_unlink(const char *name);` —— 删除共享内存对象
+- 参数 `name`:与 `shm_open` 相同的对象名
+- 返回值:
+
+| 返回值 | 含义 |
+|--------|------|
+| `0` | 成功 |
+| `-1` | 失败（`ENOENT` 对象不存在） |
+
+- 说明:`shm_open` 只是创建/打开对象并返回 fd，此刻对象大小为 0；要用 `ftruncate(fd, size)` 设好大小，`mmap` 才能映射成功
+- 说明:映射完成后直接通过指针读写，无需 `read` / `write` 系统调用；用完 `munmap` 解除映射、`close` 关 fd，最后 `shm_unlink` 把对象从 `/dev/shm` 删掉
+- 说明:glibc 2.34 之前 `shm_open` / `shm_unlink` 在 librt 里，编译要加 `-lrt`；之后已并入 libc，无需再链接。函数要求 `_POSIX_C_SOURCE >= 200112L`（`gcc` 默认的 gnu11 已包含）
+- 说明:共享内存只负责「共享同一块内存」，不提供同步；多个进程同时写会互相覆盖，需要配合 `sem_open` 信号量或 pthread 互斥锁
+- 示例:父进程写入、子进程读取
+
+```c
+#define _POSIX_C_SOURCE 200809L
+#include <stdio.h>
+#include <string.h>
+#include <fcntl.h>        // O_RDWR / O_CREAT
+#include <sys/mman.h>     // shm_open / shm_unlink / mmap / munmap
+#include <sys/stat.h>     // 权限宏
+#include <sys/types.h>    // mode_t
+#include <sys/wait.h>     // waitpid
+#include <unistd.h>       // ftruncate / close / fork
+
+#define SHM_NAME "/myshm"
+#define SHM_SIZE 64
+
+int main(void) {
+    int fd = shm_open(SHM_NAME, O_RDWR | O_CREAT, 0666);  // 1. 创建/打开共享内存对象
+    if (fd == -1) {
+        perror("shm_open");
+        return 1;
+    }
+    if (ftruncate(fd, SHM_SIZE) == -1) {                  // 2. 设定对象大小，否则映射不了
+        perror("ftruncate");
+        return 1;
+    }
+
+    char *mem = mmap(NULL, SHM_SIZE, PROT_READ | PROT_WRITE,
+                     MAP_SHARED, fd, 0);                  // 3. 映射进地址空间
+    if (mem == MAP_FAILED) {
+        perror("mmap");
+        return 1;
+    }
+    close(fd);                                            // 映射完成后即可关闭 fd
+
+    strcpy(mem, "hello from shared memory\n");           // 先写，再 fork，子进程继承映射
+    pid_t pid = fork();
+    if (pid < 0) {
+        perror("fork");
+        return 1;
+    } else if (pid == 0) {
+        printf("子进程读到: %s", mem);                   // 数据已就绪，直接读共享内存
+        munmap(mem, SHM_SIZE);                           // 解除映射
+        return 0;
+    } else {
+        waitpid(pid, NULL, 0);
+        munmap(mem, SHM_SIZE);                           // 解除映射
+        shm_unlink(SHM_NAME);                            // 4. 删除共享内存对象
+    }
+    return 0;
+}
+```
+
+- 编译运行:
+
+```bash
+gcc demo.c -o demo        # glibc >= 2.34；更老版本加 -lrt
+./demo
+# 子进程读到: hello from shared memory
+```
+
+> 说明:对象建在 `/dev/shm`（通常是 tmpfs 内存盘，`ls -l /dev/shm` 能看到，类型是普通文件），`shm_unlink` 后立即消失。`mmap` 要用 `MAP_SHARED`，多个进程的映射才指向同一块物理内存、修改互相可见；用 `MAP_PRIVATE` 是写时复制、互不可见，不能用来共享。示例里「先写再 fork」正是为了避开同步竞争；真正的并发读写必须自己加锁。
