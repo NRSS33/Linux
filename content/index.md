@@ -35,6 +35,8 @@ title: Linux
 ### [[process|进程]]
 
 - [[process#进程创建|进程创建]]
+- [[process#进程回收|进程回收]]
+- [[process#进程间通信|进程间通信]]
 
 ### [[makefile|Makefile]]
 
