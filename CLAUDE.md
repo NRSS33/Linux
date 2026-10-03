@@ -6,6 +6,10 @@ This file provides guidance to Claude Code (claude.ai/code) when working with co
 
 A personal Linux knowledge base built with [Quartz](https://quartz.jzhao.xyz/) v5 and deployed to GitHub Pages at https://nrss33.github.io/Linux/. The actual content is Markdown notes in `content/`, authored in Obsidian.
 
+## 同步规则
+
+每次在本工作区改完东西（笔记、配置、说明等）后，都要立刻同步到网站：先 `npx quartz build` 校验，再 `git add -A && git commit && git push` 推到 `v5`（`publish.bat` 或 `npx quartz sync` 均可）。推送会自动触发 GitHub Actions 部署到 https://nrss33.github.io/Linux/，无需手动操作。
+
 ## Commands
 
 - `npm ci` — install dependencies (Node >= 22, npm >= 10.9.2; `engine-strict` is on)
