@@ -18,6 +18,7 @@ created: 2026-09-19
 
 ### 进程间通信
 - [[#pipe 匿名管道|pipe 匿名管道]]
+- [[#mkfifo 命名管道|mkfifo 命名管道]]
 
 ---
 
@@ -247,4 +248,83 @@ gcc demo.c -o demo
 ```
 
 > 说明:shell 里的 `cmd1 | cmd2` 就是这个原理——shell 建一根管道、fork 出两个子进程，再用 `dup2` 把管道两端分别接到它们的标准输出/标准输入上。匿名管道只能用于有亲缘关系的进程；互不相干的进程要用命名管道 `mkfifo`（有文件名、可 `open`）或 socket。
+
+### mkfifo 命名管道
+
+> 命名管道（named pipe / FIFO）是「有文件名」的管道：先用 `mkfifo` 在磁盘上建一个 FIFO 特殊文件，任何进程——有没有亲缘关系都行——都能像普通文件一样 `open` 它，一写一读。数据仍走内核缓冲区、不落盘，和匿名管道 `pipe()` 一样。
+
+- 头文件:`<sys/types.h>`（提供 `mode_t`）、`<sys/stat.h>`（`mkfifo` 函数原型与权限宏）
+- 语法:`int mkfifo(const char *pathname, mode_t mode);`
+- 参数 `pathname`:FIFO 文件的路径，会真实出现在文件系统里，`ls -l` 第一个字符显示为 `p`
+- 参数 `mode`:权限位（如 `0666`），与 `open`/`chmod` 同规则，实际权限还要再 `& ~umask`
+- 返回值:
+
+| 返回值 | 含义 |
+|--------|------|
+| `0` | 成功 |
+| `-1` | 失败，常见 `EEXIST`（路径已存在）、`EACCES`（权限不足） |
+
+- 说明:双方先 `mkfifo` 建好文件、再各自 `open`。`open(O_RDONLY)` 会阻塞直到有写端打开，`open(O_WRONLY)` 会阻塞直到有读端打开——两端都到齐才继续
+- 说明:与匿名管道相同的是：半双工、字节流无消息边界、默认 64 KB 缓冲、读端全关时写触发 `SIGPIPE`、写端全关后 `read` 返回 `0`。不同点是靠路径名连接、无亲缘关系也能用，用完要 `unlink` 删掉
+- 说明:shell 里也有同名命令 `mkfifo`，等价于这个系统调用，命令行演示：`mkfifo p; cat p & echo hello > p`
+- 示例:父进程写、子进程读
+
+```c
+#include <stdio.h>
+#include <string.h>
+#include <sys/stat.h>     // mkfifo 函数原型
+#include <sys/types.h>    // mode_t
+#include <unistd.h>       // read / write / close / fork / unlink
+#include <fcntl.h>        // open
+#include <sys/wait.h>     // waitpid
+
+int main(void) {
+    const char *fifo = "/tmp/myfifo";
+
+    if (mkfifo(fifo, 0666) == -1) {          // 1. 建 FIFO 文件
+        perror("mkfifo");
+        return 1;
+    }
+
+    pid_t pid = fork();
+    if (pid < 0) {
+        perror("fork");
+        return 1;
+    } else if (pid == 0) {
+        // 子进程：读端。open 阻塞，直到父进程也打开写端
+        int fd = open(fifo, O_RDONLY);
+
+        char buf[64];
+        ssize_t n = read(fd, buf, sizeof(buf) - 1);
+        if (n > 0) {
+            buf[n] = '\0';
+            printf("子进程读到: %s", buf);
+        }
+        close(fd);
+        return 0;
+    } else {
+        // 父进程：写端。open 阻塞，直到子进程也打开读端
+        int fd = open(fifo, O_WRONLY);
+
+        const char *msg = "hello from named pipe\n";
+        write(fd, msg, strlen(msg));
+        close(fd);
+
+        waitpid(pid, NULL, 0);
+        unlink(fifo);                        // 2. 用完删掉这个 FIFO 文件
+    }
+    return 0;
+}
+```
+
+- 编译运行:
+
+```bash
+gcc demo.c -o demo
+./demo
+# 子进程读到: hello from named pipe
+```
+
+> 说明:`mkfifo` 只是建了个入口文件（`ls -l` 里类型是 `p`），本身不存数据，数据在内存缓冲里。双向通信同样要建两根，或用 `O_RDWR` 打开——但 POSIX 对 `O_RDWR` 打开 FIFO 的行为没有定义，不推荐。无关进程之间点对点传数据用它最省事；要一对多、多进程或跨网络，就得上 socket。
+
 
