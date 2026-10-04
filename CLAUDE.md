@@ -23,10 +23,15 @@ A personal Linux knowledge base built with [Quartz](https://quartz.jzhao.xyz/) v
 ## Architecture
 
 - **Quartz v5** static site generator. Framework code in `quartz/` is vendored from upstream — do not edit it. User overrides go in `.quartz/` (gitignored).
-- **`content/`** — the only directory you author. Open this folder in Obsidian to edit notes. Three notes exist:
+- **`content/`** — the only directory you author. Open this folder in Obsidian to edit notes. Eight notes exist:
   - `content/index.md` — homepage (title `Linux`), links to the notes below.
   - `content/Linux.md` — main note: a Linux command reference (15 numbered categories).
-  - `content/shell_script.md` — a separate note for shell-scripting conventions (mostly empty for now).
+  - `content/shell_script.md` — shell-scripting conventions (shebang, variables, operators, syntax, flow control, functions).
+  - `content/process.md` — process management in C (system/fork, waitpid, pipe/mkfifo/shm_open IPC).
+  - `content/makefile.md` — Makefile build rules (rules, implicit rules, .PHONY, variables).
+  - `content/c_stdlib.md` — C standard library file I/O (fopen/fread/fwrite, character & formatted I/O, standard streams).
+  - `content/syscall.md` — system calls (open, sleep/usleep/nanosleep).
+  - `content/sys_types.md` — system types (pid_t, uid_t/gid_t).
 - **`quartz.config.yaml`** — all site configuration (title, locale, theme, plugins, layout) is declared here. Plugins are `@quartz-community/*` / `@quartz-themes/*` npm packages that the `prebuild` script (`install-plugins`) auto-installs into `.quartz/plugins/`.
 - **`public/`** — build output (gitignored). Never edit directly.
 - **Deployment** — pushing to the `v5` branch triggers `.github/workflows/deploy.yml`, which runs `npm ci` + `npx quartz build` and deploys `public/` to GitHub Pages. No separate deploy branch is used.
