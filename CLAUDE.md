@@ -10,6 +10,8 @@ A personal Linux knowledge base built with [Quartz](https://quartz.jzhao.xyz/) v
 
 每次在本工作区改完东西（笔记、配置、说明等）后，都要立刻同步到网站：先 `npx quartz build` 校验，再 `git add -A && git commit && git push` 推到 `v5`（`publish.bat` 或 `npx quartz sync` 均可）。推送会自动触发 GitHub Actions 部署到 https://nrss33.github.io/Linux/，无需手动操作。
 
+每次更新笔记（新增/删除笔记、新增分类、改动内容结构等）后，也要同步更新 `CLAUDE.md` 里对应的描述（`content/` 笔记清单、内容约定等），保持项目文档与实际内容一致。
+
 ## Commands
 
 - `npm ci` — install dependencies (Node >= 22, npm >= 10.9.2; `engine-strict` is on)
