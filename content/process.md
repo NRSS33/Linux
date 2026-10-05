@@ -20,6 +20,7 @@ created: 2026-09-19
 - [[#pipe 匿名管道|pipe 匿名管道]]
 - [[#mkfifo 命名管道|mkfifo 命名管道]]
 - [[#shm_open 共享内存|shm_open 共享内存]]
+- [[#mq_open 消息队列|mq_open 消息队列]]
 
 ---
 
@@ -419,3 +420,99 @@ gcc demo.c -o demo        # glibc >= 2.34；更老版本加 -lrt
 ```
 
 > 说明:对象建在 `/dev/shm`（通常是 tmpfs 内存盘，`ls -l /dev/shm` 能看到，类型是普通文件），`shm_unlink` 后立即消失。`mmap` 要用 `MAP_SHARED`，多个进程的映射才指向同一块物理内存、修改互相可见；用 `MAP_PRIVATE` 是写时复制、互不可见，不能用来共享。示例里「先写再 fork」正是为了避开同步竞争；真正的并发读写必须自己加锁。
+
+### mq_open 消息队列
+
+> POSIX 消息队列：用 `mq_open` 创建/打开一个「有名字」的队列，`mq_send` 往队列里放消息、`mq_receive` 取消息。和管道（字节流）不同，它是**面向消息**的——每条消息自带边界、可带优先级，也无需进程间有亲缘关系。用完 `mq_close` 关闭、`mq_unlink` 删除。
+
+- 头文件:`<mqueue.h>`（`mq_open`/`mq_send`/`mq_receive`/`mq_close`/`mq_unlink` 原型与 `mqd_t`）、`<fcntl.h>`（`O_RDWR`/`O_CREAT`/`O_NONBLOCK` 等标志）、`<sys/stat.h>`（权限宏）、`<sys/types.h>`（`mode_t`）
+- 语法:`mqd_t mq_open(const char *name, int oflag, ...);`
+- 参数 `name`:队列名，必须以 `/` 开头（如 `/myqueue`），不能含其他 `/`；Linux 上对应 `/dev/mqueue/` 下的一个文件
+- 参数 `oflag`:访问方式 `O_RDONLY`/`O_WRONLY`/`O_RDWR` 三选一，可叠加 `O_CREAT`（不存在则创建）、`O_EXCL`（配合 `O_CREAT`，已存在则报 `EEXIST`）、`O_NONBLOCK`（收发不阻塞）
+- 参数 `mode` 与 `attr`:仅带 `O_CREAT` 时需再传两个参数——权限位（如 `0666`）和 `struct mq_attr *`（队列属性，可传 `NULL` 用默认值）
+- 返回值:
+
+| 返回值 | 含义 |
+|--------|------|
+| `>= 0` | 成功，返回队列描述符 `mqd_t` |
+| `(mqd_t)-1` | 失败（`ENOENT` 队列不存在、`EEXIST` 已存在、`EACCES` 权限不足） |
+
+- 语法:`int mq_send(mqd_t mqdes, const char *msg_ptr, size_t msg_len, unsigned int msg_prio);` —— 发送一条消息
+- 参数 `msg_ptr`/`msg_len`:消息数据与长度，`msg_len` 须 ≤ `mq_msgsize`；`msg_prio`:优先级 0 ~ `MQ_PRIO_MAX`，数值越大越先被取走
+- 返回值:成功返回 `0`；失败返回 `-1`（队列满时阻塞，除非 `O_NONBLOCK`，此时 `errno` 为 `EAGAIN`）
+
+- 语法:`ssize_t mq_receive(mqd_t mqdes, char *msg_ptr, size_t msg_len, unsigned int *msg_prio);` —— 接收一条消息
+- 参数 `msg_ptr`/`msg_len`:接收缓冲区与大小，`msg_len` 须 ≥ `mq_msgsize`（小于则报 `EMSGSIZE`）；`msg_prio`:可选，取到的消息优先级（可传 `NULL`）
+- 返回值:成功返回实际读到的字节数；失败返回 `-1`（队列空时阻塞，除非 `O_NONBLOCK`，此时 `errno` 为 `EAGAIN`）
+
+- 语法:`int mq_close(mqd_t mqdes);` —— 关闭队列描述符（只是关闭，**不删除**队列）
+- 语法:`int mq_unlink(const char *name);` —— 删除队列；要等所有打开它的进程都 `mq_close` 后，队列才真正消失
+- 说明:默认属性 `mq_maxmsg=10`（最多 10 条消息）、`mq_msgsize=8192`（每条最长 8192 字节）；需要更大容量时在 `mq_open` 创建时显式传入 `attr`
+- 说明:和 `shm_open` 一样，glibc 2.34 之前 `mq_*` 在 librt 里，编译要加 `-lrt`；之后已并入 libc。函数要求 `_POSIX_C_SOURCE >= 200112L`
+- 说明:队列对象在 `/dev/mqueue` 下可见（`ls -l /dev/mqueue`），目录不存在时先 `mount -t mqueue none /dev/mqueue` 挂载
+- 说明:消息按「优先级从高到低」投递，同优先级按 FIFO；每条消息自带边界，不会像管道那样字节粘连
+- 示例:父进程发送、子进程接收
+
+```c
+#define _POSIX_C_SOURCE 200809L
+#include <stdio.h>
+#include <string.h>
+#include <fcntl.h>        // O_RDWR / O_CREAT
+#include <mqueue.h>       // mq_open / mq_send / mq_receive / mq_close / mq_unlink
+#include <sys/stat.h>     // 权限宏
+#include <sys/wait.h>     // waitpid
+#include <unistd.h>       // fork
+
+#define MQ_NAME "/mymq"
+#define MSG_LEN 64
+
+int main(void) {
+    struct mq_attr attr = {
+        .mq_maxmsg  = 10,      // 最多 10 条消息
+        .mq_msgsize = MSG_LEN  // 每条最长 64 字节
+    };
+
+    mqd_t mq = mq_open(MQ_NAME, O_RDWR | O_CREAT, 0666, &attr);  // 1. 创建/打开队列
+    if (mq == (mqd_t)-1) {
+        perror("mq_open");
+        return 1;
+    }
+
+    pid_t pid = fork();
+    if (pid < 0) {
+        perror("fork");
+        return 1;
+    } else if (pid == 0) {
+        // 子进程：接收
+        char buf[MSG_LEN];
+        unsigned int prio = 0;
+        ssize_t n = mq_receive(mq, buf, MSG_LEN, &prio);          // 队列空就阻塞在这里
+        if (n >= 0) {
+            buf[n] = '\0';
+            printf("子进程收到(优先级 %u): %s", prio, buf);
+        }
+        mq_close(mq);
+        return 0;
+    } else {
+        // 父进程：发送
+        const char *msg = "hello from message queue";
+        if (mq_send(mq, msg, strlen(msg), 1) == -1) {             // 优先级 1
+            perror("mq_send");
+        }
+        waitpid(pid, NULL, 0);
+        mq_close(mq);                                             // 2. 关闭描述符
+        mq_unlink(MQ_NAME);                                       // 3. 删除队列
+    }
+    return 0;
+}
+```
+
+- 编译运行:
+
+```bash
+gcc demo.c -o demo        # glibc >= 2.34；更老版本加 -lrt
+./demo
+# 子进程收到(优先级 1): hello from message queue
+```
+
+> 说明:消息队列与共享内存 `shm_open` 的分工——共享内存最快，但要自己加锁同步；消息队列自带「按消息边界、按优先级」投递，多进程读写场景更省心。队列对象建在 `/dev/mqueue`（`ls -l /dev/mqueue` 可见），`mq_unlink` 后等所有 `mq_close` 完成才真正删除。和命名管道 `mkfifo` 相比，消息队列能按优先级排序、支持多条消息排队、消息有边界；管道则只是无边界、无优先级的字节流 FIFO。

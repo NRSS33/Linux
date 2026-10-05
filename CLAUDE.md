@@ -29,7 +29,7 @@ A personal Linux knowledge base built with [Quartz](https://quartz.jzhao.xyz/) v
   - `content/index.md` — homepage (title `Linux`), links to the notes below.
   - `content/Linux.md` — main note: a Linux command reference (15 numbered categories).
   - `content/shell_script.md` — shell-scripting conventions (shebang, variables, operators, syntax, flow control, functions).
-  - `content/process.md` — process management in C (system/fork, waitpid, pipe/mkfifo/shm_open IPC).
+  - `content/process.md` — process management in C (system/fork, waitpid, pipe/mkfifo/shm_open/mq_open IPC).
   - `content/makefile.md` — Makefile build rules (rules, implicit rules, .PHONY, variables).
   - `content/c_stdlib.md` — C standard library file I/O (fopen/fread/fwrite, character & formatted I/O, standard streams).
   - `content/syscall.md` — system calls (open, sleep/usleep/nanosleep).
