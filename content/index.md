@@ -54,6 +54,7 @@ title: Linux
 
 - [[syscall#文件操作|文件操作]]
 - [[syscall#进程控制|进程控制]]
+- [[syscall#时间|时间]]
 
 ### [[sys_types|系统类型]]
 

@@ -32,7 +32,7 @@ A personal Linux knowledge base built with [Quartz](https://quartz.jzhao.xyz/) v
   - `content/process.md` — process management in C (system/fork, waitpid, pipe/mkfifo/shm_open/mq_open IPC).
   - `content/makefile.md` — Makefile build rules (rules, implicit rules, .PHONY, variables).
   - `content/c_stdlib.md` — C standard library file I/O (fopen/fread/fwrite, character & formatted I/O, standard streams).
-  - `content/syscall.md` — system calls (open, sleep/usleep/nanosleep).
+  - `content/syscall.md` — system calls (open, sleep/usleep/nanosleep, clock_gettime).
   - `content/sys_types.md` — system types (pid_t, uid_t/gid_t).
 - **`quartz.config.yaml`** — all site configuration (title, locale, theme, plugins, layout) is declared here. Plugins are `@quartz-community/*` / `@quartz-themes/*` npm packages that the `prebuild` script (`install-plugins`) auto-installs into `.quartz/plugins/`.
 - **`public/`** — build output (gitignored). Never edit directly.
