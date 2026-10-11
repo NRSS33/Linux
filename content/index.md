@@ -38,6 +38,10 @@ title: Linux
 - [[process#进程回收|进程回收]]
 - [[process#进程间通信|进程间通信]]
 
+### [[thread|线程]]
+
+- [[thread#线程创建|线程创建]]
+
 ### [[makefile|Makefile]]
 
 - [[makefile#基本规则|基本规则]]
